@@ -1,0 +1,272 @@
+{
+  "name": "Lifeblade",
+  "type": "class",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>You use your mystical and marshal gifts to heal allies and harm foes. Using ancient techniques, you siphon the life from enemies and use that energy to provide respite to your allies in even the most dangerous of times.</em></p>\n<h2>During Combat Encounters…</h2>\n<p>You enter various stances to heal, protect or bolster your allies. You are nimble and in the front line, eager to disrupt your enemy's plans.</p>\n<h2>During Social Encounters…</h2>\n<p>You see things others seem to overlook. Your seemingly endless knowledge intimidates some.</p>\n<h2>While Exploring…</h2>\n<p>Knowledable in ancient arts, the information you recall so readily is seen as occult in nature to most. Regardless, your allies are glad to have you on their side, rather than the other way around.</p>\n<h2>In Downtime…</h2>\n<p>You study ancient texts, attempt to improve your unique fighting techniques and serve as a guide for tourists, able to cite historical knowledge like you were reading it off of the page.</p>\n<h2>You Might…</h2>\n<ul>\n<li>\n<p>Commune with your ancestors in seclusion, seeking their wisdom and guidance.</p>\n</li>\n<li>\n<p>Feel a strong sense of duty to your people and loyalty to your friends and companions.</p>\n</li>\n<li>\n<p>Do things that are difficult or uncomfortable for others to do, such as stand up to a person who appears to be stronger than yourself.</p>\n</li>\n</ul>\n<h2>Others Probably…</h2>\n<ul>\n<li>Are put at ease knowing that you're there to protect them.</li>\n</ul>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "allowedDrops": {
+          "predicate": [
+            "item:level:1",
+            "item:trait:hb_lifeblade",
+            "item:type:feature"
+          ]
+        },
+        "choices": [
+          {
+            "value": "Compendium.pf2e-lifeblade.lifeblade.Item.xhdYgrqVPWD5ryEj"
+          },
+          {
+            "value": "Compendium.pf2e-lifeblade.lifeblade.Item.5Uu65vcfrF5gyMEs"
+          }
+        ],
+        "flag": "startingTrance",
+        "key": "ChoiceSet",
+        "prompt": "Choose a starting trance"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.startingTrance}"
+      }
+    ],
+    "slug": "lifeblade",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "keyAbility": {
+      "value": [
+        "dex"
+      ]
+    },
+    "items": {
+      "Ah90I": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.F57Na5VxfBp56kke",
+        "img": "systems/pf2e/icons/features/classes/great-fortitude.webp",
+        "name": "Great Fortitude",
+        "level": 9
+      },
+      "2yUvJ": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.0npO4rPscGm0dX13",
+        "img": "systems/pf2e/icons/features/classes/vigilant-senses.webp",
+        "name": "Vigilant Senses",
+        "level": 7
+      },
+      "yRO7A": {
+        "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.nGCwNNPv02ylrzOu",
+        "img": "icons/weapons/daggers/dagger-poisoned-curved-green.webp",
+        "name": "Legendary Lifeblade",
+        "level": 16
+      },
+      "wgEc5": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.SHpjmM4A3Sw4GgDz",
+        "img": "systems/pf2e/icons/features/classes/light-armor-master.webp",
+        "name": "Light Armor Mastery",
+        "level": 19
+      },
+      "rW9zV": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.MV6XIuAgN9uSA0Da",
+        "img": "systems/pf2e/icons/features/classes/evasion.webp",
+        "name": "Evasion",
+        "level": 7
+      },
+      "GaAMw": {
+        "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.OtF5xKmvTwmC773L",
+        "img": "systems/pf2e/icons/features/classes/light-armor-expertise.webp",
+        "name": "Light Armor Expertise",
+        "level": 13
+      },
+      "X97Kr": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.L5D0NwFXdLiVSnk5",
+        "img": "systems/pf2e/icons/features/classes/improved-evasion.webp",
+        "name": "Improved Evasion",
+        "level": 13
+      },
+      "9pomt": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.nLwPMPLRne1HnL00",
+        "img": "systems/pf2e/icons/features/classes/incredible-sense.webp",
+        "name": "Incredible Senses",
+        "level": 13
+      },
+      "Azloh": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.i6563IU7x4L9oRgC",
+        "img": "systems/pf2e/icons/features/classes/weapon-mastery.webp",
+        "name": "Weapon Mastery",
+        "level": 13
+      },
+      "shoU2": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.xmZ7oeTDcQVXegUP",
+        "img": "systems/pf2e/icons/features/classes/slippery-mind.webp",
+        "name": "Slippery Mind",
+        "level": 17
+      },
+      "E56nE": {
+        "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.tTUtSZgssIFxD2wx",
+        "img": "systems/pf2e/icons/equipment/adventuring-gear/musical-instrument-handheld.webp",
+        "name": "Gambit Spells",
+        "level": 1
+      },
+      "PuJlR": {
+        "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.7EkwZQEuq04hOopS",
+        "img": "icons/weapons/daggers/dagger-poisoned-curved-green.webp",
+        "name": "Expert Lifeblade",
+        "level": 3
+      },
+      "mn1QZ": {
+        "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.w10uks9GYd59Hpej",
+        "img": "systems/pf2e/icons/features/classes/weapon-expertise.webp",
+        "name": "Lifeblade Weapon Expertise",
+        "level": 5
+      },
+      "OMAVM": {
+        "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.IjsYVq39EDhoe5Lc",
+        "img": "icons/weapons/daggers/dagger-poisoned-curved-green.webp",
+        "name": "Master Lifeblade",
+        "level": 7
+      },
+      "B37mt": {
+        "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.8ksRt0RToYc9sQKz",
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "name": "Weapon Specialization",
+        "level": 7
+      }
+    },
+    "hp": 10,
+    "trainedSkills": {
+      "value": [
+        "acr",
+        "occ"
+      ],
+      "additional": 3,
+      "custom": ""
+    },
+    "perception": 2,
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 2,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 1,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "name": "",
+        "rank": 0
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 1,
+      "medium": 0,
+      "heavy": 0
+    },
+    "classDC": 1,
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    },
+    "details": null
+  },
+  "img": "icons/weapons/daggers/dagger-poisoned-curved-green.webp",
+  "flags": {
+    "cf": {
+      "id": "temp_4xf6k0rizdy"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1686402868528,
+    "modifiedTime": 1697899584675,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "folder": "3sQcZpFRQnNv43GL",
+  "_id": "MG3rdpjAjiMzbsfj",
+  "sort": 0,
+  "_key": "!items!MG3rdpjAjiMzbsfj"
+}

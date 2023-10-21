@@ -1,0 +1,90 @@
+{
+  "folder": "Y7O18BFaI7LyArUE",
+  "name": "Spirit Trance Aura",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.tjzUiH10RvU39QfS]{Spirit Trance}.</p>\n<p>Grants @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.nyK2deCUwuApBTci]{Spirit Trance Resolve}.</p>"
+    },
+    "rules": [
+      {
+        "effects": [
+          {
+            "affects": "allies",
+            "events": [
+              "enter"
+            ],
+            "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.nyK2deCUwuApBTci"
+          }
+        ],
+        "key": "Aura",
+        "radius": 5,
+        "slug": "aura-spirit-trance-resolve",
+        "traits": [],
+        "predicate": [
+          "self:effect:spirit-trance"
+        ]
+      }
+    ],
+    "slug": "spirit-trance-aura",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "unidentified": false,
+    "details": null
+  },
+  "_id": "sYIs9HAlphkRShgu",
+  "img": "systems/pf2e/icons/spells/concordant-choir.webp",
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1687987460849,
+    "modifiedTime": 1697830287281,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!sYIs9HAlphkRShgu"
+}

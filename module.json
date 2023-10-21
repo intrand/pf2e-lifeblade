@@ -1,0 +1,112 @@
+{
+  "id": "pf2e-lifeblade",
+  "title": "PF2E Lifeblade",
+  "version": "versionNumberToBeInsertedByAutomation",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.313"
+  },
+  "authors": [
+    {
+      "name": "intrand"
+    }
+  ],
+  "packs": [
+    {
+      "name": "lifeblade",
+      "label": "Lifeblade",
+      "path": "packs/lifeblade",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "lifeblade-archetype",
+      "label": "Lifeblade Archetype",
+      "path": "packs/lifeblade-archetype",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "PF2E Lifeblade",
+      "sorting": "a",
+      "color": "#0c6b00",
+      "packs": [
+        "lifeblade",
+        "lifeblade-archetype"
+      ],
+      "folders": []
+    }
+  ],
+  "flags": {
+    "pf2e-lifeblade": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "lifeblade": {
+            "label": "Lifeblade",
+            "description": "This indicates abilities from the lifeblade class."
+          },
+          "essence: life": {
+            "label": "Essence: Life",
+            "description": "Activities with one or more of these traits may only be used while in the Trance of the corresponding essence. For example, you may cast the boost healing gambit spell only while in Life Trance. Feats with one or more of these traits may only be taken if you know all of the corresponding trances. For example, you must first take the matter trance feat before you may take the sap heat feat."
+          },
+          "essence: matter": {
+            "label": "Essence: Matter",
+            "description": "Activities with one or more of these traits may only be used while in the Trance of the corresponding essence. For example, you may cast the boost healing gambit spell only while in Life Trance. Feats with one or more of these traits may only be taken if you know all of the corresponding trances. For example, you must first take the matter trance feat before you may take the sap heat feat."
+          },
+          "essence: mind": {
+            "label": "Essence: Mind",
+            "description": "Activities with one or more of these traits may only be used while in the Trance of the corresponding essence. For example, you may cast the boost healing gambit spell only while in Life Trance. Feats with one or more of these traits may only be taken if you know all of the corresponding trances. For example, you must first take the matter trance feat before you may take the sap heat feat."
+          },
+          "essence: spirit": {
+            "label": "Essence: Spirit",
+            "description": "Activities with one or more of these traits may only be used while in the Trance of the corresponding essence. For example, you may cast the boost healing gambit spell only while in Life Trance. Feats with one or more of these traits may only be taken if you know all of the corresponding trances. For example, you must first take the matter trance feat before you may take the sap heat feat."
+          }
+        },
+        "spellTraits": {
+          "lifeblade": {
+            "label": "Lifeblade",
+            "description": "This indicates abilities from the lifeblade class."
+          },
+          "essence: life": {
+            "label": "Essence: Life",
+            "description": "Activities with one or more of these traits may only be used while in the Trance of the corresponding essence. For example, you may cast the boost healing gambit spell only while in Life Trance. Feats with one or more of these traits may only be taken if you know all of the corresponding trances. For example, you must first take the matter trance feat before you may take the sap heat feat."
+          },
+          "essence: matter": {
+            "label": "Essence: Matter",
+            "description": "Activities with one or more of these traits may only be used while in the Trance of the corresponding essence. For example, you may cast the boost healing gambit spell only while in Life Trance. Feats with one or more of these traits may only be taken if you know all of the corresponding trances. For example, you must first take the matter trance feat before you may take the sap heat feat."
+          },
+          "essence: mind": {
+            "label": "Essence: Mind",
+            "description": "Activities with one or more of these traits may only be used while in the Trance of the corresponding essence. For example, you may cast the boost healing gambit spell only while in Life Trance. Feats with one or more of these traits may only be taken if you know all of the corresponding trances. For example, you must first take the matter trance feat before you may take the sap heat feat."
+          },
+          "essence: spirit": {
+            "label": "Essence: Spirit",
+            "description": "Activities with one or more of these traits may only be used while in the Trance of the corresponding essence. For example, you may cast the boost healing gambit spell only while in Life Trance. Feats with one or more of these traits may only be taken if you know all of the corresponding trances. For example, you must first take the matter trance feat before you may take the sap heat feat."
+          }
+        }
+      }
+    }
+  },
+  "download": "https://github.com/intrand/pf2e-lifeblade/releases/download/versionNumberToBeInsertedByAutomation/module.zip",
+  "manifest": "https://github.com/intrand/pf2e-lifeblade/releases/download/versionNumberToBeInsertedByAutomation/module.json",
+  "url": "https://github.com/intrand/pf2e-lifeblade",
+  "description": "The Lifeblade class for Pathfinder Second Edition",
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system"
+      }
+    ]
+  }
+}

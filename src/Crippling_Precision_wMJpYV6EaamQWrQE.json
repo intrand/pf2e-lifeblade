@@ -1,0 +1,86 @@
+{
+  "folder": "0Egyn7nUzSxFwk4l",
+  "name": "Crippling Precision",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>After successfully striking while effected by @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.8OLCtZQXqxT9xP4t]{Trance Precision}, you may inflict either @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} on to the creature until the start of their turn.</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "strike-attack-roll",
+        "text": "You may choose to afflict the enemy with one of the following conditions until the start of their turn as a free action:<br/>\n* @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.1n7eX6veXzdRnDbY]{Clumsy 1}<br/>\n* @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.OMW20dj1lOd7Q65e]{Enfeebled 1}",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "title": "Crippling Precision"
+      }
+    ],
+    "slug": "crippling-precision",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_essence: matter",
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Matter Trance"
+        }
+      ]
+    },
+    "location": null,
+    "details": null
+  },
+  "_id": "wMJpYV6EaamQWrQE",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1692211658586,
+    "modifiedTime": 1697904162843,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!wMJpYV6EaamQWrQE"
+}

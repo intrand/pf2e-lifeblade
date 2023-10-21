@@ -1,0 +1,71 @@
+{
+  "folder": "6ULrQneGfA6J5pDt",
+  "name": "Effect: Crippling Precision - Enfeebled",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7"
+      }
+    ],
+    "slug": "effect-crippling-precision-enfeebled",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "systems/pf2e/icons/conditions/enfeebled.webp",
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1697826206235,
+    "modifiedTime": 1697826536425,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_id": "OMW20dj1lOd7Q65e",
+  "sort": 250000,
+  "_key": "!items!OMW20dj1lOd7Q65e"
+}

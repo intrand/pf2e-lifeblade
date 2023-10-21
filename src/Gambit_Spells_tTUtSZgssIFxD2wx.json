@@ -1,0 +1,85 @@
+{
+  "img": "systems/pf2e/icons/equipment/adventuring-gear/musical-instrument-handheld.webp",
+  "name": "Gambit Spells",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h3>Gambit Spells</h3>\n<p>In the heat of combat, and while in a trance, you see, hear and feel things that none other can - the very life force of nearby creatures. After striking an opponent, you may perform a gambit, allowing you to manipulate this life force. Gambits are a special type of spell which often require you to successfully strike an enemy before they can be cast. Gambit spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to commune with your ancesters, read ancient texts, or otherwise meditate upon the wisdom of the past.</p>\n<p>Your gambit spells are occult spells. You become trained in occult spell attacks and occult spell DCs and your key spellcasting ability is Dexterity.</p>\n<p>Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. Taking feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. The full rules for focus spells are found <a href=\"https://2e.aonprd.com/Rules.aspx?ID=276\" rel=\"noopener noreferrer\">here</a>.</p>\n<p>You learn the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.c1ZnisEFFdVrG56s]{Tap Self} gambit spell, allowing you to tap into your own essence to empower your weapon.</p>\n<h3>Gambit Cantrips</h3>\n<p>Gambit cantrips are special gambit spells that don't cost Focus Points, so you can use them as often as you like. You cannot swap out gambit cantrips gained from lifeblade feats unless you swap out the specific feat via retraining.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.resources.focus.max",
+        "priority": 10,
+        "value": 1
+      }
+    ],
+    "slug": "gambit-spells",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_lifeblade"
+      ],
+      "rarity": "common",
+      "selected": {}
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {},
+    "details": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_5b9mej2ak32"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1686403235066,
+    "modifiedTime": 1697900788002,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "folder": "1TU6igj9rVOJeiWc",
+  "_id": "tTUtSZgssIFxD2wx",
+  "sort": 100000,
+  "_key": "!items!tTUtSZgssIFxD2wx"
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Matter Trance Aura",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.2CbIFyuU2g2n9ol4]{Matter Trance}.</p>\n<p>Grants @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.8OLCtZQXqxT9xP4t]{Matter Trance Precision}.</p>"
+    },
+    "rules": [
+      {
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.8OLCtZQXqxT9xP4t",
+            "affects": "allies"
+          }
+        ],
+        "key": "Aura",
+        "radius": 15,
+        "slug": "aura-matter-trance-precision",
+        "predicate": [
+          "self:effect:matter-trance"
+        ]
+      }
+    ],
+    "slug": "matter-trance-aura",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "unidentified": false,
+    "details": null
+  },
+  "img": "systems/pf2e/icons/spells/cloak-of-light.webp",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1686500672045,
+    "modifiedTime": 1697828117792,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "folder": "6ULrQneGfA6J5pDt",
+  "_id": "SCvAAWpKBcW1fTxX",
+  "sort": 300000,
+  "_key": "!items!SCvAAWpKBcW1fTxX"
+}

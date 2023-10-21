@@ -1,0 +1,130 @@
+{
+  "name": "Sap Heat",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Pull heat away from the target creature, causing them to take cold damage. The target creature takes cold damage equal to 1d12 plus your spellcasting ability modifier, with results depending on a Fortitude save.</p>\n<p> </p>\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage and a -5 foot status penalty to its speed until the end of its next turn. Apply @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.lAiIwVcEQ1BC64FT]{Effect: Sap Heat} to the target.</p>\n<p><strong>Critical Failure</strong> The target takes double damage, a -10 foot status penalty to its speed until the end of its next turn and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}. Apply @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.bXajS9kLbaXRBbeU]{Effect: Sap Heat (Critical)} to the target.</p>\n<hr />\n<div>\n<p><strong>Heightened (+2)</strong> The damage increases by 1d12+2.</p>\n</div>"
+    },
+    "rules": [],
+    "slug": "sap-heat-spell",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "evocation",
+        "hb_essence: matter",
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "occult"
+      ]
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {
+        "uKamxbHAiV1dqt20": {
+          "value": "1d12",
+          "type": {
+            "value": "cold",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": true
+        }
+      }
+    },
+    "save": {
+      "value": "fortitude",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "heightening": {
+      "type": "interval",
+      "interval": 2,
+      "damage": {
+        "uKamxbHAiV1dqt20": "1d12+2"
+      }
+    },
+    "details": null
+  },
+  "img": "systems/pf2e/icons/spells/snowball.webp",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1686506042549,
+    "modifiedTime": 1697906438528,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "folder": "8LiQ9DxXbw4H3QKG",
+  "_id": "uhJUDk7Rqki5qUsf",
+  "sort": 100000,
+  "_key": "!items!uhJUDk7Rqki5qUsf"
+}

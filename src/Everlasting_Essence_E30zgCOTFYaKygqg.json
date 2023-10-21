@@ -1,0 +1,70 @@
+{
+  "folder": "JOjdFo3ImaHcFyom",
+  "name": "Everlasting Essence",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You no longer need to meet the activation requirements for your trance aura. You may use a free action once per turn to toggle the aura matching your trance.</p>\n<p> </p>\n<p>If you have the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.lgCffzayPtrYZW7W]{Blend Essences} lifeblade feat, both auras are always active and you may toggle either aura, but not both, with a free action.</p>"
+    },
+    "rules": [],
+    "slug": "everlasting-essence",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "details": null
+  },
+  "_id": "E30zgCOTFYaKygqg",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1695582459771,
+    "modifiedTime": 1697905432353,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!E30zgCOTFYaKygqg"
+}

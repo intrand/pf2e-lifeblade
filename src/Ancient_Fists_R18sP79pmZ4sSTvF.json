@@ -1,0 +1,124 @@
+{
+  "folder": "DIB9OKotz6wBjVVK",
+  "name": "Ancient Fists",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>By communing with your ancestors and practicing with your fists, you have learned how to harness your own essences to make unarmed attacks far more lethal. The damage die for your fist changes to 1d6 instead of 1d4. You don't take the normal -2 circumstance penalty when making a lethal attack with your fist or any other unarmed attacks. Your unarmed attacks gain the occult trait, making them magical. At 5th level, you also gain the critical specialization effects of unarmed attacks in the brawling group and weapons in the brawling group.</p>\n<p> </p>\n<p>You must equip @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.PTpvQCSd6dQzsBOu]{Ancient Fist Wraps} in order to make use of @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.c1ZnisEFFdVrG56s]{Tap Self} with your fists.</p>"
+    },
+    "rules": [
+      {
+        "baseType": "fist",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "img": "icons/skills/melee/unarmed-punch-fist.webp",
+        "key": "Strike",
+        "label": "PF2E.Strike.Fist.Label",
+        "predicate": [
+          {
+            "nor": [
+              "feature:powerful-fist",
+              "feat:martial-artist-dedication"
+            ]
+          }
+        ],
+        "range": null,
+        "slug": "fist",
+        "traits": [
+          "agile",
+          "finesse",
+          "nonlethal",
+          "unarmed"
+        ]
+      },
+      {
+        "definition": [
+          "item:trait:unarmed"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "occult"
+      },
+      {
+        "definition": [
+          "item:trait:unarmed"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "magical"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.PTpvQCSd6dQzsBOu"
+      }
+    ],
+    "slug": "ancient-fists",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "details": null
+  },
+  "_id": "R18sP79pmZ4sSTvF",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1695642745710,
+    "modifiedTime": 1697902926071,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!R18sP79pmZ4sSTvF"
+}

@@ -1,0 +1,73 @@
+{
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Skirmish Strike",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your feet and weapon move in tandem. Either Step and then Strike, or Strike and then Step.</p>"
+    },
+    "rules": [],
+    "slug": "skirmish-strike",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "flourish",
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Core Rulebook",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "details": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {}
+  },
+  "effects": [],
+  "folder": "Uq8qfdMtohOarLc5",
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1689372020836,
+    "modifiedTime": 1697462890844,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_id": "Go7gxizpnPmchOlt",
+  "sort": 0,
+  "_key": "!items!Go7gxizpnPmchOlt"
+}

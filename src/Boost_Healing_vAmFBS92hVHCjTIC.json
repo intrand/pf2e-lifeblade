@@ -1,0 +1,87 @@
+{
+  "folder": "IAiLniVacPfiAUk9",
+  "name": "Boost Healing",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.V8QlY35kQgJVQp0j]{Boost Healing} gambit spell. Increase the number of Focus Points in your focus pool by 1.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.resources.focus.max",
+        "value": 1
+      }
+    ],
+    "slug": "boost-healing",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_essence: life",
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Life Trance"
+        },
+        {
+          "value": "Pour Life"
+        }
+      ]
+    },
+    "location": null,
+    "details": null
+  },
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1687184514939,
+    "modifiedTime": 1697903807584,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_id": "vAmFBS92hVHCjTIC",
+  "sort": 100000,
+  "_key": "!items!vAmFBS92hVHCjTIC"
+}

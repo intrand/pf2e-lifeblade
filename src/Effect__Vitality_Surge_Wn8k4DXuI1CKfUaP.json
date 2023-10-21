@@ -1,0 +1,78 @@
+{
+  "name": "Effect: Vitality Surge",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You receive temporary hit points equal to the spell level times 2 which last until the end of your next turn.</p>\n<p>Granted by @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.v54EXBbUfmx1m6eE]{Vitality Surge}</p>"
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": "@item.level * 2"
+      }
+    ],
+    "slug": "effect-vitality-surge",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "unidentified": false,
+    "details": null
+  },
+  "img": "systems/pf2e/icons/spells/blood-ward.webp",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1686508533014,
+    "modifiedTime": 1697462891363,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "folder": "RGYVPldSj7ePKACm",
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "_id": "Wn8k4DXuI1CKfUaP",
+  "sort": 150000,
+  "_key": "!items!Wn8k4DXuI1CKfUaP"
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Matter Trance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Boost offensive capabilities by linking to the life force of enemies. You enter the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.2CbIFyuU2g2n9ol4]{Matter Trance} stance.</p>\n<p>When you successfully Strike a creature while in this stance, you gain the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.SCvAAWpKBcW1fTxX]{Matter Trance Aura} until the end of your next turn, which grants you and allies within 15 feet @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.8OLCtZQXqxT9xP4t]{Matter Trance Precision}.</p>"
+    },
+    "rules": [],
+    "slug": "matter-trance",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_essence: matter",
+        "hb_lifeblade",
+        "stance"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.2CbIFyuU2g2n9ol4",
+      "name": "Effect: Matter Trance"
+    },
+    "details": null
+  },
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1686500096290,
+    "modifiedTime": 1697462891487,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "folder": "DIB9OKotz6wBjVVK",
+  "_id": "diO0ffzmdvJCIzL6",
+  "sort": 400000,
+  "_key": "!items!diO0ffzmdvJCIzL6"
+}

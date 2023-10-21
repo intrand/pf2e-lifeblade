@@ -1,0 +1,76 @@
+{
+  "folder": "DIB9OKotz6wBjVVK",
+  "name": "Life Trance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You feel a particular connection with the life force of those around you, and use this connection to siphon life energy from foes in order to send it to nearby allies. You enter the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.LsF7CkAmRd8udPUS]{Life Trance} stance.</p>\n<p>When you successfully Strike a living creature while in this stance, you gain the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.z5VLT1EqoEKuocfQ]{Life Trance Aura}, which grants you and allies within 5 feet @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.QDWA51YS3fAxm1OI]{Life Trance Healing}.</p>"
+    },
+    "rules": [],
+    "slug": "life-trance",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_essence: life",
+        "hb_lifeblade",
+        "stance"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.LsF7CkAmRd8udPUS",
+      "name": "Effect: Life Trance"
+    },
+    "details": null
+  },
+  "_id": "Oryif7MNs0NWZClX",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1696014505073,
+    "modifiedTime": 1697685525727,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!Oryif7MNs0NWZClX"
+}

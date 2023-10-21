@@ -1,0 +1,122 @@
+{
+  "folder": "0Egyn7nUzSxFwk4l",
+  "name": "Swift Essence",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Choose a lifeblade trance you know. You gain a +5 foot status bonus to your Speeds while in that stance. This feat may be taken multiple times, each selecting a different trance. At 7th level, increase this bonus to +10 feet. At 11th level, increase this bonus to +15 feet.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": {
+          "brackets": [
+            {
+              "start": 0,
+              "end": 6,
+              "value": 5
+            },
+            {
+              "start": 7,
+              "end": 10,
+              "value": 10
+            },
+            {
+              "start": 11,
+              "end": 20,
+              "value": 15
+            }
+          ],
+          "field": "actor|level"
+        },
+        "type": "status",
+        "selector": "all-speeds",
+        "predicate": [
+          "self:effect:{item|flags.pf2e.rulesSelections.swiftEssenceChoice}"
+        ]
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Life Trance",
+            "value": "life-trance"
+          },
+          {
+            "label": "Matter Trance",
+            "value": "matter-trance"
+          },
+          {
+            "label": "Mind Trance",
+            "value": "mind-trance"
+          },
+          {
+            "label": "Spirit Trance",
+            "value": "spirit-trance"
+          }
+        ],
+        "flag": "swiftEssenceChoice",
+        "prompt": "Choose a lifeblade trance you know and wish to boost the speed of"
+      }
+    ],
+    "slug": "swift-essence",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": null,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "details": null
+  },
+  "_id": "MgZ0VmqVxZF9aLrE",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1692211713442,
+    "modifiedTime": 1697904201609,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!MgZ0VmqVxZF9aLrE"
+}

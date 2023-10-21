@@ -1,0 +1,84 @@
+{
+  "folder": "RGYVPldSj7ePKACm",
+  "name": "Effect: Boost Healing",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Increase the die size of your @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.JWies5HHDoiigwZx]{Pour Life} healing by 2 steps. If you leave the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.LsF7CkAmRd8udPUS]{Life Trance}, the effect is lost.</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "override": {
+          "dieSize": "d8"
+        },
+        "predicate": [
+          "item:slug:pour-life-spell"
+        ],
+        "selector": "spell-damage"
+      }
+    ],
+    "slug": "effect-boost-healing",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "unidentified": false,
+    "details": null
+  },
+  "img": "systems/pf2e/icons/features/classes/ability-boosts.webp",
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1687184673953,
+    "modifiedTime": 1697462891776,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_id": "q95hIU5mZlcLkor0",
+  "sort": 200000,
+  "_key": "!items!q95hIU5mZlcLkor0"
+}

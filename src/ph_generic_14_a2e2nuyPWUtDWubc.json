@@ -1,0 +1,70 @@
+{
+  "folder": "ic5xOp52sRtu44JK",
+  "name": "ph-generic-14",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "details": null
+  },
+  "_id": "a2e2nuyPWUtDWubc",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "sort": 100007,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1695646358071,
+    "modifiedTime": 1697462891408,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!a2e2nuyPWUtDWubc"
+}

@@ -1,0 +1,80 @@
+{
+  "folder": "6ULrQneGfA6J5pDt",
+  "name": "Effect: Crippling Weakness - Physical",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "Weakness",
+        "type": "bludgeoning",
+        "value": 3
+      },
+      {
+        "key": "Weakness",
+        "type": "piercing",
+        "value": 3
+      },
+      {
+        "key": "Weakness",
+        "type": "slashing",
+        "value": 3
+      }
+    ],
+    "slug": "effect-crippling-weakness-physical",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "T5InUgGN9Cxo1sEK",
+  "img": "systems/pf2e/icons/spells/cutting-insult.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1697827777255,
+    "modifiedTime": 1697828059014,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!T5InUgGN9Cxo1sEK"
+}

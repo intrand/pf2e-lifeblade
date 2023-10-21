@@ -1,0 +1,131 @@
+{
+  "name": "Purge Undeath",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You wield the power of life as a weapon and point it toward an undead creature. Deal 1d8 positive damage to 1 undead creature within 30 feet.</p>\n<hr />\n<div>\n<p><strong>Hightening (+1)</strong> Increase the damage done by 1d8.</p>\n</div>"
+    },
+    "rules": [],
+    "slug": "purge-undeath-spell",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "hb_essence: life",
+        "hb_lifeblade",
+        "necromancy",
+        "occult",
+        "vitality"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "attack"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": []
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 undead creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {
+        "sQUB8RRtbNxvXYRm": {
+          "value": "1d8",
+          "type": {
+            "value": "",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "sQUB8RRtbNxvXYRm": "1d8"
+      }
+    },
+    "details": null
+  },
+  "img": "systems/pf2e/icons/features/classes/second-adept.webp",
+  "folder": "qtCPaqTm0sWiC687",
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1695583460400,
+    "modifiedTime": 1697906478556,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_id": "AJFX0rIYHseeSfl3",
+  "sort": 200000,
+  "_key": "!items!AJFX0rIYHseeSfl3"
+}

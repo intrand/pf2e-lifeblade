@@ -1,0 +1,79 @@
+{
+  "folder": "YAFVZhdePA5KntNM",
+  "name": "Legendary Lifeblade",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your proficiency ranks for lifeblade class DC and occult spell attack rolls and DCs increase to legendary.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.lifeblade.rank",
+        "value": 4
+      }
+    ],
+    "slug": "legendary-lifeblade",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "details": null
+  },
+  "img": "icons/weapons/daggers/dagger-poisoned-curved-green.webp",
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1689689600397,
+    "modifiedTime": 1697900732073,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_id": "nGCwNNPv02ylrzOu",
+  "sort": 0,
+  "_key": "!items!nGCwNNPv02ylrzOu"
+}

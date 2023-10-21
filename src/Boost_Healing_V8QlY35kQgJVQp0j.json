@@ -1,0 +1,114 @@
+{
+  "name": "Boost Healing",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Increase the die size of your @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.JWies5HHDoiigwZx]{Pour Life} healing by 2 steps. If you leave the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.LsF7CkAmRd8udPUS]{Life Trance}, the effect is lost.</p>\n<p> </p>\n<p>Apply @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.q95hIU5mZlcLkor0]{Effect: Boost Healing} to yourself.</p>"
+    },
+    "rules": [],
+    "slug": "boost-healing-spell",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "enchantment",
+        "hb_essence: life",
+        "hb_lifeblade",
+        "vitality"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "occult"
+      ]
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": false
+    },
+    "materials": {
+      "value": "You are in the Life Trance stance"
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 minute"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "details": null
+  },
+  "img": "systems/pf2e/icons/features/classes/ability-boosts.webp",
+  "folder": "8LiQ9DxXbw4H3QKG",
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1687181769303,
+    "modifiedTime": 1697906501724,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_id": "V8QlY35kQgJVQp0j",
+  "sort": -100000,
+  "_key": "!items!V8QlY35kQgJVQp0j"
+}

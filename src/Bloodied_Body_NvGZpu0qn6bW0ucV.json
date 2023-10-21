@@ -1,0 +1,75 @@
+{
+  "folder": "yEZY10r7QUhBxzHE",
+  "name": "Bloodied Body",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> You have made two or more successful Strikes this turn. Your last action was a successful Strike.</p>\n<hr />\n<p>Consecutive strikes during your turn cause the enemy to hemorrhage. On each successful Strike after the first successful Strike this turn, you inflict @Damage[(max(1,floor(@actor.level/2)))d6[bleed]] damage. This damage does not double if the Strike was a critical success.</p>"
+    },
+    "rules": [],
+    "slug": "bloodied-body",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_essence: matter",
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Matter Trance"
+        }
+      ]
+    },
+    "location": null,
+    "details": null
+  },
+  "_id": "NvGZpu0qn6bW0ucV",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1692211395919,
+    "modifiedTime": 1697904623208,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!NvGZpu0qn6bW0ucV"
+}

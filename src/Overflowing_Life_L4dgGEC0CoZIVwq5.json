@@ -1,0 +1,112 @@
+{
+  "folder": "8LiQ9DxXbw4H3QKG",
+  "name": "Overflowing Life",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Life essence pours from the enemy as freely as a rapid river. Double the amount of healing done by your @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.QDWA51YS3fAxm1OI]{Life Trance Healing} until the start of your next turn.</p>\n<p>Apply @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.TXumm8GR0EeR9VKB]{Effect: Overflowing Life} to yourself.</p>"
+    },
+    "rules": [],
+    "slug": "overflowing-life-spell",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_essence: life",
+        "hb_lifeblade",
+        "necromancy",
+        "vitality"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "occult"
+      ]
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": false,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "0"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "details": null
+  },
+  "_id": "L4dgGEC0CoZIVwq5",
+  "img": "systems/pf2e/icons/features/classes/toxicologist.webp",
+  "sort": -200000,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1689619158942,
+    "modifiedTime": 1697906179243,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!L4dgGEC0CoZIVwq5"
+}

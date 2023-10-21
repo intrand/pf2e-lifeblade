@@ -1,0 +1,83 @@
+{
+  "folder": "RGYVPldSj7ePKACm",
+  "name": "Effect: Sap Heat (Critical)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You take a -10 penalty to speed until the start of your next turn.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "speed",
+        "value": -10,
+        "type": "status"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm"
+      }
+    ],
+    "slug": "effect-sap-heat-critical",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "unidentified": false,
+    "details": null
+  },
+  "_id": "bXajS9kLbaXRBbeU",
+  "img": "systems/pf2e/icons/spells/snowball.webp",
+  "sort": 25000,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1689869623258,
+    "modifiedTime": 1697462891424,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!bXajS9kLbaXRBbeU"
+}

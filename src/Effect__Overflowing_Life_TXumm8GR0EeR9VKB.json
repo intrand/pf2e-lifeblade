@@ -1,0 +1,71 @@
+{
+  "folder": "RGYVPldSj7ePKACm",
+  "name": "Effect: Overflowing Life",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Double the amount of fast healing your @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.QDWA51YS3fAxm1OI]{Life Trance Healing} does.</p>"
+    },
+    "rules": [],
+    "slug": "effect-overflowing-life",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "unidentified": false,
+    "details": null
+  },
+  "_id": "TXumm8GR0EeR9VKB",
+  "img": "systems/pf2e/icons/features/classes/toxicologist.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1689619376950,
+    "modifiedTime": 1697462891284,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!TXumm8GR0EeR9VKB"
+}

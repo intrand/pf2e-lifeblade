@@ -1,0 +1,75 @@
+{
+  "folder": "HkqiZpgzZGeqHFyW",
+  "name": "Renewed Life",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Funnel your own life into a nearby ally to keep them going. Take persistent damage to keep an ally that died recently alive.</p>"
+    },
+    "rules": [],
+    "slug": "renewed-life",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_essence: life",
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Life Trance"
+        }
+      ]
+    },
+    "location": null,
+    "details": null
+  },
+  "_id": "4irwZfct4ejPKEhu",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1689618649107,
+    "modifiedTime": 1697462890518,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!4irwZfct4ejPKEhu"
+}

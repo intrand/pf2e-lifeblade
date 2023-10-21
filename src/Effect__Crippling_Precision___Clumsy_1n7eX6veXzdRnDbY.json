@@ -1,0 +1,69 @@
+{
+  "folder": "6ULrQneGfA6J5pDt",
+  "name": "Effect: Crippling Precision - Clumsy",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm"
+      }
+    ],
+    "slug": "effect-crippling-precision-clumsy",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "1n7eX6veXzdRnDbY",
+  "img": "systems/pf2e/icons/conditions/clumsy.webp",
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1697826206235,
+    "modifiedTime": 1697826538052,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!1n7eX6veXzdRnDbY"
+}

@@ -1,0 +1,88 @@
+{
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Nimble Dodge",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> A creature targets you with an attack and you can see the attacker.</p>\n<p><strong>Requirements</strong> You are not encumbered</p>\n<hr />\n<p>You deftly dodge out of the way, gaining a +2 circumstance bonus to AC against the triggering attack.</p>"
+    },
+    "rules": [
+      {
+        "domain": "ac",
+        "key": "RollOption",
+        "option": "nimble-dodge",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "nimble-dodge"
+        ],
+        "selector": "ac",
+        "type": "circumstance",
+        "value": 2
+      }
+    ],
+    "slug": "nimble-dodge",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Core Rulebook",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "details": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {}
+  },
+  "effects": [],
+  "folder": "DIB9OKotz6wBjVVK",
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1694035219361,
+    "modifiedTime": 1697903784652,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_id": "mJS95NeY0kn5Ak0R",
+  "sort": 100000,
+  "_key": "!items!mJS95NeY0kn5Ak0R"
+}

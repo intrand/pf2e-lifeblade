@@ -1,0 +1,74 @@
+{
+  "folder": "IAiLniVacPfiAUk9",
+  "name": "Reactive Trance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"hang\"><strong>Trigger</strong>: You or an ally you can sense is about to be hit by an attack or make a saving throw.</p>\n<hr />\n<p>You react quickly to help with the burden. You change your stance to another Lifeblade Trance you know. Regardless of whether or not your aura is active at this time, the aura and all effects with the same essence trait end immediately. If your aura was active when this reaction started, you gain the aura matching the new trance you enter.</p>"
+    },
+    "rules": [],
+    "slug": "reactive-trance",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Know at least two trances"
+        }
+      ]
+    },
+    "location": null,
+    "details": null
+  },
+  "_id": "LWPbR5fevjj4VaSS",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1687991987195,
+    "modifiedTime": 1697903857684,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!LWPbR5fevjj4VaSS"
+}

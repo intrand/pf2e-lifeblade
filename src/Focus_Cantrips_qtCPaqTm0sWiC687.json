@@ -1,0 +1,19 @@
+{
+  "name": "Focus Cantrips",
+  "sorting": "a",
+  "folder": "DmcOWSdwqPnwOJNs",
+  "type": "Item",
+  "_id": "qtCPaqTm0sWiC687",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.1.2",
+    "coreVersion": "11.305",
+    "createdTime": null,
+    "modifiedTime": 1689870884289,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!folders!qtCPaqTm0sWiC687"
+}

@@ -1,0 +1,72 @@
+{
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Attack of Opportunity",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</p>\n<hr />\n<p>You swat a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.</p>"
+    },
+    "rules": [],
+    "slug": "attack-of-opportunity",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "details": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {}
+  },
+  "effects": [],
+  "folder": "Uq8qfdMtohOarLc5",
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1689370529915,
+    "modifiedTime": 1697904266540,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_id": "HX07Tgx5aKuoPrgh",
+  "sort": 0,
+  "_key": "!items!HX07Tgx5aKuoPrgh"
+}

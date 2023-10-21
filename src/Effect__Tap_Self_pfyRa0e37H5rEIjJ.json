@@ -1,0 +1,106 @@
+{
+  "name": "Effect: Tap Self",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain a +1 status bonus to the attack roll with the chosen weapon, and the weapon deals an additional die of damage.</p>"
+    },
+    "rules": [
+      {
+        "choices": {
+          "ownedItems": true,
+          "includeHandwraps": true,
+          "predicate": [
+            "item:equipped"
+          ],
+          "types": [
+            "weapon"
+          ]
+        },
+        "flag": "effectTapSelf",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Weapon"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "{item|flags.pf2e.rulesSelections.effectTapSelf}-attack",
+        "value": 1,
+        "type": "status"
+      },
+      {
+        "diceNumber": 1,
+        "key": "DamageDice",
+        "selector": "{item|flags.pf2e.rulesSelections.effectTapSelf}-damage"
+      },
+      {
+        "key": "Note",
+        "selector": "damage",
+        "text": "Remove the Tap Self effect from your character after damage is rolled. The foundry system does not support automatically removing it at this time.",
+        "outcome": []
+      }
+    ],
+    "slug": "effect-tap-self",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "unidentified": false,
+    "details": null
+  },
+  "img": "systems/pf2e/icons/features/feats/avenge-in-glory.webp",
+  "folder": "RGYVPldSj7ePKACm",
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1687189843565,
+    "modifiedTime": 1697762385944,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_id": "pfyRa0e37H5rEIjJ",
+  "sort": 100000,
+  "_key": "!items!pfyRa0e37H5rEIjJ"
+}

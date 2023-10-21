@@ -1,0 +1,87 @@
+{
+  "name": "Effect: Life Trance",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When you successfully Strike a living creature while in this stance, you gain the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.z5VLT1EqoEKuocfQ]{Life Trance Aura}, which grants you and allies within 5 feet @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.QDWA51YS3fAxm1OI]{Life Trance Healing}.</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "title": "Aura Reminder",
+        "selector": "strike-attack-roll",
+        "text": "Apply @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.z5VLT1EqoEKuocfQ]{Life Trance Aura}",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ]
+      }
+    ],
+    "slug": "effect-life-trance",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "encounter",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "unidentified": false,
+    "details": null
+  },
+  "img": "systems/pf2e/icons/features/classes/arcane-cascade.webp",
+  "flags": {
+    "cf": {
+      "id": "temp_54r8cyyn71d"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1686414509102,
+    "modifiedTime": 1697685556666,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "folder": "VywIOjTXItDdxZJx",
+  "_id": "LsF7CkAmRd8udPUS",
+  "sort": 100000,
+  "_key": "!items!LsF7CkAmRd8udPUS"
+}

@@ -1,0 +1,78 @@
+{
+  "folder": "cle70ePp0irIxgyJ",
+  "name": "Effect: Waste Life",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Drag this onto the creature</p>\n<p>[[/r 1d6[persistent,bleed]]]</p>\n<p>@Damage[1d6[persistent,bleed]]</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "damage",
+        "value": "1d6",
+        "damageCategory": "persistent",
+        "damageType": "bleed"
+      }
+    ],
+    "slug": "effect-waste-life",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "details": null
+  },
+  "_id": "xfnFpJLLzhguVTU5",
+  "img": "systems/pf2e/icons/features/classes/instant-manifestation.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1690212180108,
+    "modifiedTime": 1697462891952,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!xfnFpJLLzhguVTU5"
+}

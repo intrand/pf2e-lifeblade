@@ -1,0 +1,19 @@
+{
+  "name": "To Do",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "1Vi4IwW5VAOLkH9w",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.6.2",
+    "coreVersion": "11.313",
+    "createdTime": 1696946725423,
+    "modifiedTime": 1697233343471,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!folders!1Vi4IwW5VAOLkH9w"
+}

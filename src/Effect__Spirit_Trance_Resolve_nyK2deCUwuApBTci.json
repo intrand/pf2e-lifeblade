@@ -1,0 +1,78 @@
+{
+  "folder": "Y7O18BFaI7LyArUE",
+  "name": "Effect: Spirit Trance Resolve",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain a +1 status bonus to AC and saving throws.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "value": 1,
+        "type": "status"
+      }
+    ],
+    "slug": "effect-spirit-trance-resolve",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "unidentified": false,
+    "details": null
+  },
+  "_id": "nyK2deCUwuApBTci",
+  "img": "systems/pf2e/icons/features/classes/link-spells.webp",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1687987387006,
+    "modifiedTime": 1697462891745,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!nyK2deCUwuApBTci"
+}

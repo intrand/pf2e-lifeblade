@@ -1,0 +1,129 @@
+{
+  "name": "Draw Blood",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You force your enemy to bleed.</p>"
+    },
+    "rules": [],
+    "slug": "draw-blood-spell",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "evocation",
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "occult"
+      ]
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "Same as weapon used to Strike"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {
+        "LJO7ZdTHGsnKuX2t": {
+          "value": "1d6+1",
+          "type": {
+            "value": "bleed",
+            "categories": [],
+            "subtype": "persistent"
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "LJO7ZdTHGsnKuX2t": "1"
+      }
+    },
+    "details": null
+  },
+  "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-bombs/redpitch-bomb.webp",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1686504382865,
+    "modifiedTime": 1697462993000,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "folder": "DmcOWSdwqPnwOJNs",
+  "_id": "6Z04WWfATW3ScWOm",
+  "sort": 0,
+  "_key": "!items!6Z04WWfATW3ScWOm"
+}

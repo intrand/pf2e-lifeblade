@@ -1,0 +1,71 @@
+{
+  "folder": "IB0Eo9tr1rHSlQC8",
+  "name": "Effect: Mind Trance",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When you successfully Strike a creature while in this stance, you gain the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.bb8nG4gAe5SxT0zi]{Mind Trance Aura} until the start of your next turn, which grants you and allies within 15 feet @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.RGfAxZoqS61kmgH0]{Mind Trance Resilience}.</p>"
+    },
+    "rules": [],
+    "slug": "effect-mind-trance",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "encounter",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "unidentified": false,
+    "details": null
+  },
+  "_id": "qTZvUm7K53wRW0ZD",
+  "img": "systems/pf2e/icons/features/classes/warpriest.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1687986293856,
+    "modifiedTime": 1697462891793,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!qTZvUm7K53wRW0ZD"
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Effect: Matter Trance Precision",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You deal an additional +1 precision damage on successful Strikes. Double this amount for Critical Success, as normal.</p>\n<p> </p>\n<p>At 5th level, increase this bonus to +3 precision damage. At 9th level, increase this bonus to +5 precision damage. At 13th level, increase this bonus to +7 precision damage. At 17th level, increase this bonus to +9 precision damage.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": {
+          "brackets": [
+            {
+              "end": 4,
+              "value": 1
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "value": 3
+            },
+            {
+              "start": 9,
+              "end": 12,
+              "value": 5
+            },
+            {
+              "start": 13,
+              "end": 16,
+              "value": 7
+            },
+            {
+              "start": 17,
+              "value": 9
+            }
+          ],
+          "field": "item|origin.level"
+        },
+        "damageCategory": "precision"
+      }
+    ],
+    "slug": "effect-matter-trance-precision",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "unidentified": false,
+    "details": null
+  },
+  "img": "systems/pf2e/icons/features/classes/keen-flair.webp",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1686500734847,
+    "modifiedTime": 1697825320332,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "folder": "6ULrQneGfA6J5pDt",
+  "_id": "8OLCtZQXqxT9xP4t",
+  "sort": 200000,
+  "_key": "!items!8OLCtZQXqxT9xP4t"
+}

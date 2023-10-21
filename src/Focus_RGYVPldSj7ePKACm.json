@@ -1,0 +1,19 @@
+{
+  "name": "Focus",
+  "sorting": "a",
+  "folder": "cle70ePp0irIxgyJ",
+  "type": "Item",
+  "_id": "RGYVPldSj7ePKACm",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.1.2",
+    "coreVersion": "11.305",
+    "createdTime": null,
+    "modifiedTime": 1689634082687,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!folders!RGYVPldSj7ePKACm"
+}

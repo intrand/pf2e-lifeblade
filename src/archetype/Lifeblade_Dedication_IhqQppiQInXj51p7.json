@@ -1,0 +1,120 @@
+{
+  "folder": "2J12GWvHxy1rS4vg",
+  "name": "Lifeblade Dedication",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can tap into the spirits and minds of those around you, and even gain a loose hold on their very life essence. Using these links, you may enter into various trances. Select which essence you feel most connected to. You gain the corresponding 1st level lifeblade class feat which must have the stance trait.</p>\n<p>You become trained in Occultism; if you were already trained in Occultism, you instead become trained in a skill of your choice. You become trained in lifeblade class DC. You must choose a trance as you would if you were a lifeblade. You become trained in simple weapons. You become trained in martial weapons.</p>\n<hr />\n<p><strong>Special</strong> You cannot select another dedication feat until you have gained two other feats from the lifeblade archetype.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.occ.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.simple.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.martial.rank",
+        "value": 1
+      },
+      {
+        "adjustName": false,
+        "allowedDrops": {
+          "predicate": [
+            "item:level:1",
+            "item:trait:hb_lifeblade",
+            "item:type:feature"
+          ]
+        },
+        "choices": [
+          {
+            "value": "Compendium.pf2e-lifeblade.lifeblade.Item.xhdYgrqVPWD5ryEj"
+          },
+          {
+            "value": "Compendium.pf2e-lifeblade.lifeblade.Item.5Uu65vcfrF5gyMEs"
+          }
+        ],
+        "flag": "startingTrance",
+        "key": "ChoiceSet",
+        "prompt": "Choose a starting trance"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.startingTrance}"
+      }
+    ],
+    "slug": "lifeblade-dedication",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "dedication",
+        "multiclass"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Dexterity +2"
+        }
+      ]
+    },
+    "location": null,
+    "details": null
+  },
+  "_id": "IhqQppiQInXj51p7",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1694691009862,
+    "modifiedTime": 1697909805315,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!IhqQppiQInXj51p7"
+}

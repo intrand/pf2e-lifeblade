@@ -1,0 +1,80 @@
+{
+  "folder": "RGYVPldSj7ePKACm",
+  "name": "Effect: Sap Heat",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You take a -5 penalty to speed until the start of your next turn.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "speed",
+        "value": -5,
+        "type": "status"
+      }
+    ],
+    "slug": "effect-sap-heat",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "unidentified": false,
+    "details": null
+  },
+  "img": "systems/pf2e/icons/spells/snowball.webp",
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1689869623258,
+    "modifiedTime": 1697462891635,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_id": "lAiIwVcEQ1BC64FT",
+  "sort": 50000,
+  "_key": "!items!lAiIwVcEQ1BC64FT"
+}

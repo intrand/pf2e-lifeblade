@@ -1,0 +1,137 @@
+{
+  "name": "Pour Life",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>With great concentration, you pull even more life essence from the creature. You redirect this energy to yourself, or 1 willing ally within 30 feet of both the creature and yourself, healing the target for 1d4+1 hit points.</p>\n<hr />\n<div>\n<p><strong>Hightening (+1)</strong> Increase the healing done by 1d4+1.</p>\n</div>"
+    },
+    "rules": [],
+    "slug": "pour-life-spell",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "hb_essence: life",
+        "hb_lifeblade",
+        "healing",
+        "necromancy",
+        "vitality"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "heal"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "occult"
+      ]
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": false
+    },
+    "materials": {
+      "value": "You made a successful strike against 1 living creature earlier this round. You have not cast Pour Life this round."
+    },
+    "target": {
+      "value": "1 living creature"
+    },
+    "range": {
+      "value": "You, or any willing creature within 30 feet of the struck creature"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {
+        "3FYoQc4TVaIMXy6E": {
+          "value": "1d4+1",
+          "type": {
+            "value": "",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "3FYoQc4TVaIMXy6E": "1d4+1"
+      }
+    },
+    "overlays": {},
+    "details": null
+  },
+  "img": "systems/pf2e/icons/equipment/held-items/wondrous-figurine-jade-serpent.webp",
+  "flags": {
+    "cf": {
+      "id": "temp_vo6q38stxo"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1686404478666,
+    "modifiedTime": 1697906486080,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "folder": "qtCPaqTm0sWiC687",
+  "_id": "JWies5HHDoiigwZx",
+  "sort": 100000,
+  "_key": "!items!JWies5HHDoiigwZx"
+}

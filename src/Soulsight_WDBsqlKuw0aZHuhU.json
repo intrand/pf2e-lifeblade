@@ -1,0 +1,85 @@
+{
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "name": "Soulsight",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain spiritsense as an imprecise sense with a range of 60 feet.</p>\n<p>Spiritsense enables you to sense the spirits of creatures, including living creatures, most non-mindless undead, and haunts within the listed range. As with your hearing and other imprecise senses, you still need to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} to locate an undetected creature.</p>\n<p>As spiritsense detects spiritual essence, not physical bodies, it can detect spirits projected by spells such as <em>@UUID[Compendium.pf2e.spells-srd.Item.0873MWM0qKDDv81O]{Project Image}</em> or possessing otherwise soulless objects. It can't detect soulless bodies, constructs, or objects, and like most senses, it doesn't penetrate through solid objects.</p>"
+    },
+    "rules": [
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "label": "spiritsense",
+        "range": 60,
+        "selector": "spiritsense"
+      }
+    ],
+    "slug": "soulsight",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_essence: spirit",
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Spirit Trance"
+        }
+      ]
+    },
+    "location": null,
+    "details": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {}
+  },
+  "effects": [],
+  "folder": "mFr6Jf1y2Lx95hDe",
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1689618814436,
+    "modifiedTime": 1697829946438,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_id": "WDBsqlKuw0aZHuhU",
+  "sort": 625000,
+  "_key": "!items!WDBsqlKuw0aZHuhU"
+}

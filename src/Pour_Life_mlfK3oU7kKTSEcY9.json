@@ -1,0 +1,80 @@
+{
+  "name": "Pour Life",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.JWies5HHDoiigwZx]{Pour Life} gambit cantrip, which restores health to yourself or an ally.</p>"
+    },
+    "rules": [],
+    "slug": "pour-life",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_essence: life",
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Life Trance"
+        }
+      ]
+    },
+    "location": null,
+    "details": null
+  },
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "flags": {
+    "cf": {
+      "id": "temp_pwacancmbqa"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1686405326183,
+    "modifiedTime": 1697903800081,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "folder": "DIB9OKotz6wBjVVK",
+  "_id": "mlfK3oU7kKTSEcY9",
+  "sort": 500000,
+  "_key": "!items!mlfK3oU7kKTSEcY9"
+}

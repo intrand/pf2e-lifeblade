@@ -1,0 +1,70 @@
+{
+  "folder": "IAiLniVacPfiAUk9",
+  "name": "Quick Draw",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You draw your weapon and attack with the same motion. You Interact to draw a weapon, then Strike with that weapon.</p>"
+    },
+    "rules": [],
+    "slug": "quick-draw",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "details": null
+  },
+  "_id": "VtvjDNIuwtezLtMT",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1689368075705,
+    "modifiedTime": 1697462891336,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!VtvjDNIuwtezLtMT"
+}

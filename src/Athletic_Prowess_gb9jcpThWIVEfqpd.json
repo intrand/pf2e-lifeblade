@@ -1,0 +1,75 @@
+{
+  "folder": "DIB9OKotz6wBjVVK",
+  "name": "Athletic Prowess",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When you inflict damage upon an enemy while under the effects of @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.8OLCtZQXqxT9xP4t]{Matter Trance Precision}, you may choose to attempt to trip, shove or disarm the enemy as if your weapon had the corresponding trait. You must still be trained in Athletics to perform actions that require training.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_essence: matter",
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "turn"
+    },
+    "details": null
+  },
+  "_id": "gb9jcpThWIVEfqpd",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1696017142537,
+    "modifiedTime": 1697903076226,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!gb9jcpThWIVEfqpd"
+}

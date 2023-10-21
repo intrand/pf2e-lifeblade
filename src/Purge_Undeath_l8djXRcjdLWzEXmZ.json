@@ -1,0 +1,75 @@
+{
+  "folder": "zHu74ntFsV82SFUB",
+  "name": "Purge Undeath",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.AJFX0rIYHseeSfl3]{Purge Undeath} gambit cantrip, which damages an undead creature.</p>"
+    },
+    "rules": [],
+    "slug": "purge-undeath",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_essence: life",
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Life Trance"
+        }
+      ]
+    },
+    "location": null,
+    "details": null
+  },
+  "_id": "l8djXRcjdLWzEXmZ",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1695580752198,
+    "modifiedTime": 1697905200264,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!l8djXRcjdLWzEXmZ"
+}

@@ -1,0 +1,79 @@
+{
+  "folder": "ccHyuPEumNTggWk9",
+  "name": "Eruption of Life",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Hurt enemies in area. Heal allies in area for that amount. Big AoE.</p>\n<p> </p>\n<p>roll 8d12 w/ fort save, target up to 5 hostile creatures, roll damage, split damage as you desire. heal allies within the same area for the same amount, splitting as desired.</p>"
+    },
+    "rules": [],
+    "slug": "eruption-of-life",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_essence: life",
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Life Trance"
+        }
+      ]
+    },
+    "location": null,
+    "frequency": {
+      "max": 2,
+      "per": "day"
+    },
+    "details": null
+  },
+  "_id": "zmBSjEI5NTRl3uFh",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1695584383021,
+    "modifiedTime": 1697462892010,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!zmBSjEI5NTRl3uFh"
+}

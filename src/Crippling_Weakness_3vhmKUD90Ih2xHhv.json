@@ -1,0 +1,89 @@
+{
+  "folder": "lhf2zHpfuhUsFtMm",
+  "name": "Crippling Weakness",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You add the following to the list of choices of @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.wMJpYV6EaamQWrQE]{Crippling Precision}:</p>\n<ul>\n<li>@UUID[Compendium.pf2e-lifeblade.lifeblade.Item.T5InUgGN9Cxo1sEK]{Crippling Weakness - Physical}</li>\n<li>@UUID[Compendium.pf2e-lifeblade.lifeblade.Item.Vb6jmeJnqpOqqL70]{Crippling Weakness - Fatigued}</li>\n<li>@UUID[Compendium.pf2e-lifeblade.lifeblade.Item.Jpm04UPU9c57SzJb]{Crippling Weakness - Sickened}</li>\n</ul>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "strike-attack-roll",
+        "text": "Add the following conditions to the choices from Crippling Precision:<br/>\n* @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.T5InUgGN9Cxo1sEK]{Weakness 3 to physical}<br/>\n* @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.Vb6jmeJnqpOqqL70]{Fatigued}<br/>\n* @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.Jpm04UPU9c57SzJb]{Sickened 1}",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "title": "Crippling Weakness"
+      }
+    ],
+    "slug": "crippling-weakness",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_essence: matter",
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Matter Trance"
+        },
+        {
+          "value": "Crippling Precision"
+        }
+      ]
+    },
+    "location": null,
+    "details": null
+  },
+  "_id": "3vhmKUD90Ih2xHhv",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "sort": -100000,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1692211221218,
+    "modifiedTime": 1697905081420,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!3vhmKUD90Ih2xHhv"
+}

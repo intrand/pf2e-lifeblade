@@ -1,0 +1,90 @@
+{
+  "folder": "lhf2zHpfuhUsFtMm",
+  "name": "Suffer Life",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have learned to weaponize life essence. While in @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.LsF7CkAmRd8udPUS]{Life Trance}, you and all allies within 15 feet deal an additional 5 positive damage when you successfully Strike. Double this damage on critical success.</p>\n<p>At level 16, increase this bonus to 7 positive damage.</p>"
+    },
+    "rules": [
+      {
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.n0kiX58xugi4DwqL",
+            "affects": "allies"
+          }
+        ],
+        "key": "Aura",
+        "radius": 15,
+        "slug": "aura-life-trance-suffer-life",
+        "predicate": [
+          "self:effect:life-trance"
+        ]
+      }
+    ],
+    "slug": "suffer-life",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_essence: life",
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Life Trance"
+        }
+      ]
+    },
+    "location": null,
+    "details": null
+  },
+  "_id": "GQNzukRF7ruvXih6",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1690211359232,
+    "modifiedTime": 1697905139041,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!GQNzukRF7ruvXih6"
+}

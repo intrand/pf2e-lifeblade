@@ -1,0 +1,19 @@
+{
+  "name": "Spells",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "4TAFkypRiMEdEeiF",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.6.2",
+    "coreVersion": "11.313",
+    "createdTime": 1694691577552,
+    "modifiedTime": 1696686456892,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!folders!4TAFkypRiMEdEeiF"
+}

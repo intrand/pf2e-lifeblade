@@ -1,0 +1,75 @@
+{
+  "folder": "Uq8qfdMtohOarLc5",
+  "name": "Shift Pain",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> An ally within 15 feet would receive a type of persistent damage effect.</p>\n<hr />\n<p>You receive the persistent damage effect instead of your ally.</p>"
+    },
+    "rules": [],
+    "slug": "shift-pain",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_essence: life",
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Life Trance"
+        }
+      ]
+    },
+    "location": null,
+    "details": null
+  },
+  "_id": "4gaN5jpgvAilN52r",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1689616026822,
+    "modifiedTime": 1697904400831,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!4gaN5jpgvAilN52r"
+}

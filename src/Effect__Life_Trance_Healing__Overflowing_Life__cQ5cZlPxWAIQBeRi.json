@@ -1,0 +1,81 @@
+{
+  "name": "Effect: Life Trance Healing (Overflowing Life)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain fast healing equal to double your level.</p>"
+    },
+    "rules": [
+      {
+        "key": "FastHealing",
+        "value": "@item.origin.level * 2"
+      }
+    ],
+    "slug": "effect-life-trance-healing-overflowing-life",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "unidentified": false,
+    "details": null
+  },
+  "img": "systems/pf2e/icons/features/classes/arcane-cascade.webp",
+  "flags": {
+    "cf": {
+      "id": "temp_54r8cyyn71d"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1686408357804,
+    "modifiedTime": 1697462891472,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "folder": "VywIOjTXItDdxZJx",
+  "_id": "cQ5cZlPxWAIQBeRi",
+  "sort": 150000,
+  "_key": "!items!cQ5cZlPxWAIQBeRi"
+}

@@ -1,0 +1,48 @@
+---
+name: fvtt-release
+
+on:
+  push:
+    tags:
+      - "*" # triggers on all new tags
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: install fvtt cli
+        id: fvtt-install
+        run: npm install -g @foundryvtt/foundryvtt-cli
+
+      - name: generate compendium pack database files
+        id: fvtt-pack
+        run: |
+          fvtt package pack --id lifeblade --type Module -n lifeblade --in=./src --out=./packs lifeblade
+          fvtt package pack --id lifeblade --type Module -n lifeblade-archetype --in=./src/archetype --out=./packs lifeblade-archetype
+
+      - name: substitute version
+        id: sub
+        run: sed -i "s|versionNumberToBeInsertedByAutomation|${{ github.ref_name }}|g" ./module.json
+
+      - name: create module archive
+        id: zip
+        run: zip -r ./module.zip ./module.json ./README.md ./packs/
+
+      - name: create release
+        id: release
+        uses: ncipollo/release-action@v1
+        with:
+          name: ${{ github.ref_name }}
+          draft: false
+          prerelease: false
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifacts: ./module.json, ./module.zip, ./pathbuilder/pathbuilder-lifeblade.json, ./print/lifeblade.html, ./print/lifeblade-archetype.html
+          tag: ${{ github.ref_name }}
+          generateReleaseNotes: true

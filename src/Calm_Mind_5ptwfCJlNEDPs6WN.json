@@ -1,0 +1,122 @@
+{
+  "folder": "HcDsJ5F6QOQR6LFt",
+  "name": "Calm Mind",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You recite an ancient poem to calm the minds of those around you. In addition to the normal effects of @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.nyK2deCUwuApBTci]{Spirit Trance Resolve}, each affected ally may lower their @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} or @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied} condition by 1 at the start of their turn. If an ally has multiple applicable conditions, they choose which condition to lower.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> Add @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened} and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed} to the list of conditions.</p>\n<p><strong>Heightened (5th)</strong> Add @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy}, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained} and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled} to the list of conditions.</p>"
+    },
+    "rules": [],
+    "slug": "calm-mind-spell",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "auditory",
+        "concentrate",
+        "emotion",
+        "enchantment",
+        "hb_essence: mind",
+        "hb_lifeblade",
+        "linguistic",
+        "mental"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "occult"
+      ]
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": false,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "2 rounds"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "overlays": {},
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {}
+    },
+    "details": null
+  },
+  "_id": "5ptwfCJlNEDPs6WN",
+  "img": "systems/pf2e/icons/features/feats/read-shibboleths.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1689429823879,
+    "modifiedTime": 1697462890557,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!5ptwfCJlNEDPs6WN"
+}

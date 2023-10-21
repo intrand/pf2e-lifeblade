@@ -1,0 +1,19 @@
+{
+  "name": "Level 02",
+  "sorting": "a",
+  "folder": "rVqoumBOBY3moyvv",
+  "type": "Item",
+  "_id": "2J12GWvHxy1rS4vg",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.5.3",
+    "coreVersion": "11.309",
+    "createdTime": null,
+    "modifiedTime": 1695738858365,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!folders!2J12GWvHxy1rS4vg"
+}

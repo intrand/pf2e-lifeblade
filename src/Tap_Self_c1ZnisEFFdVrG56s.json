@@ -1,0 +1,117 @@
+{
+  "name": "Tap Self",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You tap into your own essence to empower your weapon or unarmed attack. The next Strike made with the chosen weapon or unarmed attack before the start of your next turn gains a +1 status bonus to the attack roll, and the weapon or unarmed strike deals an additional die of damage.</p>\n<p>If the chosen weapon leaves your possession, <em>tap self</em> ends immediately.</p>\n<p>Apply @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.pfyRa0e37H5rEIjJ]{Effect: Tap Self} to yourself.</p>"
+    },
+    "rules": [],
+    "slug": "tap-self-spell",
+    "_migration": {
+      "version": 0.878,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.877,
+        "foundry": "11.313",
+        "system": "5.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "enchantment",
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": [
+        "occult"
+      ]
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 weapon you're wielding"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {}
+    },
+    "details": null
+  },
+  "img": "systems/pf2e/icons/features/feats/avenge-in-glory.webp",
+  "folder": "8LiQ9DxXbw4H3QKG",
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1687189778847,
+    "modifiedTime": 1697905709865,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_id": "c1ZnisEFFdVrG56s",
+  "sort": 200000,
+  "_key": "!items!c1ZnisEFFdVrG56s"
+}
