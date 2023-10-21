@@ -13,7 +13,7 @@
       ],
       "textDescription": "You gain one lifeblade feat. For the purpose of meeting its prerequisites, your lifeblade level is equal to half your character level.",
       "traits": "Lifeblade, Archetype, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585589"
     },
@@ -22,7 +22,7 @@
       "name": "Ancient Fists",
       "textDescription": "You have learned how to harness your own essences to make unarmed attacks far more lethal. The damage die for your fist changes to 1d6 instead of 1d4. You don't take the normal -2 circumstance penalty when making a lethal attack with your fist or any other unarmed attacks. Your unarmed attacks gain the occult trait, making them magical. At 5th level, you also gain the critical specialization effects of unarmed attacks in the brawling group and weapons in the brawling group.",
       "traits": "Lifeblade, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585589"
     },
@@ -33,7 +33,7 @@
       "action": 0,
       "textDescription": "<strong>Trigger</strong> A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.<br><br>You swat a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.",
       "traits": "Lifeblade, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696637969816"
     },
@@ -46,7 +46,7 @@
       ],
       "textDescription": "You gain a 1st- or 2nd-level lifeblade feat.",
       "traits": "Lifeblade, Archetype, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585590"
     },
@@ -59,7 +59,7 @@
       ],
       "textDescription": "Select two trances you know. When you satisfy the activation requirements of both auras, you activate both auras, regardless of which of the two trances you are in.<br><br> <br><br>While in either trance, and when you satisfy the activation requirements for both of the auras of the trances, both auras are activated instead of only one of them.<br><br> <br><br>For example, if you took Matter Trance and chose Life and Matter as your two trances, you may activate both Life Trance Aura and Matter Trance Aura upon hitting an enemy.",
       "traits": "Lifeblade, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585590"
     },
@@ -72,7 +72,7 @@
       ],
       "textDescription": "You gain the boost healing gambit spell. Increase the number of Focus Points in your focus pool by 1.",
       "traits": "Lifeblade, Essence: Life, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585590",
       "listCustomEffects": [
@@ -91,7 +91,7 @@
       "action": 3,
       "textDescription": "Hurt enemies in area. Heal allies in area for that amount. Big AoE.<br><br>roll 8d12 w/ fort save, target up to 5 hostile creatures, roll damage, split damage as you desire. heal allies within the same area for the same amount, splitting as desired.<br><br>Real description is pending",
       "traits": "Lifeblade, Essence: Life, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585590"
     },
@@ -101,7 +101,7 @@
       "level": 20,
       "textDescription": "You no longer need to meet the activation requirements for your trance aura. You may use a free action once per turn to toggle the aura matching your trance.<br><br> <br><br>If you have Blend Essences, both auras are always active and you may toggle either aura, but not both, with a free action.",
       "traits": "Lifeblade, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585590"
     },
@@ -111,7 +111,7 @@
       "action": 1,
       "textDescription": "You feel a particular connection with the life force of those around you, and use this connection to siphon life energy from foes in order to send it to nearby allies. You enter the Life Trance stance, enabling you to use any actions with the Trance trait. When you successfully Strike a living creature while in this stance, you gain the Life Trance Aura until the start of your next turn, which grants you and allies within 5 feet Life Trance Healing.<br><br><strong>Life Trance Healing</strong> You gain fast healing equal to your level.",
       "traits": "Lifeblade, Stance, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585590"
     },
@@ -121,7 +121,7 @@
       "level": 2,
       "textDescription": "<strong>Prerequisites</strong> Dexterity 14<br><br>Choose either Life Trance or Matter Trance and gain it as a free feat.<br>Trained in simple weapons<br>Trained in martial weapons<br>Trained in occultism",
       "traits": "Dedication, Archetype, Multiclass, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "hashMapRequiredAbilityScores": {
         "1": 14
       },
@@ -152,7 +152,7 @@
       "action": 1,
       "textDescription": "Boost offensive capabilities by linking to the life force of enemies. You enter the Matter Trance stance, enabling you to use any actions with the Trance trait. When you successfully Strike a creature while in this stance, you gain the Matter Trance Aura, which grants you and allies within 15 feet Matter Trance Precision.<br><br><strong>Matter Trance Precision</strong> You deal an additional +1 precision damage on successful Strikes. Double this amount for Critical Success, as normal.",
       "traits": "Lifeblade, Stance, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585591"
     },
@@ -162,7 +162,7 @@
       "action": 1,
       "textDescription": "You're one step ahead, helping your allies brace for what the enemy may be planning. You enter the Mind Trance stance, enabling you to use any actions with the Trance trait. When you successfully Strike a creature while in this stance, you gain the Mind Trance Aura until the start of your next turn, which grants you and allies within 15 feet Mind Trance Resilience.<br><br><strong>Mind Trance Resilience</strong> You gain resistances to physical damage equal to half of your level.",
       "traits": "Lifeblade, Stance, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585591"
     },
@@ -172,7 +172,7 @@
       "action": 0,
       "textDescription": "<strong>Trigger</strong> A creature targets you with an attack and you can see the attacker.<br><br><strong>Requirements</strong> You are not encumbered<br><hr><br>You deftly dodge out of the way, gaining a +2 circumstance bonus to AC against the triggering attack.",
       "traits": "Lifeblade, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585591"
     },
@@ -182,7 +182,7 @@
       "level": 8,
       "textDescription": "You gain the overflowing life gambit spell. Increase the number of Focus Points in your focus pool by 1.",
       "traits": "Lifeblade, Essence: Life, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585591",
       "listCustomEffects": [
@@ -204,7 +204,7 @@
       ],
       "textDescription": "You redirect a persistent damage effect from you or an ally and inflict it upon an enemy instead. Choose yourself or an ally within 15 feet of you suffering from a persistent damage effect and an enemy within 15 feet of you. For the next 1d6 rounds, when you or an ally would normally take damage from this effect, the chosen enemy takes the damage instead. The chosen ally still rolls recovery checks as normal.",
       "traits": "Lifeblade, Essence: Matter, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585591"
     },
@@ -213,7 +213,7 @@
       "name": "Pour Life",
       "textDescription": "You gain the pour life gambit cantrip, which restores health to yourself or an ally.",
       "traits": "Lifeblade, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696637969815",
       "listCustomEffects": [
@@ -230,7 +230,7 @@
       "action": 0,
       "textDescription": "<strong>Trigger</strong> An ally within your reach takes damage from an attack.<br><hr><br>You react to stop life essence from leaving your ally. Reduce the damage your ally suffers by an amount equal to your level.",
       "traits": "Lifeblade, Essence: Life, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585591"
     },
@@ -241,7 +241,7 @@
       "action": 2,
       "textDescription": "You gain the Purge Undeath gambit cantrip, which damages an undead creature.",
       "traits": "Lifeblade, Essence: Life, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585591",
       "listCustomEffects": [
@@ -258,7 +258,7 @@
       "action": 1,
       "textDescription": "You draw your weapon and attack with the same motion. You Interact to draw a weapon, then Strike with that weapon.",
       "traits": "Lifeblade, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585591"
     },
@@ -269,7 +269,7 @@
       "action": 0,
       "textDescription": "<strong>Trigger</strong> An ally currently effected by your Trance is hit by an attack.<br><br>You react quickly to help your ally with their burden. You change your stance to another Lifeblade Trance stance.",
       "traits": "Lifeblade, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585591"
     },
@@ -280,7 +280,7 @@
       "action": 3,
       "textDescription": "Funnel your own life into a nearby ally to keep them going. Take persistent damage to keep an ally that died recently alive.",
       "traits": "Lifeblade, Essence: Life, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585591"
     },
@@ -293,7 +293,7 @@
       ],
       "textDescription": "You gain the sap heat gambit spell. Increase the number of Focus Points in your focus pool by 1.",
       "traits": "Lifeblade, Essence: Matter, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585591",
       "listCustomEffects": [
@@ -312,7 +312,7 @@
       "action": 0,
       "textDescription": "<strong>Trigger</strong> An ally within 15 feet would receive a type of persistent damage effect.<br><br>You receive the persistent damage effect instead of your ally.",
       "traits": "Lifeblade, Essence: Life, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585591"
     },
@@ -323,7 +323,7 @@
       "action": 1,
       "textDescription": "Your feet and weapon move in tandem. Either Step and then Strike, or Strike and then Step.",
       "traits": "Lifeblade, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585592"
     },
@@ -336,7 +336,7 @@
       ],
       "textDescription": "You gain spiritsense as an imprecise sense with a range of 60 feet.<br><br>Spiritsense enables you to sense the spirits of creatures, including living creatures, most non-mindless undead, and haunts within the listed range. As with your hearing and other imprecise senses, you still need to Seek to locate an undetected creature.<br>As spiritsense detects spiritual essence, not physical bodies, it can detect spirits projected by spells such as project image or possessing otherwise soulless objects. It can't detect soulless bodies, constructs, or objects, and like most senses, it doesn't penetrate through solid objects.",
       "traits": "Lifeblade, Essence: Spirit, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585592"
     },
@@ -346,7 +346,7 @@
       "action": 1,
       "textDescription": "Link with enemy creatures' spirits to bolster your allies'. You enter the Spirit Trance stance, enabling you to use any actions with the Trance trait. When you successfully Strike a creature while in this stance, you gain the Spirit Trance Aura until the start of your next turn, which grants you and allies within 15 feet Spirit Trance Resolve.<br><br><strong>Spirit Trance Resolve</strong> You gain a +1 status bonus to AC and saving throws.",
       "traits": "Lifeblade, Stance, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585592"
     },
@@ -356,7 +356,7 @@
       "level": 10,
       "textDescription": "You have learned to weaponize life essence. While in Life Trance, you and all allies within 15 feet deal an additional 5 positive damage when you successfully Strike. Double this damage on critical success.<br><br>At level 16, increase this bonus to 7 positive damage.",
       "traits": "Lifeblade, Essence: Life, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585592"
     },
@@ -366,7 +366,7 @@
       "level": 4,
       "textDescription": "Choose a lifeblade trance you know. You gain a +5 foot status bonus to your Speeds while in that stance. This feat may be taken up to 4 times, each selecting a different trance. At 7th level, increase this bonus to +10 feet. At 11th level, increase this bonus to +15 feet.",
       "traits": "Lifeblade, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696637969816",
       "listCustomEffects": [
@@ -385,7 +385,7 @@
       ],
       "textDescription": "Placeholder",
       "traits": "Lifeblade, Archetype, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585592"
     },
@@ -395,7 +395,7 @@
       "level": 4,
       "textDescription": "You gain the vitality surge gambit spell. Increase the number of Focus Points in your focus pool by 1.",
       "traits": "Lifeblade, Essence: Life, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585592",
       "listCustomEffects": [
@@ -418,7 +418,7 @@
       "actions": 1,
       "cast": "somatic",
       "descriptionHeightened": "Increase the die size of your pour life healing by 2 steps. If you leave the Life Trance, the effect is lost.",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696637969817",
       "duration": "1 minute"
@@ -432,7 +432,7 @@
       "actions": 1,
       "cast": "verbal",
       "descriptionHeightened": "You recite an ancient poem to calm the minds of those around you. In addition to the normal effects of Spirit Trance Resolve, each affected ally may lower their frightened or stupefied condition by 1 at the start of their turn. If an ally has multiple applicable conditions, they choose which condition to lower.<br><br><strong>Heightened (3rd)</strong> Add fascinated, sickened and slowed to the list of conditions.<br><br><strong>Heightened (5th)</strong> Add clumsy, drained and enfeebled to the list of conditions.",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585592",
       "duration": "2 rounds"
@@ -445,7 +445,7 @@
       "actions": 1,
       "cast": "somatic",
       "descriptionHeightened": "You force your enemy to bleed. Inflict 1d6+1 bleed damage on a creature within your reach.<br><br><strong>Heightened (+1)</strong> Increase the bleed damage by 1.",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585592",
       "target": "1 creature"
@@ -459,7 +459,7 @@
       "actions": 1,
       "cast": "verbal",
       "descriptionHeightened": "Life essence pours from the enemy as freely as a rapid river. Double the amount of healing done by your Life Trance Healing until the start of your next turn.<br><br><srong>Heightened (+1) Increase the bleed damage by 1.</srong>",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696637969817"
     },
@@ -471,7 +471,7 @@
       "actions": 1,
       "cast": "somatic",
       "descriptionHeightened": "<strong>Requirements</strong> You made a successful strike against 1 living creature earlier this round. You have not cast Pour Life this round.<br>With great concentration, you pull even more life essence from the creature. You redirect this energy to yourself, or 1 willing ally within 30 feet of both the creature and yourself, healing the target for 1d4+1 hit points.<br><strong>Hightening (+1)</strong> Increase the healing done by 1d4+1.",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "focusCantrip": true,
       "databaseID": 1,
       "timestamp": "1696637969817",
@@ -486,7 +486,7 @@
       "actions": 2,
       "cast": "somatic, verbal",
       "descriptionHeightened": "You wield the power of life as a weapon and point it toward an undead creature. Deal 1d8 positive damage to 1 undead creature within 30 feet.<br><hr><br><strong>Hightening (+1)</strong> Increase the damage done by 1d8.",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "focusCantrip": true,
       "databaseID": 1,
       "timestamp": "1696636585592",
@@ -502,7 +502,7 @@
       "actions": 1,
       "cast": "somatic",
       "descriptionHeightened": "Pull heat away from the target creature, causing them to take cold damage. The target creature takes cold damage equal to 1d12 plus your spellcasting ability modifier.<br><br><strong>Heightened (+2)</strong> Increase the damage by 1d12.",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696636585593",
       "target": "1 creature",
@@ -517,7 +517,7 @@
       "actions": 1,
       "cast": "somatic",
       "descriptionHeightened": "You tap into your own essence to empower your weapon. The next Strike made with the chosen weapon before the start of your next turn gains a +1 status bonus to the attack roll, and the weapon deals an additional die of damage.<br><br>If the chosen weapon leaves your possession, tap self ends immediately.",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696637969817"
     },
@@ -530,7 +530,7 @@
       "actions": 1,
       "cast": "somatic",
       "descriptionHeightened": "The target creature receives temporary hit points equal to the spell level times 2, which last until the end of your next turn.<br><br><strong>Heightened (+1)</strong> Increase the bleed damage by 1.",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1696637969817",
       "target": "1 creature",
@@ -543,7 +543,7 @@
       "id": "46ea7537-49fb-441c-8abc-269b5a36aa31",
       "description": "Life Trance",
       "traits": "Lifeblade, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "level": 4,
       "specialType": -2,
       "databaseID": 1,
@@ -555,7 +555,7 @@
       "id": "5a737e98-4eeb-4b12-8a68-34c38a5ef4ec",
       "description": "Lifeblade Essence",
       "traits": "Lifeblade, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "specialType": -1,
       "databaseID": 1,
       "timestamp": "1696636585593"
@@ -565,7 +565,7 @@
       "id": "3a78a38e-4dd7-476a-ba4c-b26e512c24d3",
       "description": "You gain the Life Trance feat",
       "traits": "Lifeblade, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "specialType": -2,
       "databaseID": 1,
       "timestamp": "1696636585593",
@@ -582,7 +582,7 @@
       "id": "2e329e08-d9b2-4ada-95cd-cad52cd32e35",
       "description": "You gain the Matter Trance feat.",
       "traits": "Lifeblade, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "specialType": -2,
       "databaseID": 1,
       "timestamp": "1696636585593",
@@ -599,7 +599,7 @@
       "id": "522ae1ae-dea1-4cfe-ad3c-64b97def2adf",
       "description": "Matter Trance",
       "traits": "Lifeblade, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "level": 4,
       "specialType": -2,
       "databaseID": 1,
@@ -611,7 +611,7 @@
       "id": "07b22dbe-5e75-4641-b6b3-fd19e081bdc5",
       "description": "Swift Essence",
       "traits": "Lifeblade, 3rd Party",
-      "src": "Custom",
+      "src": "github.com/intrand/pf2e-lifeblade",
       "level": 4,
       "specialType": -1,
       "databaseID": 1,
@@ -689,7 +689,7 @@
           "id": "e71c300a-8f29-4782-b797-ae6d0a57bacd",
           "description": "In the heat of combat, and while in a trance, you see, hear and feel things that none other can - the very life force of nearby creatures. After striking an opponent, you may perform a gambit, allowing you to manipulate this life force. Gambits are a special type of spell which often require you to successfully strike an enemy before they can be cast. Gambit spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to commune with your ancesters, read ancient texts, or otherwise meditate upon the wisdom of the past.<br><br>Your gambit spells are occult spells. You become trained in occult spell attacks and occult spell DCs and your key spellcasting ability is Dexterity.<br><br>Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. Taking feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. The full rules for focus spells are found here.<br><br>You learn the tap self gambit spell, allowing you to tap into your own essence to empower your weapon.",
           "traits": "Lifeblade, 3rd Party",
-          "src": "Custom",
+          "src": "github.com/intrand/pf2e-lifeblade",
           "databaseID": 1,
           "listCustomEffects": [
             {
@@ -705,7 +705,7 @@
           "id": "1c1dd541-79ac-4ba0-a940-2f35ffa86ee4",
           "description": "Your proficiency ranks for Lifeblade Class DC and Occult spellcasting increases to expert.",
           "traits": "Lifeblade, 3rd Party",
-          "src": "Custom",
+          "src": "github.com/intrand/pf2e-lifeblade",
           "level": 3,
           "databaseID": 1
         },
@@ -714,7 +714,7 @@
           "id": "fb5f6b58-57da-497e-9859-6aca085849bc",
           "description": "Your proficiency ranks for Lifeblade Class DC and Occult spellcasting increases to master.",
           "traits": "Lifeblade, 3rd Party",
-          "src": "Custom",
+          "src": "github.com/intrand/pf2e-lifeblade",
           "level": 7,
           "databaseID": 1
         },
@@ -723,7 +723,7 @@
           "id": "03a72496-3e02-4f98-bb88-f481c7f7c294",
           "description": "Your proficiency ranks for Lifeblade Class DC and Occult spellcasting increases to legendary.",
           "traits": "Lifeblade, 3rd Party",
-          "src": "Custom",
+          "src": "github.com/intrand/pf2e-lifeblade",
           "level": 15,
           "databaseID": 1
         },
@@ -732,7 +732,7 @@
           "id": "b35b21cd-d3c2-4578-b567-e112302ea2b9",
           "description": "You’ve dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert. You gain access to the critical specialization effects of all weapons for which you have expert proficiency.",
           "traits": "Lifeblade, 3rd Party",
-          "src": "Custom",
+          "src": "github.com/intrand/pf2e-lifeblade",
           "level": 5,
           "databaseID": 1,
           "listCustomEffects": [
@@ -766,7 +766,7 @@
           "id": "906ec497-fc9f-4791-81ab-8d66575b3a11",
           "description": "You’ve learned to move quickly to avoid explosions, dragon’s breath, and worse. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead.",
           "traits": "Lifeblade, 3rd Party",
-          "src": "Custom",
+          "src": "github.com/intrand/pf2e-lifeblade",
           "level": 7,
           "databaseID": 1,
           "listCustomEffects": [
@@ -783,7 +783,7 @@
           "id": "67d158f7-6011-48f1-9fe5-5a57e0d147cc",
           "description": "Through your adventures, you’ve developed keen awareness and attention to detail. Your proficiency rank for Perception increases to master.",
           "traits": "Lifeblade, 3rd Party",
-          "src": "Custom",
+          "src": "github.com/intrand/pf2e-lifeblade",
           "level": 7,
           "databaseID": 1,
           "listCustomEffects": [
@@ -800,7 +800,7 @@
           "id": "407daee2-b34c-4818-8b69-f627e2f74ea4",
           "description": "You can inflict greater injuries with your favored weapons. You deal 2 additional damage with weapons and unarmed attacks in which you’re an expert. This damage increases to 3 if you’re a master, and 4 if you’re legendary.",
           "traits": "Lifeblade, 3rd Party",
-          "src": "Custom",
+          "src": "github.com/intrand/pf2e-lifeblade",
           "level": 7,
           "databaseID": 1
         },
@@ -809,7 +809,7 @@
           "id": "0cd05bbf-5c53-4816-830d-111320e66f2f",
           "description": "Your physique is incredibly hardy, granting you increased endurance. Your proficiency rank for Fortitude saves increases to expert.",
           "traits": "Lifeblade, 3rd Party",
-          "src": "Custom",
+          "src": "github.com/intrand/pf2e-lifeblade",
           "level": 9,
           "databaseID": 1,
           "listCustomEffects": [
@@ -826,7 +826,7 @@
           "id": "85740010-6249-4c8d-a26f-b431f456bedb",
           "description": "Your ability to elude danger is matchless. Your proficiency rank for Reflex saves increases to legendary. When you roll a critical failure on a Reflex save, you get a failure instead. When you roll a failure on a Reflex save against a damaging effect, you take half damage.",
           "traits": "Lifeblade, 3rd Party",
-          "src": "Custom",
+          "src": "github.com/intrand/pf2e-lifeblade",
           "level": 13,
           "databaseID": 1,
           "listCustomEffects": [
@@ -843,7 +843,7 @@
           "id": "932a3f0f-e9bb-4f1b-aca4-fb164b3eefdb",
           "description": "You notice things almost impossible for an ordinary person to detect. Your proficiency rank for Perception increases to legendary.",
           "traits": "Lifeblade, 3rd Party",
-          "src": "Custom",
+          "src": "github.com/intrand/pf2e-lifeblade",
           "level": 13,
           "databaseID": 1,
           "listCustomEffects": [
@@ -860,7 +860,7 @@
           "id": "4888f296-8509-40c7-82c4-b0f31e6362bc",
           "description": "You’ve learned how to dodge while wearing light or no armor. Your proficiency rank for light armor and unarmored defense increases to expert.",
           "traits": "Lifeblade, 3rd Party",
-          "src": "Custom",
+          "src": "github.com/intrand/pf2e-lifeblade",
           "level": 13,
           "databaseID": 1,
           "listCustomEffects": [
@@ -883,7 +883,7 @@
           "id": "5897589a-c0e2-4a08-bf76-1d168fec3da5",
           "description": "You fully understand your weapons. Your proficiency ranks for simple, martial weapons and unarmed attacks increase to master.",
           "traits": "Lifeblade, 3rd Party",
-          "src": "Custom",
+          "src": "github.com/intrand/pf2e-lifeblade",
           "level": 13,
           "databaseID": 1,
           "listCustomEffects": [
@@ -912,7 +912,7 @@
           "id": "fbbefe15-22ab-4be8-8c45-3cd002dcd02f",
           "description": "The weapons you’ve mastered become truly fearsome in your hands. Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you’re an expert, 6 if you’re a master, and 8 if you’re legendary.",
           "traits": "Lifeblade, 3rd Party",
-          "src": "Custom",
+          "src": "github.com/intrand/pf2e-lifeblade",
           "level": 15,
           "databaseID": 1
         },
@@ -921,7 +921,7 @@
           "id": "6a66ad15-9641-4b99-8a6e-65eaf64e1d83",
           "description": "You play mental games and employ cognitive tricks to throw off mind-altering effects. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead.",
           "traits": "Lifeblade, 3rd Party",
-          "src": "Custom",
+          "src": "github.com/intrand/pf2e-lifeblade",
           "level": 17,
           "databaseID": 1,
           "listCustomEffects": [
@@ -938,7 +938,7 @@
           "id": "701b05d5-9ed3-47cc-93a0-ec2deed243a4",
           "description": "Your skill with light armor improves, increasing your ability to dodge blows. Your proficiency ranks for light armor and unarmored defense increase to master.",
           "traits": "Lifeblade, 3rd Party",
-          "src": "Custom",
+          "src": "github.com/intrand/pf2e-lifeblade",
           "level": 19,
           "databaseID": 1,
           "listCustomEffects": [
@@ -961,7 +961,7 @@
           "id": "b9fb677d-e274-4b4d-b9c5-299092ff6229",
           "description": "xcvbcvbxcv",
           "traits": "Lifeblade, 3rd Party",
-          "src": "Custom",
+          "src": "github.com/intrand/pf2e-lifeblade",
           "specialType": -2,
           "databaseID": 1,
           "parentID": "b9fb677d-e274-4b4d-b9c5-299092ff6229"
@@ -971,7 +971,7 @@
           "id": "b7f72bdd-4162-4862-afac-81f03654993a",
           "description": "Essence Choice",
           "traits": "Lifeblade, 3rd Party",
-          "src": "Custom",
+          "src": "github.com/intrand/pf2e-lifeblade",
           "databaseID": 1,
           "listCustomEffects": [
             {
@@ -983,7 +983,7 @@
       ],
       "timestamp": "1696636585594",
       "description": "During Combat Encounters…<br>You enter various stances to heal, protect or bolster your allies. You are nimble and in the front line, eager to disrupt your enemy's plans.<br><br>During Social Encounters…<br>You see things others seem to overlook. Your seemingly endless knowledge intimidates some.<br><br>While Exploring…<br>Knowledable in ancient arts, the information you recall so readily is seen as occult in nature to most. Regardless, your allies are glad to have you on their side, rather than the other way around.<br><br>In Downtime…<br>You study ancient texts, attempt to improve your unique fighting techniques and serve as a guide for tourists, able to cite historical knowledge like you were reading it off of the page.<br><br>You Might…<br>Commune with your ancestors in seclusion, seeking their wisdom and guidance.<br><br>Feel a strong sense of duty to your people and loyalty to your friends and companions.<br><br>Do things that are difficult or uncomfortable for others to do, such as stand up to a person who appears to be stronger than yourself.<br><br>Others Probably…<br>Are put at ease knowing that you're there to protect them.",
-      "src": "Custom"
+      "src": "github.com/intrand/pf2e-lifeblade"
     }
   ]
 }
