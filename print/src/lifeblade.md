@@ -343,7 +343,7 @@ item (
 ## Feat 2
 -
 ;Lifeblade
-**Trigger**: You or an ally you can sense is about to be hit by an attack or make a saving throw.
+**Trigger** You or an ally you can sense is about to be hit by an attack or make a saving throw.
 -
 You react quickly to help with the burden. You change your stance to another Lifeblade Trance you know. Regardless of whether or not your aura is active at this time, the aura and all effects with the same essence trait end immediately. If your aura was active when this reaction started, you gain the aura matching the new trance you enter.
 )
@@ -363,7 +363,9 @@ item (
 ## Feat 4
 -
 ;Essence: Matter,Lifeblade
-After successfully striking while effected by *trance precision*, you may inflict either clumsy 1 or enfeebled 1 on to the creature until the start of their turn.
+After successfully striking while effected by *trance precision*, you may choose to afflict the enemy with one of the following conditions until the start of their turn:
+* Clumsy 1
+* Enfeebled 1
 )
 
 item (
@@ -562,8 +564,8 @@ item (
 ## Focus Cantrip 1
 -
 ;Cantrip,Essence: Life,Lifeblade,Necromancy,Occult,Vitality
-**Cast** :aa: somatic, verbal
-
+**Cast** :aa: somatic, material
+-
 You wield the power of life as a weapon and point it toward an undead creature. Deal 1d8 vitality damage to 1 undead creature within 30 feet.
 -
 **Hightening (+1)** Increase the damage done by 1d8.
@@ -589,7 +591,8 @@ item (
 # Boost Healing :a:
 ## Focus 2
 -
-;Enchantment,Essence: Life,Lifeblade,Occult,Vitality
+;Enchantment,Essence:&nbsp; Life,Lifeblade,Occult,Vitality
+
 **Cast** :a: somatic
 
 **Duration** 1 minute
@@ -602,7 +605,7 @@ item (
 ## Focus 2
 -
 ;Essence: Matter,Evocation,Lifeblade,Occult
-**Cast** :a: somatic
+**Cast** :a: somatic, material
 
 **Range** 30 feet; **Targets** 1 creature
 
