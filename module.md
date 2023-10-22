@@ -2,7 +2,7 @@
 
 Simply use the FoundryVTT interface to install the module.
 
-If instead you like doing things the hard way, you can use the module.json from the latest release.
+If instead you like doing things the hard way, you can copy the link to the `module.json` from the [latest release](https://github.com/intrand/pf2e-lifeblade/releases/latest) and install through the FoundryVTT interface that way.
 
 # Using the module
 
