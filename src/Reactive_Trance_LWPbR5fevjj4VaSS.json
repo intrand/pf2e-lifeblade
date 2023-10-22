@@ -47,7 +47,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Know at least two trances"
+          "value": "Know two or more lifeblade trances"
         }
       ]
     },
@@ -55,7 +55,7 @@
     "details": null
   },
   "_id": "LWPbR5fevjj4VaSS",
-  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
   "sort": 200000,
   "ownership": {
     "default": 0,
@@ -67,7 +67,7 @@
     "systemVersion": "5.7.3",
     "coreVersion": "11.313",
     "createdTime": 1687991987195,
-    "modifiedTime": 1697987292951,
+    "modifiedTime": 1698018042955,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!LWPbR5fevjj4VaSS"

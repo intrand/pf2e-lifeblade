@@ -55,7 +55,7 @@
     },
     "details": null
   },
-  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
   "flags": {
     "core": {}
   },
@@ -64,7 +64,7 @@
     "systemVersion": "5.7.3",
     "coreVersion": "11.313",
     "createdTime": 1686500096290,
-    "modifiedTime": 1697987293378,
+    "modifiedTime": 1698018090138,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "ownership": {

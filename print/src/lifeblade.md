@@ -441,9 +441,9 @@ item (
 ## Feat 8
 -
 ;Essence: Matter,Lifeblade
-**Trigger** You have made two or more successful Strikes this turn. Your last action was a successful Strike.
--
-Consecutive strikes during your turn cause the enemy to hemorrhage. On each successful Strike after the first successful Strike this turn, you inflict 4d6 bleed damage. This damage does not double if the Strike was a critical success.
+**Trigger** You have made two or more successful Strikes this turn.
+
+Consecutive Strikes cause the enemy to hemorrhage, dealing an additional 4d6 bleed damage. This damage does not double if the Strike was a critical success.
 )
 
 item (

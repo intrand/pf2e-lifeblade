@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Trigger</strong> You have made two or more successful Strikes this turn. Your last action was a successful Strike.</p>\n<hr />\n<p>Consecutive strikes during your turn cause the enemy to hemorrhage. On each successful Strike after the first successful Strike this turn, you inflict @Damage[(max(1,floor(@actor.level/2)))d6[bleed]] damage. This damage does not double if the Strike was a critical success.</p>"
+      "value": "<p><strong>Trigger</strong> You have made two or more successful Strikes this turn.</p>\n<hr />\n<p>Consecutive Strikes cause the enemy to hemorrhage, dealing an additional @Damage[(max(1,floor(@actor.level/2)))d6[bleed]] damage. This damage does not double if the Strike was a critical success.</p>"
     },
     "rules": [],
     "slug": "bloodied-body",
@@ -68,7 +68,7 @@
     "systemVersion": "5.7.3",
     "coreVersion": "11.313",
     "createdTime": 1692211395919,
-    "modifiedTime": 1697987293033,
+    "modifiedTime": 1698017111724,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!NvGZpu0qn6bW0ucV"

@@ -63,7 +63,7 @@
     "details": null
   },
   "_id": "F1JCAK1Yjzbyn6AO",
-  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
   "sort": 0,
   "ownership": {
     "default": 0,
@@ -75,7 +75,7 @@
     "systemVersion": "5.7.3",
     "coreVersion": "11.313",
     "createdTime": 1689360863300,
-    "modifiedTime": 1697987292792,
+    "modifiedTime": 1698018052291,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!F1JCAK1Yjzbyn6AO"
