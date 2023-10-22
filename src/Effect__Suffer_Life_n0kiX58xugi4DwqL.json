@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You deal an additional 5 positive damage when you successfully Strike. Double this damage on critical success.</p>\n<p>At level 16, increase this bonus to 7 positive damage.</p>"
+      "value": "<p>You deal an additional 5 vitality damage when you successfully Strike. Double this damage on critical success.</p>\n<p>At level 16, increase this bonus to 7 vitality damage.</p>"
     },
     "rules": [
       {
@@ -85,7 +85,7 @@
     "systemVersion": "5.7.3",
     "coreVersion": "11.313",
     "createdTime": 1695576567551,
-    "modifiedTime": 1697987293543,
+    "modifiedTime": 1697990650908,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!n0kiX58xugi4DwqL"

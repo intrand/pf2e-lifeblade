@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You wield the power of life as a weapon and point it toward an undead creature. Deal 1d8 positive damage to 1 undead creature within 30 feet.</p>\n<hr />\n<div>\n<p><strong>Hightening (+1)</strong> Increase the damage done by 1d8.</p>\n</div>"
+      "value": "<p>You wield the power of life as a weapon and point it toward an undead creature. Deal 1d8 vitality damage to 1 undead creature within 30 feet.</p>\n<hr />\n<div>\n<p><strong>Hightening (+1)</strong> Increase the damage done by 1d8.</p>\n</div>"
     },
     "rules": [],
     "slug": "purge-undeath-spell",
@@ -75,7 +75,7 @@
         "sQUB8RRtbNxvXYRm": {
           "value": "1d8",
           "type": {
-            "value": "",
+            "value": "vitality",
             "categories": [],
             "subtype": ""
           },
@@ -122,7 +122,7 @@
     "systemVersion": "5.7.3",
     "coreVersion": "11.313",
     "createdTime": 1695583460400,
-    "modifiedTime": 1697987292724,
+    "modifiedTime": 1697990682247,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_id": "AJFX0rIYHseeSfl3",
