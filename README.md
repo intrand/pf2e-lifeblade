@@ -2,6 +2,8 @@
 
 This repository is the home of the Lifeblade class, compatible with Pathfinder Second Edition.
 
+> NOTE: This is a work in progress. 1.0.0 will mark the first true release. Anything is subject to change until 1.0.0. However, I will try not to break stuff :)
+
 See...
 
 * [module.md](module.md) for instructions on how to install and use the [FoundryVTT](https://foundryvtt.com) module.
