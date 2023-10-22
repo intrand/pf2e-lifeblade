@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>After successfully striking while effected by @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.8OLCtZQXqxT9xP4t]{Trance Precision}, you may inflict either @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} on to the creature until the start of their turn.</p>"
+      "value": "<p>After successfully striking while effected by @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.8OLCtZQXqxT9xP4t]{Trance Precision}, you may choose to afflict the enemy with one of the following conditions until the start of their turn:</p>\n<ul>\n<li>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}</li>\n<li>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1}</li>\n</ul>"
     },
     "rules": [
       {
@@ -39,7 +39,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Lifeblade",
+      "title": "github.com/intrand/pf2e-lifeblade",
       "authors": "intrand",
       "license": "ORC",
       "remaster": true
@@ -76,10 +76,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.7.2",
+    "systemVersion": "5.7.3",
     "coreVersion": "11.313",
     "createdTime": 1692211658586,
-    "modifiedTime": 1697904162843,
+    "modifiedTime": 1697987293718,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!wMJpYV6EaamQWrQE"

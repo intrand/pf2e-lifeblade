@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": ""
+      "value": "<p>The creature has weakness 3 to physical for the duration of this effect.</p>"
     },
     "rules": [
       {
@@ -35,10 +35,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
-      "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "title": "github.com/intrand/pf2e-lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -70,10 +70,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.7.2",
+    "systemVersion": "5.7.3",
     "coreVersion": "11.313",
     "createdTime": 1697827777255,
-    "modifiedTime": 1697828059014,
+    "modifiedTime": 1697987293177,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!T5InUgGN9Cxo1sEK"

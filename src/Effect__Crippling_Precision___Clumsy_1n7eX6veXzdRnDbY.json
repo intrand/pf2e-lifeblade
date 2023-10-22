@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": ""
+      "value": "<p>The creature is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for the duration of this effect.</p>"
     },
     "rules": [
       {
@@ -24,10 +24,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
-      "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "title": "github.com/intrand/pf2e-lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -59,10 +59,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.7.2",
+    "systemVersion": "5.7.3",
     "coreVersion": "11.313",
     "createdTime": 1697826206235,
-    "modifiedTime": 1697826538052,
+    "modifiedTime": 1697987292509,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!1n7eX6veXzdRnDbY"

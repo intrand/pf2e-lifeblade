@@ -28,7 +28,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Lifeblade",
+      "title": "github.com/intrand/pf2e-lifeblade",
       "authors": "intrand",
       "license": "ORC",
       "remaster": true
@@ -65,10 +65,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.7.2",
+    "systemVersion": "5.7.3",
     "coreVersion": "11.313",
     "createdTime": 1689616026822,
-    "modifiedTime": 1697904400831,
+    "modifiedTime": 1697987292563,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!4gaN5jpgvAilN52r"

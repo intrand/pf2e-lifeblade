@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You have learned to weaponize life essence. While in @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.LsF7CkAmRd8udPUS]{Life Trance}, you and all allies within 15 feet deal an additional 5 positive damage when you successfully Strike. Double this damage on critical success.</p>\n<p>At level 16, increase this bonus to 7 positive damage.</p>"
+      "value": "<p>You have learned to weaponize life essence. While in @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.LsF7CkAmRd8udPUS]{Life Trance}, you and all allies within 15 feet deal an additional 5 vitality damage when you successfully Strike. Double this damage on critical success.</p>\n<p>At level 16, increase this bonus to 7 vitality damage.</p>"
     },
     "rules": [
       {
@@ -21,6 +21,9 @@
         "slug": "aura-life-trance-suffer-life",
         "predicate": [
           "self:effect:life-trance"
+        ],
+        "traits": [
+          "vitality"
         ]
       }
     ],
@@ -43,7 +46,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Lifeblade",
+      "title": "github.com/intrand/pf2e-lifeblade",
       "authors": "intrand",
       "license": "ORC",
       "remaster": true
@@ -80,10 +83,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.7.2",
+    "systemVersion": "5.7.3",
     "coreVersion": "11.313",
     "createdTime": 1690211359232,
-    "modifiedTime": 1697905139041,
+    "modifiedTime": 1697987292808,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!GQNzukRF7ruvXih6"

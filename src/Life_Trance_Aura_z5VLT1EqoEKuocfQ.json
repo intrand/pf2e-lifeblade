@@ -16,13 +16,16 @@
           }
         ],
         "key": "Aura",
-        "radius": 5,
         "slug": "aura-life-trance-healing",
         "predicate": [
           {
             "not": "self:effect:overflowing-life"
           },
           "self:effect:life-trance"
+        ],
+        "traits": [
+          "vitality",
+          "occult"
         ]
       },
       {
@@ -33,11 +36,13 @@
           }
         ],
         "key": "Aura",
-        "radius": 5,
         "slug": "aura-life-trance-healing",
         "predicate": [
           "self:effect:overflowing-life",
           "self:effect:life-trance"
+        ],
+        "traits": [
+          "vitality"
         ]
       }
     ],
@@ -56,7 +61,7 @@
       "value": []
     },
     "publication": {
-      "title": "Lifeblade",
+      "title": "github.com/intrand/pf2e-lifeblade",
       "authors": "intrand",
       "license": "ORC",
       "remaster": true
@@ -92,10 +97,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.7.2",
+    "systemVersion": "5.7.3",
     "coreVersion": "11.313",
     "createdTime": 1686411248620,
-    "modifiedTime": 1697828106208,
+    "modifiedTime": 1697987293751,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "ownership": {
