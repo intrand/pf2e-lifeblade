@@ -84,7 +84,7 @@
       "reqFeats": [
         "1f7d942c-63cb-4766-a980-50be64752b46"
       ],
-      "textDescription": "<strong>Trigger</strong> You have made two or more successful Strikes this turn.<br><hr><br>Consecutive Strikes cause the enemy to hemorrhage, dealing an additional 4d6 bleed damage. This damage does not double if the Strike was a critical success.",
+      "textDescription": "<strong>Trigger</strong> You have made two or more successful Strikes this turn. Your last action was a successful Strike.<br><hr><br>Consecutive strikes during your turn cause the enemy to hemorrhage. On each successful Strike after the first successful Strike this turn, you inflict 4d6 bleed damage. This damage does not double if the Strike was a critical success.",
       "traits": "Essence: Matter, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
@@ -570,7 +570,7 @@
       "src": "github.com/intrand/pf2e-lifeblade",
       "focusCantrip": true,
       "databaseID": 1,
-      "timestamp": "1697986641356",
+      "timestamp": "1697990741833",
       "target": "1 undead creature",
       "range": "30 feet"
     },
@@ -654,7 +654,8 @@
       "listCustomEffects": [
         {
           "effectType": 14,
-          "string0": "a6b26398-ded9-4ba2-af8b-97bbd45a6e61"
+          "string0": "a6b26398-ded9-4ba2-af8b-97bbd45a6e61",
+          "reference": "3cf9e689-02d6-45c4-951e-0316c2301dc5"
         }
       ]
     },
