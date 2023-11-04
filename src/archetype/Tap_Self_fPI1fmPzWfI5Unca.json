@@ -19,12 +19,12 @@
     ],
     "slug": "tap-self-archetype",
     "_migration": {
-      "version": 0.878,
+      "version": 0.879,
       "lastMigration": null,
       "previous": {
-        "schema": 0.877,
+        "schema": 0.878,
         "foundry": "11.313",
-        "system": "5.7.2"
+        "system": "5.8.0"
       }
     },
     "traits": {
@@ -72,10 +72,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.7.2",
+    "systemVersion": "5.8.0",
     "coreVersion": "11.313",
     "createdTime": 1694691152144,
-    "modifiedTime": 1697909993141,
+    "modifiedTime": 1698936606125,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!fPI1fmPzWfI5Unca"

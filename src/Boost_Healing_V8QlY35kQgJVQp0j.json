@@ -10,12 +10,12 @@
     "rules": [],
     "slug": "boost-healing-spell",
     "_migration": {
-      "version": 0.878,
+      "version": 0.879,
       "lastMigration": null,
       "previous": {
-        "schema": 0.877,
+        "schema": 0.878,
         "foundry": "11.313",
-        "system": "5.7.2"
+        "system": "5.8.0"
       }
     },
     "traits": {
@@ -102,10 +102,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.7.3",
+    "systemVersion": "5.8.0",
     "coreVersion": "11.313",
     "createdTime": 1687181769303,
-    "modifiedTime": 1697987293203,
+    "modifiedTime": 1698936609579,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_id": "V8QlY35kQgJVQp0j",
