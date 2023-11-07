@@ -470,6 +470,14 @@ You add the following to the list of choices of *crippling precision*:
 )
 
 item (
+# Expand Influence
+## Feat 10
+-
+;Lifeblade
+Your trance aura grows in size. The radius of your *life trance aura*, if you have one, is increased by 5 feet. The radius of your *matter trance aura*, if you have one, is increased by 10 feet.
+)
+
+item (
 # Suffer Life
 ## Feat 10
 -
@@ -482,6 +490,14 @@ At level 16, increase this bonus to 7 vitality damage.
 ## 12th Level
 
 item (
+# Bramble Armor
+## Feat 12
+-
+;Essence: Matter,Lifeblade
+Your skin and armor, if you're wearing any, become covered in thorny barbs. Any enemy who successfully Strikes you takes piercing damage equal to half of your level (minimum 1).
+)
+
+item (
 # Purge Undeath
 ## Feat 12
 -
@@ -490,6 +506,16 @@ You gain the *purge undeath* gambit cantrip, which damages an undead creature.
 )
 
 ## 14th Level
+
+item (
+# Braced and Ready :aa:
+## Feat 14
+-
+;Essence: Matter,Lifeblade
+**Requirements** You are standing on the ground. You have at least one hand free.
+-
+You become Immobilized. Additionally, nothing may move you from your current position, including from forced movement. You may Ready an action.
+)
 
 item (
 # Preserve Life :r:
