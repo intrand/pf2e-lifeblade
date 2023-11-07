@@ -1,6 +1,6 @@
 {
   "folder": "ic5xOp52sRtu44JK",
-  "name": "ph-matter-18",
+  "name": "ph-life-20 Unending Life",
   "type": "feat",
   "effects": [],
   "system": {
@@ -22,7 +22,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "hb_essence: matter",
+        "hb_essence: life",
         "hb_lifeblade"
       ],
       "rarity": "common"
@@ -34,7 +34,7 @@
       "remaster": true
     },
     "level": {
-      "value": 18
+      "value": 20
     },
     "category": "class",
     "onlyLevel1": false,
@@ -46,14 +46,18 @@
       "value": null
     },
     "prerequisites": {
-      "value": []
+      "value": [
+        {
+          "value": "Life Trance"
+        }
+      ]
     },
     "location": null,
     "details": null
   },
-  "_id": "2cgoc6lOHBJr3I4R",
+  "_id": "OFNhYrggbYi6S0RO",
   "img": "systems/pf2e/icons/default-icons/feat.svg",
-  "sort": 100019,
+  "sort": 100010,
   "ownership": {
     "default": 0,
     "DE5o5nknA2S91z79": 3
@@ -61,11 +65,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.0",
-    "coreVersion": "11.313",
-    "createdTime": 1695646310209,
-    "modifiedTime": 1698936609579,
+    "systemVersion": "5.8.2",
+    "coreVersion": "11.314",
+    "createdTime": 1695647061595,
+    "modifiedTime": 1699324044872,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
-  "_key": "!items!2cgoc6lOHBJr3I4R"
+  "_key": "!items!OFNhYrggbYi6S0RO"
 }

@@ -1,6 +1,6 @@
 {
   "folder": "ic5xOp52sRtu44JK",
-  "name": "ph-matter-16",
+  "name": "ph-matter-16 Pulverize Insides",
   "type": "feat",
   "effects": [],
   "system": {
@@ -46,7 +46,11 @@
       "value": null
     },
     "prerequisites": {
-      "value": []
+      "value": [
+        {
+          "value": "Matter Trance"
+        }
+      ]
     },
     "location": null,
     "details": null
@@ -61,10 +65,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.0",
-    "coreVersion": "11.313",
+    "systemVersion": "5.8.2",
+    "coreVersion": "11.314",
     "createdTime": 1695646289151,
-    "modifiedTime": 1698936609579,
+    "modifiedTime": 1699330594884,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!Y20RgA0zCpNx2qas"
