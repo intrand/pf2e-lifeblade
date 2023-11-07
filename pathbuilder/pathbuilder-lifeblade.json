@@ -15,7 +15,7 @@
       "traits": "Lifeblade, Archetype, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641352"
+      "timestamp": "1698893462993"
     },
     {
       "id": "dd6431df-96e6-4eb1-ab2f-36873f97a3f9",
@@ -24,7 +24,7 @@
       "traits": "Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641352"
+      "timestamp": "1698893462994"
     },
     {
       "id": "87c3e261-389c-4907-bffa-014e66636829",
@@ -37,7 +37,7 @@
       "traits": "Essence: Matter, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641352"
+      "timestamp": "1698893462994"
     },
     {
       "id": "ce32fffb-633b-41d8-bf8d-aeb608894e0d",
@@ -48,7 +48,7 @@
       "traits": "Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641353"
+      "timestamp": "1698893462994"
     },
     {
       "id": "b6a50d2e-8395-45bb-82b5-338afa3becf0",
@@ -61,7 +61,7 @@
       "traits": "Lifeblade, Archetype, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641353"
+      "timestamp": "1698893462994"
     },
     {
       "id": "be13f395-5a85-4ac2-9172-dc73b8deae5c",
@@ -74,7 +74,7 @@
       "traits": "Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641353"
+      "timestamp": "1698893462994"
     },
     {
       "id": "348af601-03a3-40b5-ae12-4d68b4ab6ff4",
@@ -88,7 +88,7 @@
       "traits": "Essence: Matter, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641353"
+      "timestamp": "1698893462994"
     },
     {
       "id": "2ef0ad33-f5ba-48af-b5f5-0560ed03d152",
@@ -102,7 +102,7 @@
       "traits": "Essence: Life, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641353",
+      "timestamp": "1698893462995",
       "listCustomEffects": [
         {
           "proficiencyName": "b910adac-3a84-4c46-a346-36488a810b54",
@@ -113,6 +113,25 @@
       ]
     },
     {
+      "id": "cf538524-7468-48aa-9c2b-55553fcddafa",
+      "name": "Braced and Ready",
+      "level": 14,
+      "action": 2,
+      "textDescription": "<strong>Requirements</strong> You are standing on the ground. You have at least one hand free.<br><hr><br>You become Immobilized. Additionally, nothing may move you from your current position, including from forced movement. You may Ready an action.",
+      "traits": "Essence: Matter, Lifeblade, 3rd Party",
+      "src": "github.com/intrand/pf2e-lifeblade",
+      "databaseID": 1
+    },
+    {
+      "id": "6d7a06b0-cfcd-4a1b-b15e-9dcbd88a5cb0",
+      "name": "Bramble Armor",
+      "level": 12,
+      "textDescription": "Your skin and armor, if you're wearing any, become covered in thorny barbs. Any enemy who successfully Strikes you takes piercing damage equal to half of your level (minimum 1).",
+      "traits": "Essence: Matter, Lifeblade, 3rd Party",
+      "src": "github.com/intrand/pf2e-lifeblade",
+      "databaseID": 1
+    },
+    {
       "id": "f9c1a461-7ad4-4795-88e7-85d95f0de255",
       "name": "Crippling Precision",
       "level": 4,
@@ -120,11 +139,11 @@
       "reqFeats": [
         "1f7d942c-63cb-4766-a980-50be64752b46"
       ],
-      "textDescription": "After successfully striking while effected by <em>trance precision</em>, you may choose to afflict the enemy with one of the following conditions until the start of their turn:<br><ul><br><li>Clumsy 1</li><br><li>Enfeebled 1</li><br></ul>",
+      "textDescription": "After successfully striking while effected by <em>trance precision</em>, you may choose to afflict the enemy with one of the following conditions until the start of their turn:<br><ul><li>Clumsy 1</li><li>Enfeebled 1</li></ul>",
       "traits": "Essence: Matter, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641353"
+      "timestamp": "1698900503743"
     },
     {
       "id": "f7dfaa80-dba3-47d6-8d7f-443dda5485ff",
@@ -133,11 +152,11 @@
       "reqFeats": [
         "1f7d942c-63cb-4766-a980-50be64752b46"
       ],
-      "textDescription": "You add the following to the list of choices of <em>crippling precision</em>:<br><ul><br><li><strong>Physical</strong> The target is afflicted with physical weakness 3.</li><br><li><strong>Fatigued</strong> The target becomes fatigued.</li><br><li><strong>Sickened</strong> The target becomes sickened.</li><br></ul>",
+      "textDescription": "You add the following to the list of choices of <em>crippling precision</em>:<ul><li><strong>Physical</strong> The target is afflicted with physical weakness 3.</li><li><strong>Fatigued</strong> The target becomes fatigued.</li><li><strong>Sickened</strong> The target becomes sickened.</li></ul>",
       "traits": "Essence: Matter, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641353"
+      "timestamp": "1698900582412"
     },
     {
       "id": "e968bb0c-4afd-4eaa-8b9c-1a0b1eeba1f7",
@@ -151,7 +170,7 @@
       "traits": "Essence: Life, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641353"
+      "timestamp": "1698893462995"
     },
     {
       "id": "34beac74-f819-4966-b6ac-1164d054360e",
@@ -161,7 +180,16 @@
       "traits": "Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641354"
+      "timestamp": "1698893462995"
+    },
+    {
+      "id": "53573aeb-91e9-47ac-a9c0-ff017d147aa5",
+      "name": "Expand Influence",
+      "level": 10,
+      "textDescription": "Your trance aura grows in size. The radius of your <em>life trance aura</em>, if you have one, is increased by 5 feet. The radius of your <em>matter trance aura</em>, if you have one, is increased by 10 feet.",
+      "traits": "Lifeblade, 3rd Party",
+      "src": "github.com/intrand/pf2e-lifeblade",
+      "databaseID": 1
     },
     {
       "id": "a6b26398-ded9-4ba2-af8b-97bbd45a6e61",
@@ -171,7 +199,7 @@
       "traits": "Essence: Life, Lifeblade, Stance, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641354"
+      "timestamp": "1698893462995"
     },
     {
       "id": "31258aa0-1ad0-4ae0-98aa-466371ad1eb2",
@@ -184,23 +212,30 @@
         "1": 14
       },
       "databaseID": 1,
-      "timestamp": "1697986641354",
+      "timestamp": "1698899565200",
       "listCustomEffects": [
         {
           "proficiencyName": "Occultism",
           "effectType": 11,
           "bonusType": 3,
-          "bonusAmount": 2
+          "bonusAmount": 2,
+          "reference": "7e4127f1-7237-4aca-93fc-723582e84e93"
         },
         {
           "proficiencyName": "Martial Weapons",
           "effectType": 11,
-          "bonusAmount": 2
+          "bonusAmount": 2,
+          "reference": "d3ad14be-28f1-4259-8f1f-70555ef1780f"
         },
         {
           "proficiencyName": "Simple Weapons",
           "effectType": 11,
-          "bonusAmount": 2
+          "bonusAmount": 2,
+          "reference": "78da3b69-5c01-4d3d-bb8b-cf757be2c08f"
+        },
+        {
+          "effectType": 13,
+          "string0": "5a737e98-4eeb-4b12-8a68-34c38a5ef4ec"
         }
       ]
     },
@@ -212,7 +247,7 @@
       "traits": "Essence: Matter, Lifeblade, Stance, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641354"
+      "timestamp": "1698893462995"
     },
     {
       "id": "d7ef757b-6df8-45d8-96c8-56699a2e5b04",
@@ -222,7 +257,7 @@
       "traits": "Essence: Mind, Stance, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641354"
+      "timestamp": "1698893462996"
     },
     {
       "id": "0116ff2c-15b5-4674-98ce-3f8434aed5a0",
@@ -232,7 +267,7 @@
       "traits": "Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641354"
+      "timestamp": "1698893462996"
     },
     {
       "id": "51292f81-9649-4f7b-822c-87dfdca7f738",
@@ -245,7 +280,7 @@
       "traits": "Essence: Life, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641354",
+      "timestamp": "1698893462996",
       "listCustomEffects": [
         {
           "proficiencyName": "15238126-6f2d-4e1b-8d76-30d9d47938cf",
@@ -267,7 +302,7 @@
       "traits": "Essence: Matter, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641354"
+      "timestamp": "1698893462996"
     },
     {
       "id": "9b5c7b99-9316-4974-846d-08727f40b4e4",
@@ -279,7 +314,7 @@
       "traits": "Essence: Life, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641355",
+      "timestamp": "1698893462996",
       "listCustomEffects": [
         {
           "proficiencyName": "95c66a6a-c35f-4393-ab25-7f90efb704f1",
@@ -299,7 +334,7 @@
       "traits": "Essence: Life, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641355"
+      "timestamp": "1698893462996"
     },
     {
       "id": "4c631fe7-29b7-4b41-bfd9-d121247d03d7",
@@ -312,7 +347,7 @@
       "traits": "Essence: Life, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641355",
+      "timestamp": "1698893462996",
       "listCustomEffects": [
         {
           "proficiencyName": "fb648931-f428-4b49-9e54-c72a6a522afb",
@@ -329,7 +364,7 @@
       "traits": "Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641355"
+      "timestamp": "1698893462996"
     },
     {
       "id": "5fd1a2fc-ee6f-4eb3-9da6-9a0c88523aff",
@@ -340,7 +375,7 @@
       "traits": "Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641355"
+      "timestamp": "1698900677999"
     },
     {
       "id": "d849c15c-5d9d-4149-9ce2-718f96577f87",
@@ -354,7 +389,7 @@
       "traits": "Essence: Life, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641355"
+      "timestamp": "1698893462997"
     },
     {
       "id": "f4dd530c-4cb9-4864-a990-526985741941",
@@ -367,7 +402,7 @@
       "traits": "Essence: Matter, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641355",
+      "timestamp": "1698893462997",
       "listCustomEffects": [
         {
           "proficiencyName": "0a9cd09f-9413-4972-b977-923875c4105b",
@@ -389,7 +424,7 @@
       "traits": "Essence: Life, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641355"
+      "timestamp": "1698893462997"
     },
     {
       "id": "c1526198-da1e-4fa1-9160-aeb62c2ccc75",
@@ -400,7 +435,7 @@
       "traits": "Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641355"
+      "timestamp": "1698893462997"
     },
     {
       "id": "21e4b85a-5802-489c-ab5a-096ec699235c",
@@ -413,7 +448,7 @@
       "traits": "Essence: Spirit, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641355"
+      "timestamp": "1698893462997"
     },
     {
       "id": "c39c7327-c5c6-490c-95b3-4709e0918675",
@@ -423,7 +458,7 @@
       "traits": "Essence: Spirit, Stance, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641355"
+      "timestamp": "1698893462997"
     },
     {
       "id": "b6ca16c5-3889-42e6-af64-13df4e00003b",
@@ -436,7 +471,7 @@
       "traits": "Essence: Life, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641355"
+      "timestamp": "1698893462997"
     },
     {
       "id": "473f4651-a315-453f-84fe-381fb983fb63",
@@ -446,7 +481,7 @@
       "traits": "Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641356",
+      "timestamp": "1698893462997",
       "listCustomEffects": [
         {
           "effectType": 13,
@@ -461,11 +496,11 @@
       "reqFeats": [
         "31258aa0-1ad0-4ae0-98aa-466371ad1eb2"
       ],
-      "textDescription": "Placeholder",
+      "textDescription": "You gain the <em>tap self</em> gambit spell.",
       "traits": "Lifeblade, Archetype, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641356"
+      "timestamp": "1698900470487"
     },
     {
       "id": "0a9ca7cb-d1f7-4c27-bdb5-82266b899328",
@@ -478,7 +513,7 @@
       "traits": "Essence: Life, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641356",
+      "timestamp": "1698893462998",
       "listCustomEffects": [
         {
           "proficiencyName": "0c3f10d0-f855-4b3f-bac9-0d54a337b0d2",
@@ -501,7 +536,7 @@
       "descriptionHeightened": "Increase the die size of your pour life healing by 2 steps. If you leave the <em>life trance</em>, the effect is lost.",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641356",
+      "timestamp": "1698893462998",
       "duration": "1 minute"
     },
     {
@@ -515,7 +550,7 @@
       "descriptionHeightened": "You recite an ancient poem to calm the minds of those around you. In addition to the normal effects of Spirit Trance Resolve, each affected ally may lower their frightened or stupefied condition by 1 at the start of their turn. If an ally has multiple applicable conditions, they choose which condition to lower.<br><br><strong>Heightened (3rd)</strong> Add fascinated, sickened and slowed to the list of conditions.<br><br><strong>Heightened (5th)</strong> Add clumsy, drained and enfeebled to the list of conditions.",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641356",
+      "timestamp": "1698893462998",
       "duration": "2 rounds"
     },
     {
@@ -528,7 +563,7 @@
       "descriptionHeightened": "You force your enemy to bleed. Inflict 1d6+1 bleed damage on a creature within your reach.<br><br><strong>Heightened (+1)</strong> Increase the bleed damage by 1.",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641356",
+      "timestamp": "1698893462998",
       "target": "1 creature"
     },
     {
@@ -542,7 +577,7 @@
       "descriptionHeightened": "Life essence pours from the enemy as freely as a rapid river. Double the amount of healing done by your Life Trance Healing until the start of your next turn.<br><br><srong>Heightened (+1) Increase the bleed damage by 1.</srong>",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641356"
+      "timestamp": "1698893462998"
     },
     {
       "uniqueID": "95c66a6a-c35f-4393-ab25-7f90efb704f1",
@@ -555,7 +590,7 @@
       "src": "github.com/intrand/pf2e-lifeblade",
       "focusCantrip": true,
       "databaseID": 1,
-      "timestamp": "1697986641356",
+      "timestamp": "1698893462998",
       "target": "yourself, or 1 willing ally",
       "range": "yourself, or 1 willing ally within 30 feet of both the creature and yourself"
     },
@@ -570,7 +605,7 @@
       "src": "github.com/intrand/pf2e-lifeblade",
       "focusCantrip": true,
       "databaseID": 1,
-      "timestamp": "1697990741833",
+      "timestamp": "1698893462998",
       "target": "1 undead creature",
       "range": "30 feet"
     },
@@ -585,7 +620,7 @@
       "descriptionHeightened": "Pull heat away from the target creature, causing them to take cold damage. The target creature takes cold damage equal to 1d12 plus your spellcasting ability modifier.<br><br><strong>Heightened (+2)</strong> Increase the damage by 1d12.",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641356",
+      "timestamp": "1698893462999",
       "target": "1 creature",
       "range": "30 feet",
       "save": "basic Fortitude"
@@ -600,7 +635,7 @@
       "descriptionHeightened": "You tap into your own essence to empower your weapon or unarmed attack. The next Strike made with the chosen weapon or unarmed attack before the start of your next turn gains a +1 status bonus to the attack roll, and the weapon or unarmed strike deals an additional die of damage.<br><br>If the chosen weapon leaves your possession, <em>tap self</em> ends immediately.",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641357"
+      "timestamp": "1698893462999"
     },
     {
       "uniqueID": "0c3f10d0-f855-4b3f-bac9-0d54a337b0d2",
@@ -613,7 +648,7 @@
       "descriptionHeightened": "The target creature receives temporary hit points equal to the spell level times 2, which last until the end of your next turn.<br><br><strong>Heightened (+1)</strong> Increase the bleed damage by 1.",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1697986641357",
+      "timestamp": "1698893462999",
       "target": "1 creature",
       "range": "30 feet"
     }
@@ -628,7 +663,7 @@
       "level": 4,
       "specialType": -2,
       "databaseID": 1,
-      "timestamp": "1697986641357",
+      "timestamp": "1698893462999",
       "parentID": "07b22dbe-5e75-4641-b6b3-fd19e081bdc5"
     },
     {
@@ -639,7 +674,7 @@
       "src": "github.com/intrand/pf2e-lifeblade",
       "specialType": -1,
       "databaseID": 1,
-      "timestamp": "1697986641357"
+      "timestamp": "1698893462999"
     },
     {
       "name": "Lifeblade of Life",
@@ -649,7 +684,7 @@
       "src": "github.com/intrand/pf2e-lifeblade",
       "specialType": -2,
       "databaseID": 1,
-      "timestamp": "1697986641357",
+      "timestamp": "1698893462999",
       "parentID": "5a737e98-4eeb-4b12-8a68-34c38a5ef4ec",
       "listCustomEffects": [
         {
@@ -667,7 +702,7 @@
       "src": "github.com/intrand/pf2e-lifeblade",
       "specialType": -2,
       "databaseID": 1,
-      "timestamp": "1697986641357",
+      "timestamp": "1698893462999",
       "parentID": "5a737e98-4eeb-4b12-8a68-34c38a5ef4ec",
       "listCustomEffects": [
         {
@@ -685,7 +720,7 @@
       "level": 4,
       "specialType": -2,
       "databaseID": 1,
-      "timestamp": "1697986641357",
+      "timestamp": "1698893462999",
       "parentID": "07b22dbe-5e75-4641-b6b3-fd19e081bdc5"
     },
     {
@@ -697,7 +732,7 @@
       "level": 4,
       "specialType": -1,
       "databaseID": 1,
-      "timestamp": "1697986641357"
+      "timestamp": "1698893462999"
     }
   ],
   "listCustomClasses": [
@@ -1063,7 +1098,7 @@
           ]
         }
       ],
-      "timestamp": "1697986641358",
+      "timestamp": "1698893463000",
       "description": "During Combat Encounters…<br>You enter various stances to heal, protect or bolster your allies. You are nimble and in the front line, eager to disrupt your enemy's plans.<br><br>During Social Encounters…<br>You see things others seem to overlook. Your seemingly endless knowledge intimidates some.<br><br>While Exploring…<br>Knowledable in ancient arts, the information you recall so readily is seen as occult in nature to most. Regardless, your allies are glad to have you on their side, rather than the other way around.<br><br>In Downtime…<br>You study ancient texts, attempt to improve your unique fighting techniques and serve as a guide for tourists, able to cite historical knowledge like you were reading it off of the page.<br><br>You Might…<br>Commune with your ancestors in seclusion, seeking their wisdom and guidance.<br><br>Feel a strong sense of duty to your people and loyalty to your friends and companions.<br><br>Do things that are difficult or uncomfortable for others to do, such as stand up to a person who appears to be stronger than yourself.<br><br>Others Probably…<br>Are put at ease knowing that you're there to protect them.",
       "src": "github.com/intrand/pf2e-lifeblade"
     }
