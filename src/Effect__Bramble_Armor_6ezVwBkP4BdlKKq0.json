@@ -1,0 +1,72 @@
+{
+  "folder": "6ULrQneGfA6J5pDt",
+  "name": "Effect: Bramble Armor",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "strike-damage",
+        "text": "Apply @Damage[(max(1,floor(@item.origin.level/2)))[piercing]] to the attacking creature.",
+        "title": "Bramble Armor",
+        "outcome": []
+      }
+    ],
+    "slug": "effect-bramble-armor",
+    "_migration": {
+      "version": 0.879,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "6ezVwBkP4BdlKKq0",
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "sort": -100000,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.8.2",
+    "coreVersion": "11.314",
+    "createdTime": 1699326029576,
+    "modifiedTime": 1699330396944,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!6ezVwBkP4BdlKKq0"
+}
