@@ -1,0 +1,76 @@
+{
+  "name": "Lifeblade of Spirit",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.j7syxiOlV1xJPQG4]{Spirit Trance} lifeblade feat.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.lifeblade.lifeblade.Item.j7syxiOlV1xJPQG4"
+      }
+    ],
+    "slug": "lifeblade-of-spirit",
+    "_migration": {
+      "version": 0.879,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.878,
+        "foundry": "11.313",
+        "system": "5.8.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "systems/pf2e/icons/features/classes/link-spells.webp",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.8.2",
+    "coreVersion": "11.314",
+    "createdTime": 1686500096290,
+    "modifiedTime": 1699321468702,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "folder": "gz2QxwxnZg2JWHyW",
+  "_id": "vY2BXcoaJYdeYUES",
+  "sort": 0,
+  "_key": "!items!vY2BXcoaJYdeYUES"
+}
