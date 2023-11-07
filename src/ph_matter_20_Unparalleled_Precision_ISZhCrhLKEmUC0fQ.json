@@ -46,7 +46,11 @@
       "value": null
     },
     "prerequisites": {
-      "value": []
+      "value": [
+        {
+          "value": "Matter Trance"
+        }
+      ]
     },
     "location": null,
     "details": null
