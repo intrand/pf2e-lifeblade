@@ -16,13 +16,35 @@
           }
         ],
         "key": "Aura",
-        "radius": 15,
+        "radius": "@actor.flags.pf2e.lifeblade.matterTranceAuraRadius",
         "slug": "aura-matter-trance-precision",
         "predicate": [
           "self:effect:matter-trance"
         ],
         "traits": [
           "occult"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.lifeblade.matterTranceAuraRadius",
+        "value": "15",
+        "predicate": [
+          {
+            "not": "feat:expand-influence"
+          },
+          "class:lifeblade"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.lifeblade.matterTranceAuraRadius",
+        "value": "25",
+        "predicate": [
+          "class:lifeblade",
+          "feat:expand-influence"
         ]
       }
     ],

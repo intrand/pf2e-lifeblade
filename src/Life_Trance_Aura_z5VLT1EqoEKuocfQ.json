@@ -26,7 +26,8 @@
         "traits": [
           "vitality",
           "occult"
-        ]
+        ],
+        "radius": "@actor.flags.pf2e.lifeblade.lifeTranceAuraRadius"
       },
       {
         "effects": [
@@ -42,7 +43,31 @@
           "self:effect:life-trance"
         ],
         "traits": [
-          "vitality"
+          "vitality",
+          "occult"
+        ],
+        "radius": "@actor.flags.pf2e.lifeblade.lifeTranceAuraRadius"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.lifeblade.lifeTranceAuraRadius",
+        "value": "5",
+        "predicate": [
+          {
+            "not": "feat:expand-influence"
+          },
+          "class:lifeblade"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.lifeblade.lifeTranceAuraRadius",
+        "value": "10",
+        "predicate": [
+          "class:lifeblade",
+          "feat:expand-influence"
         ]
       }
     ],

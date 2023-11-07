@@ -1,0 +1,70 @@
+{
+  "folder": "lhf2zHpfuhUsFtMm",
+  "name": "Expand Influence",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your trance aura grows in size. The radius of your Life Trance Aura, if you have one, is increased by 5 feet. The radius of your Matter Trance Aura, if you have one, is increased by 10 feet.</p>"
+    },
+    "rules": [],
+    "slug": "expand-influence",
+    "_migration": {
+      "version": 0.879,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.878,
+        "foundry": "11.313",
+        "system": "5.8.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_lifeblade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "github.com/intrand/pf2e-lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "details": null
+  },
+  "_id": "RjXuhoid9oJcSPf1",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.8.2",
+    "coreVersion": "11.314",
+    "createdTime": 1692211304428,
+    "modifiedTime": 1699323879862,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!RjXuhoid9oJcSPf1"
+}
