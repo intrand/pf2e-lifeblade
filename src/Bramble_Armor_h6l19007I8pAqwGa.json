@@ -1,6 +1,6 @@
 {
   "folder": "zHu74ntFsV82SFUB",
-  "name": "Bamble Armor",
+  "name": "Bramble Armor",
   "type": "feat",
   "effects": [],
   "system": {
@@ -18,7 +18,7 @@
         "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.6ezVwBkP4BdlKKq0"
       }
     ],
-    "slug": "bamble-armor",
+    "slug": "bramble-armor",
     "_migration": {
       "version": 0.879,
       "lastMigration": null,
@@ -77,7 +77,7 @@
     "systemVersion": "5.8.2",
     "coreVersion": "11.314",
     "createdTime": 1695581635313,
-    "modifiedTime": 1699329680674,
+    "modifiedTime": 1699331816647,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!h6l19007I8pAqwGa"
