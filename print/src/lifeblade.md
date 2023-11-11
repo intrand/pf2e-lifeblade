@@ -474,7 +474,7 @@ item (
 ## Feat 10
 -
 ;Lifeblade
-Your trance aura grows in size. The radius of your *life trance aura*, if you have one, is increased by 5 feet. The radius of your *matter trance aura*, if you have one, is increased by 10 feet.
+Your trance aura grows in size. The radius of all known *trance auras* are increased by 10 feet.
 )
 
 item (

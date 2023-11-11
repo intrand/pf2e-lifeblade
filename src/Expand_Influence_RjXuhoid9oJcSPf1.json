@@ -6,17 +6,17 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your trance aura grows in size. The radius of your @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.z5VLT1EqoEKuocfQ]{Life Trance Aura}, if you have one, is increased by 5 feet. The radius of your @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.SCvAAWpKBcW1fTxX]{Matter Trance Aura}, if you have one, is increased by 10 feet.</p>"
+      "value": "<p>Your trance aura grows in size. The radius of all known <em>trance auras</em> are increased by 10 feet.</p>"
     },
     "rules": [],
     "slug": "expand-influence",
     "_migration": {
-      "version": 0.879,
+      "version": 0.88,
       "lastMigration": null,
       "previous": {
-        "schema": 0.878,
-        "foundry": "11.313",
-        "system": "5.8.0"
+        "schema": 0.879,
+        "foundry": "11.315",
+        "system": "5.8.3"
       }
     },
     "traits": {
@@ -60,10 +60,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.2",
-    "coreVersion": "11.314",
+    "systemVersion": "5.8.3",
+    "coreVersion": "11.315",
     "createdTime": 1692211304428,
-    "modifiedTime": 1699331801801,
+    "modifiedTime": 1699481143148,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!RjXuhoid9oJcSPf1"

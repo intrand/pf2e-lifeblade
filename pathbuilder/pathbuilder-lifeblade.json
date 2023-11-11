@@ -186,7 +186,7 @@
       "id": "53573aeb-91e9-47ac-a9c0-ff017d147aa5",
       "name": "Expand Influence",
       "level": 10,
-      "textDescription": "Your trance aura grows in size. The radius of your <em>life trance aura</em>, if you have one, is increased by 5 feet. The radius of your <em>matter trance aura</em>, if you have one, is increased by 10 feet.",
+      "textDescription": "Your trance aura grows in size. The radius of all known <em>trance auras</em> are increased by 10 feet.",
       "traits": "Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1
