@@ -15,12 +15,12 @@
     ],
     "slug": "matter-trance-feature",
     "_migration": {
-      "version": 0.879,
+      "version": 0.88,
       "lastMigration": null,
       "previous": {
-        "schema": 0.878,
-        "foundry": "11.313",
-        "system": "5.8.0"
+        "schema": 0.879,
+        "foundry": "11.315",
+        "system": "5.8.3"
       }
     },
     "traits": {
@@ -60,10 +60,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.0",
-    "coreVersion": "11.313",
+    "systemVersion": "5.8.3",
+    "coreVersion": "11.315",
     "createdTime": 1686500096290,
-    "modifiedTime": 1698936609579,
+    "modifiedTime": 1699481143148,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "ownership": {

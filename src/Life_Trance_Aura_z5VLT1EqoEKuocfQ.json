@@ -27,7 +27,12 @@
           "vitality",
           "occult"
         ],
-        "radius": "@actor.flags.pf2e.lifeblade.lifeTranceAuraRadius"
+        "radius": "@actor.flags.pf2e.lifeblade.lifeTranceAuraRadius",
+        "appearance": {
+          "border": {
+            "color": "#22cc00"
+          }
+        }
       },
       {
         "effects": [
@@ -46,7 +51,12 @@
           "vitality",
           "occult"
         ],
-        "radius": "@actor.flags.pf2e.lifeblade.lifeTranceAuraRadius"
+        "radius": "@actor.flags.pf2e.lifeblade.lifeTranceAuraRadius",
+        "appearance": {
+          "border": {
+            "color": "#22cc00"
+          }
+        }
       },
       {
         "key": "ActiveEffectLike",
@@ -64,7 +74,7 @@
         "key": "ActiveEffectLike",
         "mode": "override",
         "path": "flags.pf2e.lifeblade.lifeTranceAuraRadius",
-        "value": "10",
+        "value": "15",
         "predicate": [
           "class:lifeblade",
           "feat:expand-influence"
@@ -73,12 +83,12 @@
     ],
     "slug": "life-trance-aura",
     "_migration": {
-      "version": 0.879,
+      "version": 0.88,
       "lastMigration": null,
       "previous": {
-        "schema": 0.878,
-        "foundry": "11.313",
-        "system": "5.8.0"
+        "schema": 0.879,
+        "foundry": "11.315",
+        "system": "5.8.3"
       }
     },
     "traits": {
@@ -122,10 +132,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.2",
-    "coreVersion": "11.314",
+    "systemVersion": "5.8.3",
+    "coreVersion": "11.315",
     "createdTime": 1686411248620,
-    "modifiedTime": 1699330766706,
+    "modifiedTime": 1699481143148,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "ownership": {
