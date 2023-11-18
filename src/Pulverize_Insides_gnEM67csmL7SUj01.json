@@ -1,0 +1,113 @@
+{
+  "folder": "8LiQ9DxXbw4H3QKG",
+  "name": "Pulverize Insides",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You deal @Damage[4d6[blundgeoning]]{4d6 blundgeoning} damage. The target must attempt a Fortitude save.</p>\n<div><hr /></div>\n<p><strong>Critical Success</strong> The target is unaffected. </p>\n<p><strong>Success</strong> The target takes half damage, is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}</p>\n<p><strong>Failure</strong> The target takes full damage, is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}, </p>\n<p><strong>Critical Failure</strong> The target takes double damage, is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 3} and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 3}</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "fortitude",
+        "text": "<strong>Success</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}",
+        "outcome": [
+          "success"
+        ],
+        "predicate": [
+          "target"
+        ]
+      }
+    ],
+    "slug": "pulverize-insides",
+    "_migration": {
+      "version": 0.893,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.891,
+        "foundry": "11.315",
+        "system": "5.9.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "essence: matter",
+        "focus",
+        "lifeblade",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": []
+    },
+    "publication": {
+      "title": "github.com/intrand/pf2e-lifeblade",
+      "authors": "intrand",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 non-construct creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "ifhVKvK41aiJEdEo": {
+        "applyMod": true,
+        "formula": "6d6",
+        "type": "bludgeoning",
+        "category": null,
+        "materials": [],
+        "kinds": [
+          "damage"
+        ]
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "gnEM67csmL7SUj01",
+  "img": "systems/pf2e/icons/spells/hideous-laughter.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "DE5o5nknA2S91z79": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.2",
+    "coreVersion": "11.315",
+    "createdTime": 1699815429801,
+    "modifiedTime": 1700245895762,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!items!gnEM67csmL7SUj01"
+}

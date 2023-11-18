@@ -10,24 +10,28 @@
     "rules": [],
     "slug": "tap-self-spell",
     "_migration": {
-      "version": 0.88,
+      "version": 0.893,
       "lastMigration": null,
       "previous": {
-        "schema": 0.879,
+        "schema": 0.891,
         "foundry": "11.315",
-        "system": "5.8.3"
+        "system": "5.9.2"
       }
     },
     "traits": {
       "otherTags": [],
       "value": [
-        "enchantment",
-        "hb_lifeblade"
+        "focus",
+        "lifeblade",
+        "manipulate"
       ],
-      "rarity": "common"
+      "rarity": "common",
+      "traditions": [
+        "occult"
+      ]
     },
     "publication": {
-      "title": "Lifeblade",
+      "title": "github.com/intrand/pf2e-lifeblade",
       "authors": "intrand",
       "license": "ORC",
       "remaster": true
@@ -35,26 +39,7 @@
     "level": {
       "value": 1
     },
-    "spellType": {
-      "value": "utility"
-    },
-    "category": {
-      "value": "focus"
-    },
-    "traditions": {
-      "value": [
-        "occult"
-      ]
-    },
-    "components": {
-      "focus": false,
-      "material": false,
-      "somatic": true,
-      "verbal": false
-    },
-    "materials": {
-      "value": ""
-    },
+    "requirements": "",
     "target": {
       "value": "1 weapon you're wielding"
     },
@@ -66,27 +51,18 @@
       "value": "1"
     },
     "duration": {
-      "value": ""
-    },
-    "damage": {
-      "value": {}
-    },
-    "save": {
       "value": "",
-      "basic": ""
+      "sustained": false
     },
-    "sustained": {
-      "value": false
-    },
+    "damage": {},
+    "defense": null,
     "cost": {
       "value": ""
     },
     "location": {
       "value": ""
     },
-    "hasCounteractCheck": {
-      "value": false
-    },
+    "counteraction": false,
     "heightening": {
       "type": "interval",
       "interval": 1,
@@ -105,10 +81,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.3",
+    "systemVersion": "5.9.2",
     "coreVersion": "11.315",
     "createdTime": 1687189778847,
-    "modifiedTime": 1699481152175,
+    "modifiedTime": 1700244060564,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_id": "em3AG7SGO3t1ZB0t",

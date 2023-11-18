@@ -572,11 +572,21 @@ Here you will find all of the gambit spells and gambit cantrips for the Lifeblad
 ## 1st level
 
 item (
+# Boost Healing :a:
+## Focus 1
+-
+;Essence: Life,Focus,Lifeblade,Occult,Manipulate,Vitality
+
+**Duration** 1 minute
+-
+Increase the die size of your *pour life* healing by 2 steps. If you leave the *life trance*, the effect is lost.
+)
+
+item (
 # Pour Life :a:
 ## Focus Cantrip 1
 -
-;Cantrip,Essence: Life,Healing,Lifeblade,Necromancy,Occult,Vitality
-**Cast** :a: somatic
+;Cantrip,Essence: Life,Healing,Lifeblade,Occult,Manipulate,Vitality
 
 **Requirements** You made a successful strike against 1 living creature earlier this round. You have not cast *pour life* this round.
 -
@@ -586,52 +596,10 @@ With great concentration, you pull even more life essence from the creature. You
 )
 
 item (
-# Purge Undeath :aa:
-## Focus Cantrip 1
--
-;Cantrip,Essence: Life,Lifeblade,Necromancy,Occult,Vitality
-**Cast** :aa: somatic, material
--
-You wield the power of life as a weapon and point it toward an undead creature. Deal 1d8 vitality damage to 1 undead creature within 30 feet.
--
-**Hightening (+1)** Increase the damage done by 1d8.
-)
-
-item (
-# Tap Self :a:
+# Sap Heat :aa:
 ## Focus 1
 -
-;Enchantment,Lifeblade,Occult
-**Cast** :a: somatic
--
-You tap into your own essence to empower your weapon or unarmed attack. The next Strike made with the chosen weapon or unarmed attack before the start of your next turn gains a +1 status bonus to the attack roll, and the weapon or unarmed strike deals an additional die of damage.
-
-If the chosen weapon leaves your possession, *tap self* ends immediately.
-)
-
-|
-
-## 2nd level
-
-item (
-# Boost Healing :a:
-## Focus 2
--
-;Enchantment,Essence:&nbsp; Life,Lifeblade,Occult,Vitality
-
-**Cast** :a: somatic
-
-**Duration** 1 minute
--
-Increase the die size of your *pour life* healing by 2 steps. If you leave the *life trance*, the effect is lost.
-)
-
-item (
-# Sap Heat :aa:
-## Focus 2
--
-;Essence: Matter,Evocation,Lifeblade,Occult
-**Cast** :a: somatic, material
+;Essence: Matter,Focus,Lifeblade,Occult,Manipulate
 
 **Range** 30 feet; **Targets** 1 creature
 
@@ -642,14 +610,39 @@ Pull heat away from the target creature, causing them to take cold damage. The t
 **Heightened (+2)** Increase the damage by 1d12.
 )
 
+|
+
+item (
+# Tap Self :a:
+## Focus 1
+-
+;Focus,Lifeblade,Occult,Manipulate
+-
+You tap into your own essence to empower your weapon or unarmed attack. The next Strike made with the chosen weapon or unarmed attack before the start of your next turn gains a +1 status bonus to the attack roll, and the weapon or unarmed strike deals an additional die of damage.
+
+If the chosen weapon leaves your possession, *tap self* ends immediately.
+)
+
+<!-- ## 2nd level -->
+
 ## 4th level
+
+item (
+# Overflowing Life :a:
+## Focus 4
+-
+;Concentrate,Essence: Life,Focus,Lifeblade,Occult,Vitality
+-
+Life essence pours from the enemy as freely as a rapid river. Double the amount of healing done by your *life trance healing* until the start of your next turn.
+-
+**Hightened (+1)** Increase the bleed damage by 1.
+)
 
 item (
 # Vitality Surge :a:
 ## Focus 4
 -
-;Essence: Life,Lifeblade,Necromancy,Occult,Vitality
-**Cast** :a: somatic
+;Essence: Life,Focus,Lifeblade,Occult,Manipulate,Vitality
 
 **Range** 30 feet; **Targets** 1 creature
 -
@@ -661,16 +654,16 @@ The target creature receives temporary hit points equal to the spell level times
 ## 6th level
 
 item (
-# Overflowing Life
-## Focus 8
+# Purge Undeath :aa:
+## Focus Cantrip 6
 -
-;Essence: Life,Lifeblade,Necromancy,Occult,Vitality
-**Cast** :a: verbal
+;Cantrip,Essence: Life,Lifeblade,Occult,Manipulate,Vitality
 -
-Life essence pours from the enemy as freely as a rapid river. Double the amount of healing done by your *life trance healing* until the start of your next turn.
+You wield the power of life as a weapon and point it toward an undead creature. Deal 1d8 vitality damage to 1 undead creature within 30 feet.
 -
-**Hightened (+1)** Increase the bleed damage by 1.
+**Hightening (+1)** Increase the damage done by 1d8.
 )
+
 <!--
 =
 
@@ -733,7 +726,7 @@ item (
 # Draw Blood
 ## Focus ?
 -
-;Lifeblade,Essence: ???,Evocation
+;Lifeblade,Essence: ???
 **Cast** :a: somatic
 
 **Range** touch; **Targets** 1 creature

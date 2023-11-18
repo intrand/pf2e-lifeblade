@@ -10,22 +10,26 @@
     "rules": [],
     "slug": "sap-heat-spell",
     "_migration": {
-      "version": 0.88,
+      "version": 0.893,
       "lastMigration": null,
       "previous": {
-        "schema": 0.879,
+        "schema": 0.891,
         "foundry": "11.315",
-        "system": "5.8.3"
+        "system": "5.9.2"
       }
     },
     "traits": {
       "otherTags": [],
       "value": [
-        "evocation",
-        "hb_essence: matter",
-        "hb_lifeblade"
+        "essence: matter",
+        "focus",
+        "lifeblade",
+        "manipulate"
       ],
-      "rarity": "common"
+      "rarity": "common",
+      "traditions": [
+        "occult"
+      ]
     },
     "publication": {
       "title": "github.com/intrand/pf2e-lifeblade",
@@ -36,26 +40,7 @@
     "level": {
       "value": 1
     },
-    "spellType": {
-      "value": "save"
-    },
-    "category": {
-      "value": "focus"
-    },
-    "traditions": {
-      "value": [
-        "occult"
-      ]
-    },
-    "components": {
-      "focus": false,
-      "material": true,
-      "somatic": true,
-      "verbal": false
-    },
-    "materials": {
-      "value": ""
-    },
+    "requirements": "",
     "target": {
       "value": "1 creature"
     },
@@ -67,27 +52,26 @@
       "value": "2"
     },
     "duration": {
-      "value": ""
+      "value": "",
+      "sustained": false
     },
     "damage": {
-      "value": {
-        "uKamxbHAiV1dqt20": {
-          "value": "1d12",
-          "type": {
-            "value": "cold",
-            "categories": [],
-            "subtype": ""
-          },
-          "applyMod": true
-        }
+      "uKamxbHAiV1dqt20": {
+        "applyMod": true,
+        "formula": "1d12",
+        "type": "cold",
+        "category": null,
+        "materials": [],
+        "kinds": [
+          "damage"
+        ]
       }
     },
-    "save": {
-      "value": "fortitude",
-      "basic": ""
-    },
-    "sustained": {
-      "value": false
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
     },
     "cost": {
       "value": ""
@@ -95,9 +79,7 @@
     "location": {
       "value": ""
     },
-    "hasCounteractCheck": {
-      "value": false
-    },
+    "counteraction": false,
     "heightening": {
       "type": "interval",
       "interval": 2,
@@ -113,10 +95,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.3",
+    "systemVersion": "5.9.2",
     "coreVersion": "11.315",
     "createdTime": 1686506042549,
-    "modifiedTime": 1699481143148,
+    "modifiedTime": 1700234317010,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "ownership": {

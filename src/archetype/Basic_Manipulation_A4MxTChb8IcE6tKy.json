@@ -20,7 +20,7 @@
               ]
             },
             "item:category:class",
-            "item:trait:hb_lifeblade"
+            "item:trait:lifeblade"
           ],
           "itemType": "feat"
         },
@@ -36,12 +36,12 @@
     ],
     "slug": "basic-manipulation",
     "_migration": {
-      "version": 0.88,
+      "version": 0.893,
       "lastMigration": null,
       "previous": {
-        "schema": 0.879,
+        "schema": 0.891,
         "foundry": "11.315",
-        "system": "5.8.3"
+        "system": "5.9.2"
       }
     },
     "traits": {
@@ -52,7 +52,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Lifeblade",
+      "title": "github.com/intrand/pf2e-lifeblade",
       "authors": "intrand",
       "license": "ORC",
       "remaster": true
@@ -89,10 +89,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.3",
+    "systemVersion": "5.9.2",
     "coreVersion": "11.315",
     "createdTime": 1694691369947,
-    "modifiedTime": 1699481152175,
+    "modifiedTime": 1700245566138,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!A4MxTChb8IcE6tKy"

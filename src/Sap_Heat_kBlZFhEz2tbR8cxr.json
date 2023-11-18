@@ -8,30 +8,22 @@
       "gm": "",
       "value": "<p>You gain the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.uhJUDk7Rqki5qUsf]{Sap Heat} gambit spell. Increase the number of Focus Points in your focus pool by 1.</p>"
     },
-    "rules": [
-      {
-        "key": "ActiveEffectLike",
-        "mode": "upgrade",
-        "path": "system.resources.focus.max",
-        "priority": 10,
-        "value": 1
-      }
-    ],
+    "rules": [],
     "slug": "sap-heat",
     "_migration": {
-      "version": 0.88,
+      "version": 0.893,
       "lastMigration": null,
       "previous": {
-        "schema": 0.879,
+        "schema": 0.891,
         "foundry": "11.315",
-        "system": "5.8.3"
+        "system": "5.9.2"
       }
     },
     "traits": {
       "otherTags": [],
       "value": [
-        "hb_essence: matter",
-        "hb_lifeblade"
+        "essence: matter",
+        "lifeblade"
       ],
       "rarity": "common"
     },
@@ -73,10 +65,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.3",
+    "systemVersion": "5.9.2",
     "coreVersion": "11.315",
     "createdTime": 1689366742420,
-    "modifiedTime": 1699481143148,
+    "modifiedTime": 1700259404466,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!kBlZFhEz2tbR8cxr"

@@ -36,12 +36,12 @@
     ],
     "slug": "lifeblade",
     "_migration": {
-      "version": 0.88,
+      "version": 0.893,
       "lastMigration": null,
       "previous": {
-        "schema": 0.879,
+        "schema": 0.891,
         "foundry": "11.315",
-        "system": "5.8.3"
+        "system": "5.9.2"
       }
     },
     "traits": {
@@ -61,95 +61,95 @@
       ]
     },
     "items": {
-      "Ah90I": {
-        "uuid": "Compendium.pf2e.classfeatures.Item.F57Na5VxfBp56kke",
-        "img": "systems/pf2e/icons/features/classes/great-fortitude.webp",
-        "name": "Great Fortitude",
-        "level": 9
-      },
-      "2yUvJ": {
-        "uuid": "Compendium.pf2e.classfeatures.Item.0npO4rPscGm0dX13",
-        "img": "systems/pf2e/icons/features/classes/vigilant-senses.webp",
-        "name": "Vigilant Senses",
-        "level": 7
-      },
-      "yRO7A": {
-        "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.nGCwNNPv02ylrzOu",
-        "img": "icons/weapons/daggers/dagger-poisoned-curved-green.webp",
-        "name": "Legendary Lifeblade",
-        "level": 16
-      },
-      "wgEc5": {
-        "uuid": "Compendium.pf2e.classfeatures.Item.SHpjmM4A3Sw4GgDz",
-        "img": "systems/pf2e/icons/features/classes/light-armor-master.webp",
-        "name": "Light Armor Mastery",
-        "level": 19
-      },
-      "rW9zV": {
-        "uuid": "Compendium.pf2e.classfeatures.Item.MV6XIuAgN9uSA0Da",
-        "img": "systems/pf2e/icons/features/classes/evasion.webp",
-        "name": "Evasion",
-        "level": 7
-      },
-      "GaAMw": {
-        "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.OtF5xKmvTwmC773L",
-        "img": "systems/pf2e/icons/features/classes/light-armor-expertise.webp",
-        "name": "Light Armor Expertise",
-        "level": 13
-      },
-      "X97Kr": {
-        "uuid": "Compendium.pf2e.classfeatures.Item.L5D0NwFXdLiVSnk5",
-        "img": "systems/pf2e/icons/features/classes/improved-evasion.webp",
-        "name": "Improved Evasion",
-        "level": 13
-      },
-      "9pomt": {
-        "uuid": "Compendium.pf2e.classfeatures.Item.nLwPMPLRne1HnL00",
-        "img": "systems/pf2e/icons/features/classes/incredible-sense.webp",
-        "name": "Incredible Senses",
-        "level": 13
-      },
-      "Azloh": {
-        "uuid": "Compendium.pf2e.classfeatures.Item.i6563IU7x4L9oRgC",
-        "img": "systems/pf2e/icons/features/classes/weapon-mastery.webp",
-        "name": "Weapon Mastery",
-        "level": 13
-      },
-      "shoU2": {
-        "uuid": "Compendium.pf2e.classfeatures.Item.xmZ7oeTDcQVXegUP",
-        "img": "systems/pf2e/icons/features/classes/slippery-mind.webp",
-        "name": "Slippery Mind",
-        "level": 17
-      },
       "E56nE": {
         "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.tTUtSZgssIFxD2wx",
         "img": "systems/pf2e/icons/equipment/adventuring-gear/musical-instrument-handheld.webp",
         "name": "Gambit Spells",
         "level": 1
       },
-      "PuJlR": {
+      "yCRRS": {
         "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.7EkwZQEuq04hOopS",
         "img": "icons/weapons/daggers/dagger-poisoned-curved-green.webp",
-        "name": "Expert Lifeblade",
+        "name": "Lifeblade Expertise",
         "level": 3
       },
-      "mn1QZ": {
+      "u34PS": {
         "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.w10uks9GYd59Hpej",
         "img": "systems/pf2e/icons/features/classes/weapon-expertise.webp",
         "name": "Lifeblade Weapon Expertise",
         "level": 5
       },
-      "OMAVM": {
-        "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.IjsYVq39EDhoe5Lc",
+      "K76jf": {
+        "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.nGCwNNPv02ylrzOu",
         "img": "icons/weapons/daggers/dagger-poisoned-curved-green.webp",
-        "name": "Master Lifeblade",
+        "name": "Legendary Lifeblade",
+        "level": 16
+      },
+      "aVb9t": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.MV6XIuAgN9uSA0Da",
+        "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+        "name": "Evasion",
         "level": 7
       },
-      "B37mt": {
-        "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.8ksRt0RToYc9sQKz",
+      "8YM4K": {
+        "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.IjsYVq39EDhoe5Lc",
+        "img": "icons/weapons/daggers/dagger-poisoned-curved-green.webp",
+        "name": "Lifeblade Mastery",
+        "level": 7
+      },
+      "irPJe": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.0npO4rPscGm0dX13",
+        "img": "systems/pf2e/icons/features/classes/vigilant-senses.webp",
+        "name": "Perception Mastery",
+        "level": 7
+      },
+      "pDSzo": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt",
         "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
         "name": "Weapon Specialization",
         "level": 7
+      },
+      "d2mvP": {
+        "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.BsvUjB2DYu6RC79w",
+        "img": "icons/magic/life/cross-explosion-burst-green.webp",
+        "name": "Fortitude Expertise",
+        "level": 9
+      },
+      "xv48S": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.L5D0NwFXdLiVSnk5",
+        "img": "systems/pf2e/icons/features/classes/improved-evasion.webp",
+        "name": "Improved Evasion",
+        "level": 13
+      },
+      "ZcXou": {
+        "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.OtF5xKmvTwmC773L",
+        "img": "systems/pf2e/icons/features/classes/light-armor-expertise.webp",
+        "name": "Light Armor Expertise",
+        "level": 13
+      },
+      "aFsE0": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.i6563IU7x4L9oRgC",
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "name": "Martial Weapon Mastery",
+        "level": 13
+      },
+      "ytY2w": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.nLwPMPLRne1HnL00",
+        "img": "systems/pf2e/icons/features/classes/incredible-sense.webp",
+        "name": "Perception Legend",
+        "level": 13
+      },
+      "aXQMy": {
+        "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.q7UPaaMvMPP76bD6",
+        "img": "systems/pf2e/icons/features/classes/slippery-mind.webp",
+        "name": "Limber Mind",
+        "level": 17
+      },
+      "3umSh": {
+        "uuid": "Compendium.pf2e-lifeblade.lifeblade.Item.5NVxQ49dWzZsrPH5",
+        "img": "icons/equipment/chest/breastplate-rivited-red.webp",
+        "name": "Light Armor Mastery",
+        "level": 19
       }
     },
     "hp": 10,
@@ -183,7 +183,6 @@
       "medium": 0,
       "heavy": 0
     },
-    "classDC": 1,
     "ancestryFeatLevels": {
       "value": [
         1,
@@ -255,10 +254,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.3",
+    "systemVersion": "5.9.2",
     "coreVersion": "11.315",
     "createdTime": 1686402868528,
-    "modifiedTime": 1699481143148,
+    "modifiedTime": 1700258841698,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "ownership": {

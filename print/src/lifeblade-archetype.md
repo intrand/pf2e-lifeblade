@@ -72,8 +72,7 @@ item (
 # Tap Self :a:
 ## Focus 1
 -
-;Enchantment,Lifeblade,Occult
-**Cast** :a: somatic
+;Focus,Lifeblade,Occult,Manipulate
 -
 You tap into your own essence to empower your weapon or unarmed attack. The next Strike made with the chosen weapon or unarmed attack before the start of your next turn gains a +1 status bonus to the attack roll, and the weapon or unarmed strike deals an additional die of damage.
 

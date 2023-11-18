@@ -10,19 +10,19 @@
     "rules": [],
     "slug": "matter-trance",
     "_migration": {
-      "version": 0.88,
+      "version": 0.893,
       "lastMigration": null,
       "previous": {
-        "schema": 0.879,
+        "schema": 0.891,
         "foundry": "11.315",
-        "system": "5.8.3"
+        "system": "5.9.2"
       }
     },
     "traits": {
       "otherTags": [],
       "value": [
-        "hb_essence: matter",
-        "hb_lifeblade",
+        "essence: matter",
+        "lifeblade",
         "stance"
       ],
       "rarity": "common"
@@ -61,10 +61,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.3",
+    "systemVersion": "5.9.2",
     "coreVersion": "11.315",
     "createdTime": 1686500096290,
-    "modifiedTime": 1699481143148,
+    "modifiedTime": 1700234317010,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "ownership": {

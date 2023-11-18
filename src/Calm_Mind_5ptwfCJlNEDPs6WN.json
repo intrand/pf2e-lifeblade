@@ -11,12 +11,12 @@
     "rules": [],
     "slug": "calm-mind-spell",
     "_migration": {
-      "version": 0.88,
+      "version": 0.893,
       "lastMigration": null,
       "previous": {
-        "schema": 0.879,
+        "schema": 0.891,
         "foundry": "11.315",
-        "system": "5.8.3"
+        "system": "5.9.2"
       }
     },
     "traits": {
@@ -25,13 +25,16 @@
         "auditory",
         "concentrate",
         "emotion",
-        "enchantment",
-        "hb_essence: mind",
-        "hb_lifeblade",
+        "essence: mind",
+        "focus",
+        "lifeblade",
         "linguistic",
         "mental"
       ],
-      "rarity": "common"
+      "rarity": "common",
+      "traditions": [
+        "occult"
+      ]
     },
     "publication": {
       "title": "github.com/intrand/pf2e-lifeblade",
@@ -42,26 +45,7 @@
     "level": {
       "value": 2
     },
-    "spellType": {
-      "value": "utility"
-    },
-    "category": {
-      "value": "focus"
-    },
-    "traditions": {
-      "value": [
-        "occult"
-      ]
-    },
-    "components": {
-      "focus": false,
-      "material": false,
-      "somatic": false,
-      "verbal": true
-    },
-    "materials": {
-      "value": ""
-    },
+    "requirements": "",
     "target": {
       "value": ""
     },
@@ -73,27 +57,18 @@
       "value": "1"
     },
     "duration": {
-      "value": "2 rounds"
+      "value": "2 rounds",
+      "sustained": false
     },
-    "damage": {
-      "value": {}
-    },
-    "save": {
-      "value": "",
-      "basic": ""
-    },
-    "sustained": {
-      "value": false
-    },
+    "damage": {},
+    "defense": null,
     "cost": {
       "value": ""
     },
     "location": {
       "value": ""
     },
-    "hasCounteractCheck": {
-      "value": false
-    },
+    "counteraction": false,
     "overlays": {},
     "heightening": {
       "type": "interval",
@@ -112,10 +87,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.3",
+    "systemVersion": "5.9.2",
     "coreVersion": "11.315",
     "createdTime": 1689429823879,
-    "modifiedTime": 1699481143148,
+    "modifiedTime": 1700234317010,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!5ptwfCJlNEDPs6WN"

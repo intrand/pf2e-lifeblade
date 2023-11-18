@@ -1,12 +1,12 @@
 {
   "folder": "TOr2oySWJttdreA6",
-  "name": "Master Lifeblade",
+  "name": "Lifeblade Mastery",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your proficiency ranks for lifeblade class DC and occult spell attack rolls and DCs increase to master.</p>"
+      "value": "<p>Your proficiency rank for your lifeblade class DC increases to master.</p>"
     },
     "rules": [
       {
@@ -18,18 +18,18 @@
     ],
     "slug": "master-lifeblade",
     "_migration": {
-      "version": 0.88,
+      "version": 0.893,
       "lastMigration": null,
       "previous": {
-        "schema": 0.879,
+        "schema": 0.891,
         "foundry": "11.315",
-        "system": "5.8.3"
+        "system": "5.9.2"
       }
     },
     "traits": {
       "otherTags": [],
       "value": [
-        "hb_lifeblade"
+        "lifeblade"
       ],
       "rarity": "common"
     },
@@ -67,10 +67,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.3",
+    "systemVersion": "5.9.2",
     "coreVersion": "11.315",
     "createdTime": 1689689600397,
-    "modifiedTime": 1699481143148,
+    "modifiedTime": 1700252961537,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_id": "IjsYVq39EDhoe5Lc",

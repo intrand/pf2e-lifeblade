@@ -11,12 +11,12 @@
     "rules": [],
     "slug": "effect-tap-self-immunity",
     "_migration": {
-      "version": 0.88,
+      "version": 0.893,
       "lastMigration": null,
       "previous": {
-        "schema": 0.879,
+        "schema": 0.891,
         "foundry": "11.315",
-        "system": "5.8.3"
+        "system": "5.9.2"
       }
     },
     "traits": {
@@ -24,7 +24,7 @@
       "value": []
     },
     "publication": {
-      "title": "Lifeblade",
+      "title": "github.com/intrand/pf2e-lifeblade",
       "authors": "intrand",
       "license": "ORC",
       "remaster": true
@@ -60,10 +60,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.3",
+    "systemVersion": "5.9.2",
     "coreVersion": "11.315",
     "createdTime": 1694698396405,
-    "modifiedTime": 1699481152175,
+    "modifiedTime": 1700244056052,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!p3KfCVnwUTlAf4GR"

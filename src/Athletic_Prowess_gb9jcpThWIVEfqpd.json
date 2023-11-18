@@ -6,24 +6,24 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>When you inflict damage upon an enemy while under the effects of @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.8OLCtZQXqxT9xP4t]{Matter Trance Precision}, you may choose to attempt to trip, shove or disarm the enemy as if your weapon had the corresponding trait. You must still be trained in Athletics to perform actions that require training.</p>"
+      "value": "<p><strong>Requirements</strong> You are in @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.diO0ffzmdvJCIzL6]{Matter Trance} stance. Your last action was a successful strike against a creature.</p>\n<hr />\n<p>You may add your choice of the trip, shove or disarm trait to your weapon if you perform the corresponding Athletics action as your next action. You must still be trained in Athletics to perform actions that require training.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "athletic-prowess",
     "_migration": {
-      "version": 0.88,
+      "version": 0.893,
       "lastMigration": null,
       "previous": {
-        "schema": 0.879,
+        "schema": 0.891,
         "foundry": "11.315",
-        "system": "5.8.3"
+        "system": "5.9.2"
       }
     },
     "traits": {
       "otherTags": [],
       "value": [
-        "hb_essence: matter",
-        "hb_lifeblade"
+        "essence: matter",
+        "lifeblade"
       ],
       "rarity": "common"
     },
@@ -69,10 +69,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.3",
+    "systemVersion": "5.9.2",
     "coreVersion": "11.315",
     "createdTime": 1696017142537,
-    "modifiedTime": 1699481143148,
+    "modifiedTime": 1700252030891,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!gb9jcpThWIVEfqpd"

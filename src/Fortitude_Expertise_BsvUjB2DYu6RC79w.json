@@ -1,23 +1,24 @@
 {
-  "folder": "ic5xOp52sRtu44JK",
-  "name": "ph-generic-14",
-  "type": "feat",
-  "effects": [],
+  "img": "icons/magic/life/cross-explosion-burst-green.webp",
+  "name": "Fortitude Expertise",
   "system": {
     "description": {
       "gm": "",
-      "value": ""
+      "value": "<p>Your proficiency rank for Fortitude saves increases to expert.</p>"
     },
-    "rules": [],
-    "slug": null,
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.saves.fortitude.rank",
+        "value": 2
+      }
+    ],
+    "slug": "fortitude-expertise",
     "_migration": {
       "version": 0.893,
       "lastMigration": null,
-      "previous": {
-        "schema": 0.891,
-        "foundry": "11.315",
-        "system": "5.9.2"
-      }
+      "previous": null
     },
     "traits": {
       "otherTags": [],
@@ -33,9 +34,9 @@
       "remaster": true
     },
     "level": {
-      "value": 14
+      "value": 3
     },
-    "category": "class",
+    "category": "classfeature",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -47,24 +48,27 @@
     "prerequisites": {
       "value": []
     },
-    "location": null,
-    "details": null
+    "location": null
   },
-  "_id": "a2e2nuyPWUtDWubc",
-  "img": "systems/pf2e/icons/default-icons/feat.svg",
-  "sort": 100007,
+  "type": "feat",
+  "flags": {
+    "core": {}
+  },
+  "effects": [],
+  "folder": "7QWO5e9Q9jR9cro9",
   "ownership": {
     "default": 0,
     "DE5o5nknA2S91z79": 3
   },
-  "flags": {},
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "5.9.2",
     "coreVersion": "11.315",
-    "createdTime": 1695646358071,
-    "modifiedTime": 1700234317010,
+    "createdTime": 1700254006911,
+    "modifiedTime": 1700254100182,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
-  "_key": "!items!a2e2nuyPWUtDWubc"
+  "_id": "BsvUjB2DYu6RC79w",
+  "sort": 0,
+  "_key": "!items!BsvUjB2DYu6RC79w"
 }

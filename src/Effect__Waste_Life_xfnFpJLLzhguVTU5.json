@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Drag this onto the creature</p>\n<p>[[/r 1d6[persistent,bleed]]]</p>\n<p>@Damage[1d6[persistent,bleed]]</p>"
+      "value": "<p>Drag this onto the creature</p>\n<p>@Damage[1d6[persistent,bleed]]</p>"
     },
     "rules": [
       {
@@ -19,12 +19,12 @@
     ],
     "slug": "effect-waste-life",
     "_migration": {
-      "version": 0.88,
+      "version": 0.893,
       "lastMigration": null,
       "previous": {
-        "schema": 0.879,
+        "schema": 0.891,
         "foundry": "11.315",
-        "system": "5.8.3"
+        "system": "5.9.2"
       }
     },
     "traits": {
@@ -68,10 +68,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.3",
+    "systemVersion": "5.9.2",
     "coreVersion": "11.315",
     "createdTime": 1690212180108,
-    "modifiedTime": 1699481143148,
+    "modifiedTime": 1700252134665,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!xfnFpJLLzhguVTU5"

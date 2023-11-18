@@ -8,15 +8,40 @@
       "gm": "",
       "value": "<p>You gain one lifeblade feat. For the purpose of meeting its prerequisites, your lifeblade level is equal to half your character level.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            {
+              "lte": [
+                "item:level",
+                "self:level"
+              ]
+            },
+            "item:category:class",
+            "item:trait:lifeblade"
+          ],
+          "itemType": "feat"
+        },
+        "flag": "advancedManipulation",
+        "key": "ChoiceSet",
+        "prompt": "Choose a feat with a level no greater than half of the level of this feat slot. WARNING: All feats are shown. Check the level of your selected feat before clicking save!"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "{item|flags.pf2e.rulesSelections.advancedManipulation}"
+      }
+    ],
     "slug": "advanced-manipulation",
     "_migration": {
-      "version": 0.88,
+      "version": 0.893,
       "lastMigration": null,
       "previous": {
-        "schema": 0.879,
+        "schema": 0.891,
         "foundry": "11.315",
-        "system": "5.8.3"
+        "system": "5.9.2"
       }
     },
     "traits": {
@@ -27,7 +52,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Lifeblade",
+      "title": "github.com/intrand/pf2e-lifeblade",
       "authors": "intrand",
       "license": "ORC",
       "remaster": true
@@ -64,10 +89,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.3",
+    "systemVersion": "5.9.2",
     "coreVersion": "11.315",
     "createdTime": 1694691440293,
-    "modifiedTime": 1699481152175,
+    "modifiedTime": 1700245667638,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!EKY9ejJfiSOHkTBB"

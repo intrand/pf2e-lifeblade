@@ -1,34 +1,30 @@
 {
-  "img": "systems/pf2e/icons/features/classes/light-armor-expertise.webp",
-  "name": "Light Armor Expertise",
+  "img": "icons/equipment/chest/breastplate-rivited-red.webp",
+  "name": "Light Armor Mastery",
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You've learned how to dodge while wearing light or no armor. Your proficiency ranks for light armor and unarmored defense increase to expert.</p>"
+      "value": "<p>Your skill with light armor improves, increasing your ability to dodge blows. Your proficiency ranks for light armor and unarmored defense increase to master.</p>"
     },
     "rules": [
       {
         "key": "ActiveEffectLike",
         "mode": "upgrade",
         "path": "system.proficiencies.defenses.unarmored.rank",
-        "value": 2
+        "value": 3
       },
       {
         "key": "ActiveEffectLike",
         "mode": "upgrade",
         "path": "system.proficiencies.defenses.light.rank",
-        "value": 2
+        "value": 3
       }
     ],
-    "slug": "light-armor-expertise",
+    "slug": "light-armor-mastery",
     "_migration": {
       "version": 0.893,
       "lastMigration": null,
-      "previous": {
-        "schema": 0.891,
-        "foundry": "11.315",
-        "system": "5.9.2"
-      }
+      "previous": null
     },
     "traits": {
       "otherTags": [],
@@ -40,11 +36,11 @@
     "publication": {
       "title": "Pathfinder Player Core",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
-      "value": 13
+      "value": 19
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -58,15 +54,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null,
-    "details": null
+    "location": null
   },
   "type": "feat",
   "flags": {
     "core": {}
   },
   "effects": [],
-  "folder": "yOvAZTU08Aa7dMbZ",
+  "folder": "y3BUjnF4jz5BGso3",
   "ownership": {
     "default": 0,
     "DE5o5nknA2S91z79": 3
@@ -75,11 +70,11 @@
     "systemId": "pf2e",
     "systemVersion": "5.9.2",
     "coreVersion": "11.315",
-    "createdTime": 1689690879946,
-    "modifiedTime": 1700252552729,
+    "createdTime": 1700258803469,
+    "modifiedTime": 1700258837078,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
-  "_id": "OtF5xKmvTwmC773L",
+  "_id": "5NVxQ49dWzZsrPH5",
   "sort": 0,
-  "_key": "!items!OtF5xKmvTwmC773L"
+  "_key": "!items!5NVxQ49dWzZsrPH5"
 }

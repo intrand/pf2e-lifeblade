@@ -33,7 +33,7 @@
       "reqFeats": [
         "1f7d942c-63cb-4766-a980-50be64752b46"
       ],
-      "textDescription": "When you inflict damage upon an enemy while under the effects of <em>matter trance precision</em>, you may choose to attempt to trip, shove or disarm the enemy as if your weapon had the corresponding trait. You must still be trained in Athletics to perform actions that require training.",
+      "textDescription": "<strong>Requirements</strong> You are in <em>matter trance</em> stance. Your last action was a successful strike against a creature.<br><hr><br>You may add your choice of the trip, shove or disarm trait to your weapon if you perform the corresponding Athletics action as your next action. You must still be trained in Athletics to perform actions that require training.",
       "traits": "Essence: Matter, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
@@ -120,7 +120,8 @@
       "textDescription": "<strong>Requirements</strong> You are standing on the ground. You have at least one hand free.<br><hr><br>You become Immobilized. Additionally, nothing may move you from your current position, including from forced movement. You may Ready an action.",
       "traits": "Essence: Matter, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
-      "databaseID": 1
+      "databaseID": 1,
+      "timestamp": "1699332472172"
     },
     {
       "id": "6d7a06b0-cfcd-4a1b-b15e-9dcbd88a5cb0",
@@ -129,7 +130,8 @@
       "textDescription": "Your skin and armor, if you're wearing any, become covered in thorny barbs. Any enemy who successfully Strikes you takes piercing damage equal to half of your level (minimum 1).",
       "traits": "Essence: Matter, Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
-      "databaseID": 1
+      "databaseID": 1,
+      "timestamp": "1699332420312"
     },
     {
       "id": "f9c1a461-7ad4-4795-88e7-85d95f0de255",
@@ -189,7 +191,8 @@
       "textDescription": "Your trance aura grows in size. The radius of all known <em>trance auras</em> are increased by 10 feet.",
       "traits": "Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
-      "databaseID": 1
+      "databaseID": 1,
+      "timestamp": "1699332368162"
     },
     {
       "id": "a6b26398-ded9-4ba2-af8b-97bbd45a6e61",
@@ -235,7 +238,8 @@
         },
         {
           "effectType": 13,
-          "string0": "5a737e98-4eeb-4b12-8a68-34c38a5ef4ec"
+          "string0": "5a737e98-4eeb-4b12-8a68-34c38a5ef4ec",
+          "reference": "9ecfb49d-04ae-4391-abf9-5a89085b18df"
         }
       ]
     },
@@ -485,7 +489,8 @@
       "listCustomEffects": [
         {
           "effectType": 13,
-          "string0": "07b22dbe-5e75-4641-b6b3-fd19e081bdc5"
+          "string0": "07b22dbe-5e75-4641-b6b3-fd19e081bdc5",
+          "reference": "20dc8637-703d-4ac5-ad94-1e6f654fb61e"
         }
       ]
     },
@@ -529,14 +534,12 @@
       "uniqueID": "b910adac-3a84-4c46-a346-36488a810b54",
       "name": "Boost Healing",
       "type": "Focus",
-      "level": 2,
-      "traits": "Enchantment, Essence: Life, Lifeblade, Occult, Vitality, 3rd Party",
+      "traits": "Essence: Life, Focus, Lifeblade, Occult, Manipulate, Vitality, 3rd Party",
       "actions": 1,
-      "cast": "somatic",
       "descriptionHeightened": "Increase the die size of your pour life healing by 2 steps. If you leave the <em>life trance</em>, the effect is lost.",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1698893462998",
+      "timestamp": "1699821248337",
       "duration": "1 minute"
     },
     {
@@ -544,9 +547,8 @@
       "name": "Calm Mind",
       "type": "Focus",
       "level": 2,
-      "traits": "Lifeblade, Trance, Essence: Mind, Auditory, Concentrate, Emotion, Linguistic, Mental, 3rd Party",
+      "traits": "Essence: Mind, Focus, Lifeblade, Auditory, Concentrate, Emotion, Linguistic, Mental, 3rd Party",
       "actions": 1,
-      "cast": "verbal",
       "descriptionHeightened": "You recite an ancient poem to calm the minds of those around you. In addition to the normal effects of Spirit Trance Resolve, each affected ally may lower their frightened or stupefied condition by 1 at the start of their turn. If an ally has multiple applicable conditions, they choose which condition to lower.<br><br><strong>Heightened (3rd)</strong> Add fascinated, sickened and slowed to the list of conditions.<br><br><strong>Heightened (5th)</strong> Add clumsy, drained and enfeebled to the list of conditions.",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
@@ -557,9 +559,8 @@
       "uniqueID": "95307b24-dc74-4a2b-82c2-1f334215c9a3",
       "name": "Draw Blood",
       "type": "Focus",
-      "traits": "Lifeblade, Trance, Essence: ???, Evocation, 3rd Party",
+      "traits": "Essence: ???, Focus, Lifeblade, Manipulate, 3rd Party",
       "actions": 1,
-      "cast": "somatic",
       "descriptionHeightened": "You force your enemy to bleed. Inflict 1d6+1 bleed damage on a creature within your reach.<br><br><strong>Heightened (+1)</strong> Increase the bleed damage by 1.",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
@@ -570,22 +571,20 @@
       "uniqueID": "15238126-6f2d-4e1b-8d76-30d9d47938cf",
       "name": "Overflowing Life",
       "type": "Focus",
-      "level": 8,
-      "traits": "Essence: Life, Lifeblade, Necromancy, Occult, Vitality, 3rd Party",
+      "level": 4,
+      "traits": "Concentrate, Essence: Life, Focus, Lifeblade, Occult, Vitality, 3rd Party",
       "actions": 1,
-      "cast": "verbal",
       "descriptionHeightened": "Life essence pours from the enemy as freely as a rapid river. Double the amount of healing done by your Life Trance Healing until the start of your next turn.<br><br><srong>Heightened (+1) Increase the bleed damage by 1.</srong>",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1698893462998"
+      "timestamp": "1699821264861"
     },
     {
       "uniqueID": "95c66a6a-c35f-4393-ab25-7f90efb704f1",
       "name": "Pour Life",
       "type": "Cantrip",
-      "traits": "Cantrip, Essence: Life, Healing, Lifeblade, Necromancy, Occult, Vitality, 3rd Party",
+      "traits": "Cantrip, Essence: Life, Healing, Lifeblade, Occult, Manipulate, Vitality, 3rd Party",
       "actions": 1,
-      "cast": "somatic",
       "descriptionHeightened": "<strong>Requirements</strong> You made a successful strike against 1 living creature earlier this round. You have not cast <em>pour life</em> this round.<br>With great concentration, you pull even more life essence from the creature. You redirect this energy to yourself, or 1 willing ally within 30 feet of both the creature and yourself, healing the target for 1d4+1 hit points.<br><strong>Hightening (+1)</strong> Increase the healing done by 1d4+1.",
       "src": "github.com/intrand/pf2e-lifeblade",
       "focusCantrip": true,
@@ -598,7 +597,7 @@
       "uniqueID": "fb648931-f428-4b49-9e54-c72a6a522afb",
       "name": "Purge Undeath",
       "type": "Cantrip",
-      "traits": "Cantrip, Essence: Life, Lifeblade, Necromancy, Occult, Vitality, 3rd Party",
+      "traits": "Cantrip, Essence: Life, Lifeblade, Occult, Vitality, 3rd Party",
       "actions": 2,
       "cast": "somatic, verbal",
       "descriptionHeightened": "You wield the power of life as a weapon and point it toward an undead creature. Deal 1d8 vitality damage to 1 undead creature within 30 feet.<br><hr><br><strong>Hightening (+1)</strong> Increase the damage done by 1d8.",
@@ -613,14 +612,12 @@
       "uniqueID": "0a9cd09f-9413-4972-b977-923875c4105b",
       "name": "Sap Heat",
       "type": "Focus",
-      "level": 2,
-      "traits": "Essence: Matter, Evocation, Lifeblade, Occult, 3rd Party",
+      "traits": "Essence: Matter, Focus, Lifeblade, Occult, Manipulate, 3rd Party",
       "actions": 2,
-      "cast": "somatic, material",
       "descriptionHeightened": "Pull heat away from the target creature, causing them to take cold damage. The target creature takes cold damage equal to 1d12 plus your spellcasting ability modifier.<br><br><strong>Heightened (+2)</strong> Increase the damage by 1d12.",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1698893462999",
+      "timestamp": "1699821274559",
       "target": "1 creature",
       "range": "30 feet",
       "save": "basic Fortitude"
@@ -629,9 +626,8 @@
       "uniqueID": "46572c28-7aaf-4720-a13d-9d231a463209",
       "name": "Tap Self",
       "type": "Focus",
-      "traits": "Enchantment, Lifeblade, Occult, 3rd Party",
+      "traits": "Focus, Lifeblade, Occult, Manipulate, 3rd Party",
       "actions": 1,
-      "cast": "somatic",
       "descriptionHeightened": "You tap into your own essence to empower your weapon or unarmed attack. The next Strike made with the chosen weapon or unarmed attack before the start of your next turn gains a +1 status bonus to the attack roll, and the weapon or unarmed strike deals an additional die of damage.<br><br>If the chosen weapon leaves your possession, <em>tap self</em> ends immediately.",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
@@ -641,14 +637,13 @@
       "uniqueID": "0c3f10d0-f855-4b3f-bac9-0d54a337b0d2",
       "name": "Vitality Surge",
       "type": "Focus",
-      "level": 4,
-      "traits": "Essence: Life, Lifeblade, Necromancy, Occult, Vitality, 3rd Party",
+      "level": 2,
+      "traits": "Essence: Life, Focus, Lifeblade, Occult, Manipulate, Vitality, 3rd Party",
       "actions": 1,
-      "cast": "somatic",
       "descriptionHeightened": "The target creature receives temporary hit points equal to the spell level times 2, which last until the end of your next turn.<br><br><strong>Heightened (+1)</strong> Increase the bleed damage by 1.",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1698893462999",
+      "timestamp": "1699821280463",
       "target": "1 creature",
       "range": "30 feet"
     }
@@ -707,7 +702,8 @@
       "listCustomEffects": [
         {
           "effectType": 14,
-          "string0": "1f7d942c-63cb-4766-a980-50be64752b46"
+          "string0": "1f7d942c-63cb-4766-a980-50be64752b46",
+          "reference": "313ba879-1e0d-4fe7-b769-5b6985ccd2c7"
         }
       ]
     },

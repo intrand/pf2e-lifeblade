@@ -10,25 +10,27 @@
     "rules": [],
     "slug": "purge-undeath-spell",
     "_migration": {
-      "version": 0.88,
+      "version": 0.893,
       "lastMigration": null,
       "previous": {
-        "schema": 0.879,
+        "schema": 0.891,
         "foundry": "11.315",
-        "system": "5.8.3"
+        "system": "5.9.2"
       }
     },
     "traits": {
       "otherTags": [],
       "value": [
+        "attack",
         "cantrip",
-        "hb_essence: life",
-        "hb_lifeblade",
-        "necromancy",
+        "essence: life",
+        "lifeblade",
+        "manipulate",
         "occult",
         "vitality"
       ],
-      "rarity": "common"
+      "rarity": "common",
+      "traditions": []
     },
     "publication": {
       "title": "github.com/intrand/pf2e-lifeblade",
@@ -39,24 +41,7 @@
     "level": {
       "value": 1
     },
-    "spellType": {
-      "value": "attack"
-    },
-    "category": {
-      "value": "spell"
-    },
-    "traditions": {
-      "value": []
-    },
-    "components": {
-      "focus": false,
-      "material": true,
-      "somatic": true,
-      "verbal": false
-    },
-    "materials": {
-      "value": ""
-    },
+    "requirements": "",
     "target": {
       "value": "1 undead creature"
     },
@@ -68,37 +53,29 @@
       "value": "2"
     },
     "duration": {
-      "value": ""
+      "value": "",
+      "sustained": false
     },
     "damage": {
-      "value": {
-        "sQUB8RRtbNxvXYRm": {
-          "value": "1d8",
-          "type": {
-            "value": "vitality",
-            "categories": [],
-            "subtype": ""
-          },
-          "applyMod": false
-        }
+      "sQUB8RRtbNxvXYRm": {
+        "applyMod": false,
+        "formula": "1d8",
+        "type": "vitality",
+        "category": null,
+        "materials": [],
+        "kinds": [
+          "damage"
+        ]
       }
     },
-    "save": {
-      "value": "",
-      "basic": ""
-    },
-    "sustained": {
-      "value": false
-    },
+    "defense": null,
     "cost": {
       "value": ""
     },
     "location": {
       "value": ""
     },
-    "hasCounteractCheck": {
-      "value": false
-    },
+    "counteraction": false,
     "heightening": {
       "type": "interval",
       "interval": 1,
@@ -119,10 +96,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.3",
+    "systemVersion": "5.9.2",
     "coreVersion": "11.315",
     "createdTime": 1695583460400,
-    "modifiedTime": 1699481143148,
+    "modifiedTime": 1700247170920,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_id": "AJFX0rIYHseeSfl3",

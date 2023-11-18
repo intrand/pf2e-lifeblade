@@ -8,29 +8,22 @@
       "gm": "",
       "value": "<p>You gain the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.V8QlY35kQgJVQp0j]{Boost Healing} gambit spell. Increase the number of Focus Points in your focus pool by 1.</p>"
     },
-    "rules": [
-      {
-        "key": "ActiveEffectLike",
-        "mode": "add",
-        "path": "system.resources.focus.max",
-        "value": 1
-      }
-    ],
+    "rules": [],
     "slug": "boost-healing",
     "_migration": {
-      "version": 0.88,
+      "version": 0.893,
       "lastMigration": null,
       "previous": {
-        "schema": 0.879,
+        "schema": 0.891,
         "foundry": "11.315",
-        "system": "5.8.3"
+        "system": "5.9.2"
       }
     },
     "traits": {
       "otherTags": [],
       "value": [
-        "hb_essence: life",
-        "hb_lifeblade"
+        "essence: life",
+        "lifeblade"
       ],
       "rarity": "common"
     },
@@ -75,10 +68,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.3",
+    "systemVersion": "5.9.2",
     "coreVersion": "11.315",
     "createdTime": 1687184514939,
-    "modifiedTime": 1699481143148,
+    "modifiedTime": 1700259393764,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_id": "vAmFBS92hVHCjTIC",

@@ -11,19 +11,19 @@
     "rules": [],
     "slug": "spirit-trance",
     "_migration": {
-      "version": 0.88,
+      "version": 0.893,
       "lastMigration": null,
       "previous": {
-        "schema": 0.879,
+        "schema": 0.891,
         "foundry": "11.315",
-        "system": "5.8.3"
+        "system": "5.9.2"
       }
     },
     "traits": {
       "otherTags": [],
       "value": [
-        "hb_essence: spirit",
-        "hb_lifeblade",
+        "essence: spirit",
+        "lifeblade",
         "stance"
       ],
       "rarity": "common"
@@ -66,10 +66,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.3",
+    "systemVersion": "5.9.2",
     "coreVersion": "11.315",
     "createdTime": 1687987114711,
-    "modifiedTime": 1699481143148,
+    "modifiedTime": 1700234317010,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!j7syxiOlV1xJPQG4"

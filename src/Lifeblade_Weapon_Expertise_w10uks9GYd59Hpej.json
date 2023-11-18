@@ -37,26 +37,26 @@
         ]
       }
     ],
-    "slug": "lifeblade-weapon-expertise",
+    "slug": "weapon-expertise",
     "_migration": {
-      "version": 0.88,
+      "version": 0.893,
       "lastMigration": null,
       "previous": {
-        "schema": 0.879,
+        "schema": 0.891,
         "foundry": "11.315",
-        "system": "5.8.3"
+        "system": "5.9.2"
       }
     },
     "traits": {
       "otherTags": [],
       "value": [
-        "hb_lifeblade"
+        "lifeblade"
       ],
       "rarity": "common"
     },
     "publication": {
-      "title": "github.com/intrand/pf2e-lifeblade",
-      "authors": "intrand",
+      "title": "Pathfinder Player Core",
+      "authors": "",
       "license": "ORC",
       "remaster": true
     },
@@ -90,10 +90,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.8.3",
+    "systemVersion": "5.9.2",
     "coreVersion": "11.315",
     "createdTime": 1689690417398,
-    "modifiedTime": 1699481143148,
+    "modifiedTime": 1700252513064,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_id": "w10uks9GYd59Hpej",
