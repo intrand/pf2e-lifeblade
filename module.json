@@ -99,7 +99,7 @@
     }
   },
   "download": "https://github.com/intrand/pf2e-lifeblade/releases/download/versionNumberToBeInsertedByAutomation/module.zip",
-  "manifest": "https://github.com/intrand/pf2e-lifeblade/releases/download/versionNumberToBeInsertedByAutomation/module.json",
+  "manifest": "https://github.com/intrand/pf2e-lifeblade/releases/latest/download/module.json",
   "url": "https://github.com/intrand/pf2e-lifeblade",
   "description": "The Lifeblade class, compatible with Pathfinder Second Edition. For more information, please see the Project URL.",
   "relationships": {
@@ -109,8 +109,8 @@
         "type": "system",
         "manifest": "https://github.com/foundryvtt/pf2e/releases/download/latest/system.json",
         "compatibility": {
-          "minimum": "5.7.4",
-          "verified": "5.8.3"
+          "minimum": "5.9.2",
+          "verified": "5.9.2"
         }
       }
     ]
