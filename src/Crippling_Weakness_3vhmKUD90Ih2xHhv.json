@@ -22,12 +22,12 @@
     ],
     "slug": "crippling-weakness",
     "_migration": {
-      "version": 0.893,
+      "version": 0.894,
       "lastMigration": null,
       "previous": {
-        "schema": 0.891,
+        "schema": 0.893,
         "foundry": "11.315",
-        "system": "5.9.2"
+        "system": "5.9.3"
       }
     },
     "traits": {
@@ -79,10 +79,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.2",
+    "systemVersion": "5.9.3",
     "coreVersion": "11.315",
     "createdTime": 1692211221218,
-    "modifiedTime": 1700252085268,
+    "modifiedTime": 1700323068436,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!3vhmKUD90Ih2xHhv"

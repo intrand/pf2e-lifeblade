@@ -10,12 +10,12 @@
     "rules": [],
     "slug": "matter-trance",
     "_migration": {
-      "version": 0.893,
+      "version": 0.894,
       "lastMigration": null,
       "previous": {
-        "schema": 0.891,
+        "schema": 0.893,
         "foundry": "11.315",
-        "system": "5.9.2"
+        "system": "5.9.3"
       }
     },
     "traits": {
@@ -61,10 +61,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.2",
+    "systemVersion": "5.9.3",
     "coreVersion": "11.315",
     "createdTime": 1686500096290,
-    "modifiedTime": 1700234317010,
+    "modifiedTime": 1700323068436,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "ownership": {

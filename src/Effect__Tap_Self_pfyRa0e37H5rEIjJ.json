@@ -49,12 +49,12 @@
     ],
     "slug": "effect-tap-self",
     "_migration": {
-      "version": 0.893,
+      "version": 0.894,
       "lastMigration": null,
       "previous": {
-        "schema": 0.891,
+        "schema": 0.893,
         "foundry": "11.315",
-        "system": "5.9.2"
+        "system": "5.9.3"
       }
     },
     "traits": {
@@ -100,10 +100,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.2",
+    "systemVersion": "5.9.3",
     "coreVersion": "11.315",
     "createdTime": 1687189843565,
-    "modifiedTime": 1700251554930,
+    "modifiedTime": 1700323068436,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_id": "pfyRa0e37H5rEIjJ",
