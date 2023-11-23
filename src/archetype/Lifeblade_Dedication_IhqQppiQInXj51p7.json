@@ -32,7 +32,7 @@
         "allowedDrops": {
           "predicate": [
             "item:level:1",
-            "item:trait:hb_lifeblade",
+            "item:trait:lifeblade",
             "item:type:feature"
           ]
         },
@@ -55,12 +55,12 @@
     ],
     "slug": "lifeblade-dedication",
     "_migration": {
-      "version": 0.895,
+      "version": 0.898,
       "lastMigration": null,
       "previous": {
-        "schema": 0.894,
+        "schema": 0.895,
         "foundry": "11.315",
-        "system": "5.9.4"
+        "system": "5.9.5"
       }
     },
     "traits": {
@@ -110,10 +110,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.4",
+    "systemVersion": "5.9.5",
     "coreVersion": "11.315",
     "createdTime": 1694691009862,
-    "modifiedTime": 1700585503532,
+    "modifiedTime": 1700754958377,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!IhqQppiQInXj51p7"

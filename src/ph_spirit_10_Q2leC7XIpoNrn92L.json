@@ -11,12 +11,12 @@
     "rules": [],
     "slug": null,
     "_migration": {
-      "version": 0.895,
+      "version": 0.898,
       "lastMigration": null,
       "previous": {
-        "schema": 0.894,
+        "schema": 0.895,
         "foundry": "11.315",
-        "system": "5.9.4"
+        "system": "5.9.5"
       }
     },
     "traits": {
@@ -65,10 +65,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.4",
+    "systemVersion": "5.9.5",
     "coreVersion": "11.315",
     "createdTime": 1692211264525,
-    "modifiedTime": 1700585499262,
+    "modifiedTime": 1700754947687,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!Q2leC7XIpoNrn92L"
