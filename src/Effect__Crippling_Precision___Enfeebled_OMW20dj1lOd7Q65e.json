@@ -11,7 +11,8 @@
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7"
+        "uuid": "Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7",
+        "inMemoryOnly": true
       }
     ],
     "slug": "effect-crippling-precision-enfeebled",
@@ -67,7 +68,7 @@
     "systemVersion": "5.9.5",
     "coreVersion": "11.315",
     "createdTime": 1697826206235,
-    "modifiedTime": 1700754947687,
+    "modifiedTime": 1700833562271,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_id": "OMW20dj1lOd7Q65e",

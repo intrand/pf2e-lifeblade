@@ -11,7 +11,8 @@
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw"
+        "uuid": "Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw",
+        "inMemoryOnly": true
       }
     ],
     "slug": "effect-crippling-precision-clumsy",
@@ -67,7 +68,7 @@
     "systemVersion": "5.9.5",
     "coreVersion": "11.315",
     "createdTime": 1697826206235,
-    "modifiedTime": 1700754947687,
+    "modifiedTime": 1700833555647,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_id": "Vb6jmeJnqpOqqL70",
