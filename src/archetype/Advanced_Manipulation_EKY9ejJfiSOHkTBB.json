@@ -10,13 +10,19 @@
     },
     "rules": [
       {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.advancedManipulation.halfActorLevel",
+        "value": "max(1,floor(@actor.level/2))"
+      },
+      {
         "adjustName": false,
         "choices": {
           "filter": [
             {
               "lte": [
                 "item:level",
-                "self:level"
+                "{actor|flags.pf2e.advancedManipulation.halfActorLevel}"
               ]
             },
             "item:category:class",
@@ -26,7 +32,7 @@
         },
         "flag": "advancedManipulation",
         "key": "ChoiceSet",
-        "prompt": "Choose a feat with a level no greater than half of the level of this feat slot. WARNING: All feats are shown. Check the level of your selected feat before clicking save!"
+        "prompt": "Choose a feat with a level no greater than half of the level of this feat slot. WARNING: All feats half of your current level or lower are shown. Check the level of your selected feat before clicking save!"
       },
       {
         "key": "GrantItem",
@@ -92,7 +98,7 @@
     "systemVersion": "5.9.5",
     "coreVersion": "11.315",
     "createdTime": 1694691440293,
-    "modifiedTime": 1700754958377,
+    "modifiedTime": 1700931886667,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!EKY9ejJfiSOHkTBB"
