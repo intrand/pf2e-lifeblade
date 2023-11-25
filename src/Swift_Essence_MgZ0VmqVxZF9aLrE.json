@@ -47,14 +47,6 @@
           {
             "label": "Matter Trance",
             "value": "matter-trance"
-          },
-          {
-            "label": "Mind Trance",
-            "value": "mind-trance"
-          },
-          {
-            "label": "Spirit Trance",
-            "value": "spirit-trance"
           }
         ],
         "flag": "swiftEssenceChoice",
@@ -115,7 +107,7 @@
     "systemVersion": "5.9.5",
     "coreVersion": "11.315",
     "createdTime": 1692211713442,
-    "modifiedTime": 1700754947687,
+    "modifiedTime": 1700932100958,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!MgZ0VmqVxZF9aLrE"
