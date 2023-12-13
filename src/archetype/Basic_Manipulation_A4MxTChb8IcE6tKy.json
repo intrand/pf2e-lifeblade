@@ -36,12 +36,12 @@
     ],
     "slug": "basic-manipulation",
     "_migration": {
-      "version": 0.898,
+      "version": 0.904,
       "lastMigration": null,
       "previous": {
-        "schema": 0.895,
+        "schema": 0.903,
         "foundry": "11.315",
-        "system": "5.9.5"
+        "system": "5.10.5"
       }
     },
     "traits": {
@@ -89,10 +89,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.5",
+    "systemVersion": "5.10.5",
     "coreVersion": "11.315",
     "createdTime": 1694691369947,
-    "modifiedTime": 1700754958377,
+    "modifiedTime": 1701926650154,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!A4MxTChb8IcE6tKy"

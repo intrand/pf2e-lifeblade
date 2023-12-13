@@ -11,12 +11,12 @@
     "rules": [],
     "slug": "shift-pain",
     "_migration": {
-      "version": 0.898,
+      "version": 0.904,
       "lastMigration": null,
       "previous": {
-        "schema": 0.895,
+        "schema": 0.903,
         "foundry": "11.315",
-        "system": "5.9.5"
+        "system": "5.10.5"
       }
     },
     "traits": {
@@ -65,10 +65,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.5",
+    "systemVersion": "5.10.5",
     "coreVersion": "11.315",
     "createdTime": 1689616026822,
-    "modifiedTime": 1700754947687,
+    "modifiedTime": 1701926646882,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!4gaN5jpgvAilN52r"

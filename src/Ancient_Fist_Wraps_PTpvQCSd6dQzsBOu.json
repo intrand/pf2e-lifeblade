@@ -9,12 +9,12 @@
     "rules": [],
     "slug": "handwraps-of-mighty-blows",
     "_migration": {
-      "version": 0.898,
+      "version": 0.904,
       "lastMigration": null,
       "previous": {
-        "schema": 0.895,
+        "schema": 0.903,
         "foundry": "11.315",
-        "system": "5.9.5"
+        "system": "5.10.5"
       }
     },
     "traits": {
@@ -35,17 +35,14 @@
     },
     "quantity": 1,
     "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
     "hp": {
       "value": 0,
       "max": 0
     },
     "hardness": 0,
-    "weight": {
-      "value": "-"
-    },
-    "equippedBulk": {
-      "value": ""
-    },
     "price": {
       "value": {
         "gp": 35
@@ -135,9 +132,6 @@
       "strikeConditionValue": null,
       "criticalConditionType": "",
       "criticalConditionValue": null
-    },
-    "negateBulk": {
-      "value": "0"
     }
   },
   "type": "weapon",
@@ -152,10 +146,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.5",
+    "systemVersion": "5.10.5",
     "coreVersion": "11.315",
     "createdTime": 1697725626364,
-    "modifiedTime": 1700754947687,
+    "modifiedTime": 1701926646882,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_id": "PTpvQCSd6dQzsBOu",
