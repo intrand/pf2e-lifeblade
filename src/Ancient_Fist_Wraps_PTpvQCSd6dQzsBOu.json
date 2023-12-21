@@ -9,12 +9,12 @@
     "rules": [],
     "slug": "handwraps-of-mighty-blows",
     "_migration": {
-      "version": 0.904,
+      "version": 0.911,
       "lastMigration": null,
       "previous": {
-        "schema": 0.903,
+        "schema": 0.909,
         "foundry": "11.315",
-        "system": "5.10.5"
+        "system": "5.11.3"
       }
     },
     "traits": {
@@ -54,7 +54,6 @@
       "handsHeld": 0,
       "inSlot": false
     },
-    "stackGroup": null,
     "containerId": null,
     "size": "med",
     "material": {
@@ -98,27 +97,12 @@
     "reload": {
       "value": ""
     },
-    "potencyRune": {
-      "value": null
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
     },
-    "strikingRune": {
-      "value": null
-    },
-    "specific": {
-      "value": false
-    },
-    "propertyRune1": {
-      "value": null
-    },
-    "propertyRune2": {
-      "value": null
-    },
-    "propertyRune3": {
-      "value": null
-    },
-    "propertyRune4": {
-      "value": null
-    },
+    "specific": null,
     "property1": {
       "value": "",
       "dice": 0,
@@ -146,10 +130,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.10.5",
+    "systemVersion": "5.11.5",
     "coreVersion": "11.315",
     "createdTime": 1697725626364,
-    "modifiedTime": 1701926646882,
+    "modifiedTime": 1703178784049,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_id": "PTpvQCSd6dQzsBOu",

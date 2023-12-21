@@ -55,12 +55,12 @@
     ],
     "slug": "lifeblade-dedication",
     "_migration": {
-      "version": 0.904,
+      "version": 0.911,
       "lastMigration": null,
       "previous": {
-        "schema": 0.903,
+        "schema": 0.909,
         "foundry": "11.315",
-        "system": "5.10.5"
+        "system": "5.11.3"
       }
     },
     "traits": {
@@ -73,7 +73,7 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Lifeblade",
+      "title": "github.com/intrand/pf2e-lifeblade",
       "authors": "intrand",
       "license": "ORC",
       "remaster": true
@@ -110,10 +110,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.10.5",
+    "systemVersion": "5.11.5",
     "coreVersion": "11.315",
     "createdTime": 1694691009862,
-    "modifiedTime": 1701926650154,
+    "modifiedTime": 1703178792823,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!IhqQppiQInXj51p7"

@@ -39,12 +39,12 @@
     ],
     "slug": "weapon-expertise",
     "_migration": {
-      "version": 0.904,
+      "version": 0.911,
       "lastMigration": null,
       "previous": {
-        "schema": 0.903,
+        "schema": 0.909,
         "foundry": "11.315",
-        "system": "5.10.5"
+        "system": "5.11.3"
       }
     },
     "traits": {
@@ -55,8 +55,8 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "Pathfinder Player Core",
-      "authors": "",
+      "title": "github.com/intrand/pf2e-lifeblade",
+      "authors": "intrand",
       "license": "ORC",
       "remaster": true
     },
@@ -90,10 +90,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.10.5",
+    "systemVersion": "5.11.5",
     "coreVersion": "11.315",
     "createdTime": 1689690417398,
-    "modifiedTime": 1701926646882,
+    "modifiedTime": 1703178785521,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_id": "w10uks9GYd59Hpej",
