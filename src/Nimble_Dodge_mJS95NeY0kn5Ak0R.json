@@ -25,12 +25,12 @@
     ],
     "slug": "nimble-dodge",
     "_migration": {
-      "version": 0.911,
+      "version": 0.915,
       "lastMigration": null,
       "previous": {
-        "schema": 0.909,
+        "schema": 0.911,
         "foundry": "11.315",
-        "system": "5.11.3"
+        "system": "5.12.0"
       }
     },
     "traits": {
@@ -76,10 +76,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.11.5",
+    "systemVersion": "5.12.7",
     "coreVersion": "11.315",
     "createdTime": 1694035219361,
-    "modifiedTime": 1703178785100,
+    "modifiedTime": 1706247537261,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_id": "mJS95NeY0kn5Ak0R",

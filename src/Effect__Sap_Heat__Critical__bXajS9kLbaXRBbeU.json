@@ -23,12 +23,12 @@
     ],
     "slug": "effect-sap-heat-critical",
     "_migration": {
-      "version": 0.911,
+      "version": 0.915,
       "lastMigration": null,
       "previous": {
-        "schema": 0.909,
+        "schema": 0.911,
         "foundry": "11.315",
-        "system": "5.11.3"
+        "system": "5.12.0"
       }
     },
     "traits": {
@@ -73,10 +73,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.11.5",
+    "systemVersion": "5.12.7",
     "coreVersion": "11.315",
     "createdTime": 1689869623258,
-    "modifiedTime": 1703178784656,
+    "modifiedTime": 1706247537124,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!bXajS9kLbaXRBbeU"

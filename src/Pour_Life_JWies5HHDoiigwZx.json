@@ -10,12 +10,12 @@
     "rules": [],
     "slug": "pour-life-spell",
     "_migration": {
-      "version": 0.911,
+      "version": 0.915,
       "lastMigration": null,
       "previous": {
-        "schema": 0.909,
+        "schema": 0.911,
         "foundry": "11.315",
-        "system": "5.11.3"
+        "system": "5.12.0"
       }
     },
     "traits": {
@@ -23,16 +23,13 @@
       "value": [
         "cantrip",
         "essence: life",
-        "focus",
         "healing",
         "lifeblade",
         "manipulate",
         "vitality"
       ],
       "rarity": "common",
-      "traditions": [
-        "occult"
-      ]
+      "traditions": []
     },
     "publication": {
       "title": "github.com/intrand/pf2e-lifeblade",
@@ -97,10 +94,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.11.5",
+    "systemVersion": "5.12.7",
     "coreVersion": "11.315",
     "createdTime": 1686404478666,
-    "modifiedTime": 1703178783575,
+    "modifiedTime": 1706248952016,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "ownership": {

@@ -10,12 +10,12 @@
     "rules": [],
     "slug": "tap-self-spell",
     "_migration": {
-      "version": 0.911,
+      "version": 0.915,
       "lastMigration": null,
       "previous": {
-        "schema": 0.909,
+        "schema": 0.911,
         "foundry": "11.315",
-        "system": "5.11.3"
+        "system": "5.12.0"
       }
     },
     "traits": {
@@ -26,9 +26,7 @@
         "manipulate"
       ],
       "rarity": "common",
-      "traditions": [
-        "occult"
-      ]
+      "traditions": []
     },
     "publication": {
       "title": "github.com/intrand/pf2e-lifeblade",
@@ -81,10 +79,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.11.5",
+    "systemVersion": "5.12.7",
     "coreVersion": "11.315",
     "createdTime": 1687189778847,
-    "modifiedTime": 1703178785831,
+    "modifiedTime": 1706247537476,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_id": "em3AG7SGO3t1ZB0t",
