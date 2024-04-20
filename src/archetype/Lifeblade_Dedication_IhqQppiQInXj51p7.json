@@ -55,12 +55,12 @@
     ],
     "slug": "lifeblade-dedication",
     "_migration": {
-      "version": 0.917,
+      "version": 0.926,
       "lastMigration": null,
       "previous": {
-        "schema": 0.915,
+        "schema": 0.925,
         "foundry": "11.315",
-        "system": "5.13.1"
+        "system": "5.15.1"
       }
     },
     "traits": {
@@ -110,10 +110,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.13.1",
+    "systemVersion": "5.15.1",
     "coreVersion": "11.315",
     "createdTime": 1694691009862,
-    "modifiedTime": 1706855008766,
+    "modifiedTime": 1713574154717,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_key": "!items!IhqQppiQInXj51p7"

@@ -36,12 +36,12 @@
     ],
     "slug": "lifeblade",
     "_migration": {
-      "version": 0.917,
+      "version": 0.926,
       "lastMigration": null,
       "previous": {
-        "schema": 0.915,
+        "schema": 0.925,
         "foundry": "11.315",
-        "system": "5.13.1"
+        "system": "5.15.1"
       }
     },
     "traits": {
@@ -255,10 +255,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.13.1",
+    "systemVersion": "5.15.1",
     "coreVersion": "11.315",
     "createdTime": 1686402868528,
-    "modifiedTime": 1706855005090,
+    "modifiedTime": 1713574157589,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "ownership": {
