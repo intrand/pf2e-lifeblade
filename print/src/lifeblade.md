@@ -655,7 +655,7 @@ The target creature receives temporary hit points equal to the spell level times
 
 item (
 # Purge Undeath :aa:
-## Focus Cantrip 6
+## Focus Cantrip 1
 -
 ;Cantrip,Essence: Life,Lifeblade,Occult,Manipulate,Vitality
 -
@@ -740,28 +740,34 @@ You force your enemy to bleed. Inflict 1d6+1 bleed damage on a creature within y
 
 # Legal
 
-## Notice
-
-Any inaccuracies found in this document will be corrected
-within a reasonable timeframe after the release of the Pathfinder
-Second Edition Remaster. This notice and its contents are provided
-ahead of the aforementioned remaster in good faith effort to comply
-with the terms of the ORC License. Once this document has been
-reviewed, and corrected if necessary, this notice will be removed.
-
 ## ORC Notice
 
-This product is licensed under the ORC License held in the Library of Congress
-at TX000[number tbd] and available online at various locations including
-www.azoralaw.com/orclicense, www.gencon.com/orclicense and others. All
-warranties are disclaimed as set forth therein.
+This product is licensed under the ORC License held in the Library
+of Congress and available online at various locations including
+paizo.com/orclicense, www.azoralaw.com/orclicense, and others.
+All warranties are disclaimed as set forth therein.
 
 This product is based on the following Licensed Material:
-  Pathfinder Second Edition, © Paizo Inc.
+  Pathfinder Player Core, © 2023 Paizo Inc., Designed by Logan Bonner,
+  Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.
+  Authors: Alexander Augunas, Kate Baker, Logan Bonner, Jason Bulmahn,
+  Carlos Cabrera, Calder CaDavid, James Case, Eleanor Ferron, Steven Hammond,
+  Joan Hong, Vanessa Hoskins, James Jacobs, Jenny Jarzabski, Erik Keith,
+  Dustin Knight, Lyz Liddell, Luis Loza, Patchen Mortimer, Dennis Muldoon,
+  Stephen Radney-MacFarland, Mikhail Rekun, David N. Ross, Michael Sayre,
+  Mark Seifter, Kendra Leigh Speedling, Sara Thompson, Clark Valentine,
+  Andrew White, Landon Winkler, and Linda Zayas-Palmer
 
-If you use our Licensed Material in your own published work, please credit us
-in your product as follows:
-  pf2e-lifeblade, © intrand
+  Pathfinder GM Core, © 2023 Paizo Inc., Designed by Logan Bonner and Mark Seifter.
+  Authors: Amirali Attar Olyae, Logan Bonner, Creighton Broadhurst, Jason Bulmahn,
+  James Case, Jesse Decker, Eleanor Ferron, Fabby Garza Marroquin, Jaym Gates,
+  Matthew Goetz, James Jacobs, Brian R. James, Jenny Jarzabski, Dustin Knight,
+  Jason LeMaitre, Lyz Liddell, Luis Loza, Ron Lundeen, Stephen Radney-MacFarland,
+  David N. Ross, Michael Sayre, Mark Seifter, Owen K.C. Stephens, Amber Stewart,
+  Clark Valentine, Landon Winkler, and Linda Zayas-Palmer
+
+If you use our Licensed Material in your own published work, please credit us in your product as follows:
+  pf2e-lifeblade, © 2023 intrand
 
 
 ## Community Use Policy
