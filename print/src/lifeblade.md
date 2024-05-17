@@ -65,10 +65,10 @@ Trained in lifeblade class DC
 )
 
 info (
-**Key Ability**
+**Key Attribute**
 
 **DEXTERITY**
-At 1st level, your class gives you an ability boost to Dexterity.
+At 1st level, your class gives you an attribute boost to Dexterity.
 
 |
 
@@ -112,26 +112,26 @@ You study ancient texts, attempt to improve your unique fighting techniques and 
 
 | Your Level | Class Features |
 | :---: | :---: |
-| 1 | Ancestry and background, initial proficiencies, trance, lifeblade feat, gambit spells, tap self |
+| 1 | Ancestry and background, attribute boosts, initial proficiencies, trance, lifeblade feat, gambit spells, tap self |
 | 2 | Lifeblade feat, skill feat |
-| 3 | Expert lifeblade, general feat, skill increase |
+| 3 | Lifeblade expertise, general feat, skill increase |
 | 4 | Lifeblade feat, skill feat |
-| 5 | Ability boosts, ancestry feat, weapon expertise, skill increase |
+| 5 | Attribute boosts, ancestry feat, lifeblade weapon expertise, skill increase |
 | 6 | Lifeblade feat, skill feat |
-| 7 | Master lifeblade, general feat, evasion, vigilant senses, weapon specialization, skill increase |
+| 7 | Lifeblade mastery, general feat, evasion, perception mastery, weapon specialization, skill increase |
 | 8 | Lifeblade feat, skill feat |
-| 9 | Ancestry feat, greater fortitude, skill increase |
-| 10 | Ability boosts, Lifeblade feat, skill feat |
-| 11 | General feat, skill increase |
+| 9 | Ancestry feat, fortitude expertise, skill increase |
+| 10 | Attribute boosts, lifeblade feat, skill feat |
+| 11 | General feat, light armor expertise, skill increase |
 | 12 | Lifeblade feat, skill feat |
-| 13 | Ancestry feat, improved evasion, incredible senses, light armor expertise, weapon mastery, skill increase |
+| 13 | Ancestry feat, improved evasion, perception legend, martial weapon mastery, skill increase |
 | 14 | Lifeblade feat, skill feat |
-| 15 | Ability boosts, general feat, legendary lifeblade, greater weapon specialization, skill increase |
+| 15 | Attribute boosts, general feat, legendary lifeblade, greater weapon specialization, skill increase |
 | 16 | Lifeblade feat, skill feat |
-| 17 | Ancestry feat, slippery mind, skill increase |
+| 17 | Ancestry feat, limber mind, skill increase |
 | 18 | Lifeblade feat, skill feat |
 | 19 | General feat, light armor mastery, skill increase |
-| 20 | Ability boosts, Lifeblade feat, skill feat |
+| 20 | Attribute boosts, lifeblade feat, skill feat |
 
 # Class Features
 
@@ -153,11 +153,11 @@ You can tap into the spirits and minds of those around you, and even gain a loos
 
 ## Gambit Spells
 
-In the heat of combat, and while in a trance, you see, hear and feel things that none other can - the very life force of nearby creatures. After striking an opponent, you may perform a gambit, allowing you to manipulate this life force. Gambits are a special type of spell which often require you to successfully strike an enemy before they can be cast. Gambit spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to commune with your ancesters, read ancient texts, or otherwise meditate upon the wisdom of the past.
+In the heat of combat, and while in a trance, you see, hear and feel things that none other can - the very life force of nearby creatures. After striking an opponent, you may perform a gambit, allowing you to manipulate this life force. Gambits are a special type of spell which often require you to successfully strike an enemy before they can be cast. Gambit spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to commune with your ancestors, read ancient texts, or otherwise meditate upon the wisdom of the past.
 
-Your gambit spells are occult spells. You become trained in occult spell attacks and occult spell DCs and your key spellcasting ability is Dexterity.
+Your gambit spells are occult spells. You become trained in spell attacks and spell DCs and your spellcasting attribute is Dexterity.
 
-Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. Taking feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. The full rules for focus spells are found [here](https://2e.aonprd.com/Rules.aspx?ID=276).
+Focus spells are automatically heightened to half your level rounded up. Taking feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. The full rules for focus spells are found [here](https://2e.aonprd.com/Rules.aspx?ID=2228).
 
 You learn the *tap self* gambit spell, allowing you to tap into your own essence to empower your weapon.
 
@@ -185,41 +185,49 @@ At 7th level, you can use skill increases to become a master in a skill in which
 
 At 3rd level and every 4 levels thereafter, you gain a general feat. General feats are listed in Chapter 5.
 
-## Expert Lifeblade 3rd
+## Lifeblade Expertise 3rd
 
-Your proficiency ranks for Lifeblade Class DC and Occult spellcasting increases to expert.
+Your proficiency ranks for Lifeblade Class DC and spellcasting increases to expert.
 
-## Ability Boosts 5th
+## Attribute Boosts 5th
 
-At 5th level and every 5 levels thereafter, you boost four different ability scores. You can use these ability boosts to increase your ability scores above 18. Boosting an ability score increases it by 1 if it’s already 18 or above, or by 2 if it starts out below 18.
+At 5th level and every 5 levels thereafter, you boost four different attribute scores. You can use these attribute boosts to increase your attribute above 18. Boosting an attribute increases it by 1 if it’s already 18 or above, or by 2 if it starts out below 18.
 
 ## Ancestry Feats 5th
 
 In addition to the ancestry feat you started with, you gain an ancestry feat at 5th level and every 4 levels thereafter. The list of feats is in your ancestry’s entry in Chapter 2.
 
-## Master Lifeblade 8th
+## Lifeblade Weapon Expertise 5th
 
-Your proficiency ranks for Lifeblade Class DC and Occult spellcasting increases to master.
+You've dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increases to expert.
 
-## Great Fortitude 9th
+-
+
+You gain access to the critical specialization effects of all weapons for which you have expert proficiency.
+
+## Lifeblade Mastery 7th
+
+Your proficiency ranks for Lifeblade Class DC and spellcasting increases to master.
+
+## Evasion 7th
+
+You've learned to move quickly to avoid explosions, dragon's breath, and worse. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead.
+
+## Perception Mastery 7th
+
+You've developed keen awareness and attention to detail. Your proficiency rank for Perception increases to master.
+
+## Weapon Specialization 7th
+
+You've learned how to inflict greater injuries with the weapons you know best. You deal an additional 2 damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and 4 if you're legendary.
+
+## Fortitude Expertise 9th
 
 Your physique is incredibly hardy. Your proficiency rank for Fortitude saves increases to expert.
 
-## Resolve 9th
-
-You’ve steeled your mind with resolve. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead.
-
-## Vigilant Senses 11th
-
-Through your adventures, you’ve developed keen awareness and attention to detail. Your proficiency rank for Perception increases to master.
-
-## Light Armor Expertise 13th
+## Light Armor Expertise 11th
 
 You’ve learned how to dodge while wearing light or no armor. Your proficiency ranks for light armor and unarmored defense increase to expert.
-
-## Weapon Specialization 13th
-
-You’ve learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 damage if you’re a master, and 4 damage if you’re legendary.
 
 |
 
@@ -229,17 +237,32 @@ note (
 You will see the following key terms in many lifeblade class features, feats and spells.
 
   **Stance:** A stance is a general combat strategy that you enter by using an action with the stance trait, and that you remain in for some time. A stance lasts until you get knocked out, until its requirements (if any) are violated, until the encounter ends, or until you enter a new stance, whichever comes first. After you take an action that has the stance trait, you can't take another one for 1 round. You can enter or be in a stance only in encounter mode.
-  **Essence: [Life, Matter, Mind, Spirit]:** Activities with one or more of these traits may only be used while in the Trance of the corresponding essence. For example, you may cast the *boost healing* gambit spell only while in Life Trance. Feats with one or more of these traits may only be taken if you know all of the corresponding trances. For example, you must first take the *matter trance* feat before you may take the *sap heat* feat.
+  **Essence: [Life, Matter]:** Activities with one or more of these traits may only be used while in the Trance of the corresponding essence. For example, you may cast the *boost healing* gambit spell only while in Life Trance. Feats with one or more of these traits may only be taken if you know all of the corresponding trances. For example, you must first take the *matter trance* feat before you may take the *sap heat* feat.
 )
 
-## Legendary Lifeblade 16th
+## Improved Evasion 13th
 
-Your proficiency ranks for Lifeblade Class DC and Occult spellcasting increases to legendary.
+Your ability to elude danger is matchless. Your proficiency rank for Reflex saves increases to legendary. When you roll a critical failure on a Reflex save, you get a failure instead. When you roll a failure on a Reflex save against a damaging effect, you take half damage.
 
-## Greater Resolve 17th
+## Perception Legend 13th
 
-Your unbelievable training grants you mental resiliency. Your proficiency rank for Will saves increases to legendary. When you roll a success on a Will save, you get a critical success. When you roll a critical failure on a Will save, you get a failure instead. When you roll a failure on a Will save against a damaging effect, you take half damage.
+You notice the almost imperceptible. Your proficiency rank for Perception increases to legendary.
 
+## Martial Weapon Mastery 13th
+
+You fully understand your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to master.
+
+## Legendary Lifeblade 15th
+
+Your proficiency ranks for Lifeblade Class DC and spellcasting increases to legendary.
+
+## Greater Weapon Specialization 15th
+
+Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you're an expert, 6 if you're a master, and 8 if you're legendary.
+
+## Limber Mind 17th
+
+Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead.
 
 ## Light Armor Mastery 19th
 
@@ -281,7 +304,7 @@ You feel a particular connection with the life force of those around you, and us
 
 When you successfully Strike a living creature while in this stance, you gain the *life trance aura*, which grants you and allies within 5 feet *life trance healing*.
 
-**Life Trance Healing** You gain fast healing equal to your level.
+**Life Trance Healing** You gain fast healing equal to your level. This healing has the vitality trait.
 )
 
 |
@@ -517,6 +540,8 @@ item (
 You become Immobilized. Additionally, nothing may move you from your current position, including from forced movement. You may Ready an action.
 )
 
+|
+
 item (
 # Preserve Life :r:
 ## Feat 14
@@ -526,8 +551,6 @@ item (
 -
 You react to stop life essence from leaving your ally. Reduce the damage your ally suffers by an amount equal to your level.
 )
-
-|
 
 ## 16th Level
 
@@ -605,7 +628,7 @@ item (
 
 **Saving Throw** basic Fortitude
 -
-Pull heat away from the target creature, causing them to take cold damage. The target creature takes cold damage equal to 1d12 plus your spellcasting ability modifier.
+Pull heat away from the target creature, causing them to take cold damage. The target creature takes cold damage equal to 1d12 plus your spellcasting attribute modifier.
 -
 **Heightened (+2)** Increase the damage by 1d12.
 )
