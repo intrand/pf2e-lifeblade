@@ -2,6 +2,8 @@
 
 This repository is the home of the Lifeblade class, compatible with Pathfinder Second Edition.
 
+You use your mystical and marshal gifts to heal allies and harm foes. Using ancient techniques, you siphon the life from enemies and use that energy to provide respite to your allies in even the most dangerous of times. As you grow more powerful, your allies will increasingly trust in your care, and enemies will fear your abilities.
+
 > NOTE: This is a work in progress. 1.0.0 will mark the first true release. Anything is subject to change until 1.0.0. However, I will try not to break stuff :)
 
 See the...
