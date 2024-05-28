@@ -24,7 +24,7 @@
       "traits": "Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1701127833276"
+      "timestamp": "1706031300897"
     },
     {
       "id": "87c3e261-389c-4907-bffa-014e66636829",
@@ -41,10 +41,10 @@
     },
     {
       "id": "ce32fffb-633b-41d8-bf8d-aeb608894e0d",
-      "name": "Attack of Opportunity",
+      "name": "Reactive Strike",
       "level": 6,
       "action": 0,
-      "textDescription": "<strong>Trigger</strong> A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.<br><hr><br>You swat a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.",
+      "textDescription": "<strong>Trigger</strong> A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.<br><hr><br>You lash out at a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.",
       "traits": "Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
@@ -198,11 +198,11 @@
       "id": "a6b26398-ded9-4ba2-af8b-97bbd45a6e61",
       "name": "Life Trance",
       "action": 1,
-      "textDescription": "You feel a particular connection with the life force of those around you, and use this connection to siphon life energy from foes in order to send it to nearby allies. You enter the <em>life trance stance</em>.<br><br>When you successfully Strike a living creature while in this stance, you gain the <em>life trance aura</em>, which grants you and allies within 5 feet <em>life trance healing</em>.<br><br><strong>Life Trance Healing</strong> You gain fast healing equal to your level.",
+      "textDescription": "You feel a particular connection with the life force of those around you, and use this connection to siphon life energy from foes in order to send it to nearby allies. You enter the <em>life trance stance</em>.<br><br>When you successfully Strike a living creature while in this stance, you gain the <em>life trance aura</em>, which grants you and allies within 5 feet <em>life trance healing</em>.<br><br><strong>Life Trance Healing</strong> You gain fast healing equal to your level. This healing has the vitality trait.",
       "traits": "Essence: Life, Lifeblade, Stance, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1701127833278"
+      "timestamp": "1715959531546"
     },
     {
       "id": "31258aa0-1ad0-4ae0-98aa-466371ad1eb2",
@@ -239,6 +239,7 @@
         {
           "effectType": 13,
           "string0": "5a737e98-4eeb-4b12-8a68-34c38a5ef4ec",
+          "int0": 1,
           "reference": "9ecfb49d-04ae-4391-abf9-5a89085b18df"
         }
       ]
@@ -254,14 +255,24 @@
       "timestamp": "1701127833278"
     },
     {
+      "id": "d7ef757b-6df8-45d8-96c8-56699a2e5b04",
+      "name": "Mind Trance",
+      "action": 1,
+      "textDescription": "You're one step ahead, helping your allies brace for what the enemy may be planning. You enter the Mind Trance stance, enabling you to use any actions with the Trance trait. When you successfully Strike a creature while in this stance, you gain the Mind Trance Aura until the start of your next turn, which grants you and allies within 15 feet Mind Trance Resilience.<br><br><strong>Mind Trance Resilience</strong> You gain resistances to physical damage equal to half of your level.",
+      "traits": "Essence: Mind, Stance, 3rd Party",
+      "src": "github.com/intrand/pf2e-lifeblade",
+      "databaseID": 1,
+      "timestamp": "1701127833278"
+    },
+    {
       "id": "0116ff2c-15b5-4674-98ce-3f8434aed5a0",
       "name": "Nimble Dodge",
       "action": 0,
       "textDescription": "<strong>Trigger</strong> A creature targets you with an attack and you can see the attacker.<br><br><strong>Requirements</strong> You are not encumbered<br><hr><br>You deftly dodge out of the way, gaining a +2 circumstance bonus to AC against the triggering attack.",
       "traits": "Lifeblade, 3rd Party",
-      "src": "github.com/intrand/pf2e-lifeblade",
+      "src": "Player Core pg. 169",
       "databaseID": 1,
-      "timestamp": "1701127833278"
+      "timestamp": "1706031300896"
     },
     {
       "id": "51292f81-9649-4f7b-822c-87dfdca7f738",
@@ -381,7 +392,7 @@
         "a6b26398-ded9-4ba2-af8b-97bbd45a6e61"
       ],
       "textDescription": "Funnel your own life into a nearby ally to keep them going. Take persistent damage to keep an ally that died recently alive.",
-      "traits": "Essence: Life, Lifeblade, 3rd Party",
+      "traits": "Essence: Life, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
       "timestamp": "1701127833279"
@@ -433,6 +444,29 @@
       "timestamp": "1701127833280"
     },
     {
+      "id": "21e4b85a-5802-489c-ab5a-096ec699235c",
+      "name": "Soulsight",
+      "level": 8,
+      "reqFeats": [
+        "c39c7327-c5c6-490c-95b3-4709e0918675"
+      ],
+      "textDescription": "You gain spiritsense as an imprecise sense with a range of 60 feet.<br><br>Spiritsense enables you to sense the spirits of creatures, including living creatures, most non-mindless undead, and haunts within the listed range. As with your hearing and other imprecise senses, you still need to Seek to locate an undetected creature.<br>As spiritsense detects spiritual essence, not physical bodies, it can detect spirits projected by spells such as project image or possessing otherwise soulless objects. It can't detect soulless bodies, constructs, or objects, and like most senses, it doesn't penetrate through solid objects.",
+      "traits": "Essence: Spirit, 3rd Party",
+      "src": "github.com/intrand/pf2e-lifeblade",
+      "databaseID": 1,
+      "timestamp": "1701127833280"
+    },
+    {
+      "id": "c39c7327-c5c6-490c-95b3-4709e0918675",
+      "name": "Spirit Trance",
+      "action": 1,
+      "textDescription": "Link with enemy creatures' spirits to bolster your allies'. You enter the Spirit Trance stance, enabling you to use any actions with the Trance trait. When you successfully Strike a creature while in this stance, you gain the Spirit Trance Aura until the start of your next turn, which grants you and allies within 15 feet Spirit Trance Resolve.<br><br><strong>Spirit Trance Resolve</strong> You gain a +1 status bonus to AC and saving throws.",
+      "traits": "Essence: Spirit, Stance, 3rd Party",
+      "src": "github.com/intrand/pf2e-lifeblade",
+      "databaseID": 1,
+      "timestamp": "1701127833280"
+    },
+    {
       "id": "b6ca16c5-3889-42e6-af64-13df4e00003b",
       "name": "Suffer Life",
       "level": 10,
@@ -453,12 +487,13 @@
       "traits": "Lifeblade, 3rd Party",
       "src": "github.com/intrand/pf2e-lifeblade",
       "databaseID": 1,
-      "timestamp": "1701127833280",
+      "timestamp": "1706031300897",
       "listCustomEffects": [
         {
           "effectType": 13,
           "string0": "07b22dbe-5e75-4641-b6b3-fd19e081bdc5",
-          "reference": "20dc8637-703d-4ac5-ad94-1e6f654fb61e"
+          "reference": "20dc8637-703d-4ac5-ad94-1e6f654fb61e",
+          "int0": 1
         }
       ]
     },
@@ -503,39 +538,6 @@
           "reference": "23ca730e-dc24-4f10-a4e0-127ab47d67fd"
         }
       ]
-    },
-    {
-      "id": "21e4b85a-5802-489c-ab5a-096ec699235c",
-      "name": "Soulsight",
-      "level": 8,
-      "reqFeats": [
-        "c39c7327-c5c6-490c-95b3-4709e0918675"
-      ],
-      "textDescription": "You gain spiritsense as an imprecise sense with a range of 60 feet.<br><br>Spiritsense enables you to sense the spirits of creatures, including living creatures, most non-mindless undead, and haunts within the listed range. As with your hearing and other imprecise senses, you still need to Seek to locate an undetected creature.<br>As spiritsense detects spiritual essence, not physical bodies, it can detect spirits projected by spells such as project image or possessing otherwise soulless objects. It can't detect soulless bodies, constructs, or objects, and like most senses, it doesn't penetrate through solid objects.",
-      "traits": "Essence: Spirit, Lifeblade, 3rd Party",
-      "src": "github.com/intrand/pf2e-lifeblade",
-      "databaseID": 1,
-      "timestamp": "1701127833280"
-    },
-    {
-      "id": "c39c7327-c5c6-490c-95b3-4709e0918675",
-      "name": "Spirit Trance",
-      "action": 1,
-      "textDescription": "Link with enemy creatures' spirits to bolster your allies'. You enter the Spirit Trance stance, enabling you to use any actions with the Trance trait. When you successfully Strike a creature while in this stance, you gain the Spirit Trance Aura until the start of your next turn, which grants you and allies within 15 feet Spirit Trance Resolve.<br><br><strong>Spirit Trance Resolve</strong> You gain a +1 status bonus to AC and saving throws.",
-      "traits": "Essence: Spirit, Stance, 3rd Party",
-      "src": "github.com/intrand/pf2e-lifeblade",
-      "databaseID": 1,
-      "timestamp": "1701127833280"
-    },
-    {
-      "id": "d7ef757b-6df8-45d8-96c8-56699a2e5b04",
-      "name": "Mind Trance",
-      "action": 1,
-      "textDescription": "You're one step ahead, helping your allies brace for what the enemy may be planning. You enter the Mind Trance stance, enabling you to use any actions with the Trance trait. When you successfully Strike a creature while in this stance, you gain the Mind Trance Aura until the start of your next turn, which grants you and allies within 15 feet Mind Trance Resilience.<br><br><strong>Mind Trance Resilience</strong> You gain resistances to physical damage equal to half of your level.",
-      "traits": "Essence: Mind, Stance, 3rd Party",
-      "src": "github.com/intrand/pf2e-lifeblade",
-      "databaseID": 1,
-      "timestamp": "1701127833278"
     }
   ],
   "listCustomSpells": [
@@ -678,7 +680,11 @@
       "src": "github.com/intrand/pf2e-lifeblade",
       "specialType": -1,
       "databaseID": 1,
-      "timestamp": "1701127833281"
+      "timestamp": "1701127833281",
+      "listChildIDs": [
+        "2e329e08-d9b2-4ada-95cd-cad52cd32e35",
+        "3a78a38e-4dd7-476a-ba4c-b26e512c24d3"
+      ]
     },
     {
       "name": "Lifeblade of Life",
@@ -737,7 +743,11 @@
       "level": 4,
       "specialType": -1,
       "databaseID": 1,
-      "timestamp": "1701127833282"
+      "timestamp": "1701127833282",
+      "listChildIDs": [
+        "46ea7537-49fb-441c-8abc-269b5a36aa31",
+        "522ae1ae-dea1-4cfe-ad3c-64b97def2adf"
+      ]
     }
   ],
   "listCustomClasses": [
@@ -823,7 +833,7 @@
           ]
         },
         {
-          "name": "Expert Lifeblade",
+          "name": "Lifeblade Expertise",
           "id": "1c1dd541-79ac-4ba0-a940-2f35ffa86ee4",
           "description": "Your proficiency ranks for Lifeblade Class DC and Occult spellcasting increases to expert.",
           "traits": "Lifeblade, 3rd Party",
@@ -832,7 +842,7 @@
           "databaseID": 1
         },
         {
-          "name": "Master Lifeblade",
+          "name": "Lifeblade Mastery",
           "id": "fb5f6b58-57da-497e-9859-6aca085849bc",
           "description": "Your proficiency ranks for Lifeblade Class DC and Occult spellcasting increases to master.",
           "traits": "Lifeblade, 3rd Party",
@@ -850,7 +860,7 @@
           "databaseID": 1
         },
         {
-          "name": "Weapon Expertise",
+          "name": "Lifeblade Weapon Expertise",
           "id": "b35b21cd-d3c2-4578-b567-e112302ea2b9",
           "description": "You’ve dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert. You gain access to the critical specialization effects of all weapons for which you have expert proficiency.",
           "traits": "Lifeblade, 3rd Party",
@@ -901,7 +911,7 @@
           ]
         },
         {
-          "name": "Vigilant Senses",
+          "name": "Perception Mastery",
           "id": "67d158f7-6011-48f1-9fe5-5a57e0d147cc",
           "description": "Through your adventures, you’ve developed keen awareness and attention to detail. Your proficiency rank for Perception increases to master.",
           "traits": "Lifeblade, 3rd Party",
@@ -927,7 +937,7 @@
           "databaseID": 1
         },
         {
-          "name": "Greater Fortitude",
+          "name": "Fortitude Expertise",
           "id": "0cd05bbf-5c53-4816-830d-111320e66f2f",
           "description": "Your physique is incredibly hardy, granting you increased endurance. Your proficiency rank for Fortitude saves increases to expert.",
           "traits": "Lifeblade, 3rd Party",
@@ -961,7 +971,7 @@
           ]
         },
         {
-          "name": "Incredible Senses",
+          "name": "Perception Legend",
           "id": "932a3f0f-e9bb-4f1b-aca4-fb164b3eefdb",
           "description": "You notice things almost impossible for an ordinary person to detect. Your proficiency rank for Perception increases to legendary.",
           "traits": "Lifeblade, 3rd Party",
@@ -983,7 +993,7 @@
           "description": "You’ve learned how to dodge while wearing light or no armor. Your proficiency rank for light armor and unarmored defense increases to expert.",
           "traits": "Lifeblade, 3rd Party",
           "src": "github.com/intrand/pf2e-lifeblade",
-          "level": 13,
+          "level": 11,
           "databaseID": 1,
           "listCustomEffects": [
             {
@@ -1001,7 +1011,7 @@
           ]
         },
         {
-          "name": "Weapon Mastery",
+          "name": "Martial Weapon Mastery",
           "id": "5897589a-c0e2-4a08-bf76-1d168fec3da5",
           "description": "You fully understand your weapons. Your proficiency ranks for simple, martial weapons and unarmed attacks increase to master.",
           "traits": "Lifeblade, 3rd Party",
@@ -1039,7 +1049,7 @@
           "databaseID": 1
         },
         {
-          "name": "Slippery Mind",
+          "name": "Limber Mind",
           "id": "6a66ad15-9641-4b99-8a6e-65eaf64e1d83",
           "description": "You play mental games and employ cognitive tricks to throw off mind-altering effects. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead.",
           "traits": "Lifeblade, 3rd Party",
@@ -1081,12 +1091,15 @@
         {
           "name": "Essence Choice",
           "id": "b9fb677d-e274-4b4d-b9c5-299092ff6229",
-          "description": "xcvbcvbxcv",
+          "description": "Choose your essence",
           "traits": "Lifeblade, 3rd Party",
           "src": "github.com/intrand/pf2e-lifeblade",
           "specialType": -2,
           "databaseID": 1,
-          "parentID": "b9fb677d-e274-4b4d-b9c5-299092ff6229"
+          "parentID": "b9fb677d-e274-4b4d-b9c5-299092ff6229",
+          "listChildIDs": [
+            "b9fb677d-e274-4b4d-b9c5-299092ff6229"
+          ]
         },
         {
           "name": "Essence Choice",
@@ -1098,14 +1111,16 @@
           "listCustomEffects": [
             {
               "effectType": 13,
-              "string0": "5a737e98-4eeb-4b12-8a68-34c38a5ef4ec"
+              "string0": "5a737e98-4eeb-4b12-8a68-34c38a5ef4ec",
+              "reference": "e27dbae6-7348-44ea-99ca-75380c1ef215"
             }
           ]
         }
       ],
       "timestamp": "1701127833282",
       "description": "During Combat Encounters…<br>You enter various stances to heal, protect or bolster your allies. You are nimble and in the front line, eager to disrupt your enemy's plans.<br><br>During Social Encounters…<br>You see things others seem to overlook. Your seemingly endless knowledge intimidates some.<br><br>While Exploring…<br>Knowledable in ancient arts, the information you recall so readily is seen as occult in nature to most. Regardless, your allies are glad to have you on their side, rather than the other way around.<br><br>In Downtime…<br>You study ancient texts, attempt to improve your unique fighting techniques and serve as a guide for tourists, able to cite historical knowledge like you were reading it off of the page.<br><br>You Might…<br>Commune with your ancestors in seclusion, seeking their wisdom and guidance.<br><br>Feel a strong sense of duty to your people and loyalty to your friends and companions.<br><br>Do things that are difficult or uncomfortable for others to do, such as stand up to a person who appears to be stronger than yourself.<br><br>Others Probably…<br>Are put at ease knowing that you're there to protect them.",
-      "src": "github.com/intrand/pf2e-lifeblade"
+      "src": "github.com/intrand/pf2e-lifeblade",
+      "databaseID": 1
     }
   ]
 }
