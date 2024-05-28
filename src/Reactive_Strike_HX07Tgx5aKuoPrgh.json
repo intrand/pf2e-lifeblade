@@ -1,10 +1,10 @@
 {
   "img": "systems/pf2e/icons/features/feats/feats.webp",
-  "name": "Attack of Opportunity",
+  "name": "Reactive Strike",
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Trigger</strong> A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</p>\n<hr />\n<p>You swat a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.</p>"
+      "value": "<p>You gain the @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Reactive Strike} reaction.</p>"
     },
     "rules": [],
     "slug": "attack-of-opportunity",
@@ -37,7 +37,7 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "reaction"
+      "value": "passive"
     },
     "actions": {
       "value": null
@@ -60,10 +60,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.1",
+    "systemVersion": "5.16.1",
     "coreVersion": "11.315",
     "createdTime": 1689370529915,
-    "modifiedTime": 1713574157589,
+    "modifiedTime": 1716926430686,
     "lastModifiedBy": "DE5o5nknA2S91z79"
   },
   "_id": "HX07Tgx5aKuoPrgh",
