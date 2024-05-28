@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You gain fast healing equal to your level.</p>"
+      "value": "<p>You gain fast healing equal to your level. This healing has the vitality trait.</p>"
     },
     "rules": [
       {
