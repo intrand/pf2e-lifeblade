@@ -1,0 +1,19 @@
+{
+  "name": "Level 01",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "W7Y1BuWapQBGRC5t",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.8.2",
+    "coreVersion": "11.314",
+    "createdTime": 1699373974755,
+    "modifiedTime": 1699373974755,
+    "lastModifiedBy": "DE5o5nknA2S91z79"
+  },
+  "_key": "!folders!W7Y1BuWapQBGRC5t"
+}
