@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You gain the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.v54EXBbUfmx1m6eE]{Vitality Surge} gambit spell. Increase the number of Focus Points in your focus pool by 1.</p>"
+      "value": "<p>You gain the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.v54EXBbUfmx1m6eE]{Vitality Surge} gambit spell.</p>"
     },
     "rules": [],
     "slug": "vitality-surge",

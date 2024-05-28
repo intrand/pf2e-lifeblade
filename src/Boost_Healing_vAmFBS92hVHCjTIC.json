@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You gain the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.V8QlY35kQgJVQp0j]{Boost Healing} gambit spell. Increase the number of Focus Points in your focus pool by 1.</p>"
+      "value": "<p>You gain the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.V8QlY35kQgJVQp0j]{Boost Healing} gambit spell.</p>"
     },
     "rules": [],
     "slug": "boost-healing",

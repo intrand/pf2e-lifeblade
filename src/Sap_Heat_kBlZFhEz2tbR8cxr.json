@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You gain the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.uhJUDk7Rqki5qUsf]{Sap Heat} gambit spell. Increase the number of Focus Points in your focus pool by 1.</p>"
+      "value": "<p>You gain the @UUID[Compendium.pf2e-lifeblade.lifeblade.Item.uhJUDk7Rqki5qUsf]{Sap Heat} gambit spell.</p>"
     },
     "rules": [],
     "slug": "sap-heat",
