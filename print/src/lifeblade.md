@@ -205,13 +205,13 @@ You've dedicated yourself to learning the intricacies of your weapons. Your prof
 
 You gain access to the critical specialization effects of all weapons for which you have expert proficiency.
 
-## Lifeblade Mastery 7th
-
-Your proficiency ranks for Lifeblade Class DC and spellcasting increases to master.
-
 ## Evasion 7th
 
 You've learned to move quickly to avoid explosions, dragon's breath, and worse. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead.
+
+## Lifeblade Mastery 7th
+
+Your proficiency ranks for Lifeblade Class DC and spellcasting increases to master.
 
 ## Perception Mastery 7th
 
@@ -225,9 +225,9 @@ You've learned how to inflict greater injuries with the weapons you know best. Y
 
 Your physique is incredibly hardy. Your proficiency rank for Fortitude saves increases to expert.
 
-## Light Armor Expertise 11th
+## Improved Evasion 13th
 
-You’ve learned how to dodge while wearing light or no armor. Your proficiency ranks for light armor and unarmored defense increase to expert.
+Your ability to elude danger is matchless. Your proficiency rank for Reflex saves increases to legendary. When you roll a critical failure on a Reflex save, you get a failure instead. When you roll a failure on a Reflex save against a damaging effect, you take half damage.
 
 |
 
@@ -240,25 +240,25 @@ You will see the following key terms in many lifeblade class features, feats and
   **Essence: [Life, Matter]:** Activities with one or more of these traits may only be used while in the Trance of the corresponding essence. For example, you may cast the *boost healing* gambit spell only while in Life Trance. Feats with one or more of these traits may only be taken if you know all of the corresponding trances. For example, you must first take the *matter trance* feat before you may take the *sap heat* feat.
 )
 
-## Improved Evasion 13th
+## Light Armor Expertise 11th
 
-Your ability to elude danger is matchless. Your proficiency rank for Reflex saves increases to legendary. When you roll a critical failure on a Reflex save, you get a failure instead. When you roll a failure on a Reflex save against a damaging effect, you take half damage.
+You’ve learned how to dodge while wearing light or no armor. Your proficiency ranks for light armor and unarmored defense increase to expert.
 
 ## Perception Legend 13th
 
 You notice the almost imperceptible. Your proficiency rank for Perception increases to legendary.
 
-## Martial Weapon Mastery 13th
+## Greater Weapon Specialization 15th
 
-You fully understand your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to master.
+Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you're an expert, 6 if you're a master, and 8 if you're legendary.
 
 ## Legendary Lifeblade 15th
 
 Your proficiency ranks for Lifeblade Class DC and spellcasting increases to legendary.
 
-## Greater Weapon Specialization 15th
+## Martial Weapon Mastery 13th
 
-Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you're an expert, 6 if you're a master, and 8 if you're legendary.
+You fully understand your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to master.
 
 ## Limber Mind 17th
 
@@ -348,7 +348,7 @@ item (
 ## Feat 2
 -
 ;Essence: Life,Lifeblade
-You gain the *boost healing* gambit spell. Increase the number of Focus Points in your focus pool by 1.
+You gain the *boost healing* gambit spell.
 )
 
 item (
@@ -376,7 +376,7 @@ item (
 ## Feat 2
 -
 ;Essence: Matter,Lifeblade
-You gain the *sap heat* gambit spell. Increase the number of Focus Points in your focus pool by 1.
+You gain the *sap heat* gambit spell.
 )
 
 ## 4th Level
@@ -404,19 +404,19 @@ item (
 ## Feat 4
 -
 ;Essence: Life,Lifeblade
-You gain the *vitality surge* gambit spell. Increase the number of Focus Points in your focus pool by 1.
+You gain the *vitality surge* gambit spell.
 )
 
 ## 6th Level
 
 item (
-# Attack of Opportunity :r:
+# Reactive Strike :r:
 ## Feat 6
 -
 ;Lifeblade
 **Trigger** A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.
 -
-You swat a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.
+You lash out at a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.
 )
 
 |
@@ -474,7 +474,7 @@ item (
 ## Feat 8
 -
 ;Essence: Life,Lifeblade
-You gain the *overflowing life* gambit spell. Increase the number of Focus Points in your focus pool by 1.
+You gain the *overflowing life* gambit spell.
 )
 
 =
@@ -528,6 +528,8 @@ item (
 You gain the *purge undeath* gambit cantrip, which damages an undead creature.
 )
 
+|
+
 ## 14th Level
 
 item (
@@ -540,8 +542,6 @@ item (
 You become Immobilized. Additionally, nothing may move you from your current position, including from forced movement. You may Ready an action.
 )
 
-|
-
 item (
 # Preserve Life :r:
 ## Feat 14
@@ -552,19 +552,19 @@ item (
 You react to stop life essence from leaving your ally. Reduce the damage your ally suffers by an amount equal to your level.
 )
 
-## 16th Level
+<!-- ## 16th Level -->
 
-item (
+<!-- item (
 # Renewed Life :aaa:
 ## Feat 16
 -
 ;Essence: Life,Lifeblade
 Funnel your own life into a nearby ally to keep them going. Take persistent damage to keep an ally that died recently alive.
-)
+) -->
 
-## 18th Level
+<!-- ## 18th Level -->
 
-item (
+<!-- item (
 # Eruption of Life :aaa:
 ## Feat 18
 -
@@ -572,7 +572,7 @@ item (
 Hurt enemies in area. Heal allies in area for that amount. 30ft burst.
 
 Roll 8d12 w/ basic fort save, target up to 5 hostile creatures, roll damage, split damage as you desire. heal allies within the same area for the same amount, splitting as desired.
-)
+) -->
 
 ## 20th Level
 
@@ -592,7 +592,7 @@ If you have the *blend essences* lifeblade feat, both auras are always active an
 
 Here you will find all of the gambit spells and gambit cantrips for the Lifeblade class.
 
-## 1st level
+## 1st rank
 
 item (
 # Boost Healing :a:
@@ -607,7 +607,7 @@ Increase the die size of your *pour life* healing by 2 steps. If you leave the *
 
 item (
 # Pour Life :a:
-## Focus Cantrip 1
+## Cantrip 1
 -
 ;Cantrip,Essence: Life,Healing,Lifeblade,Occult,Manipulate,Vitality
 
@@ -646,9 +646,20 @@ You tap into your own essence to empower your weapon or unarmed attack. The next
 If the chosen weapon leaves your possession, *tap self* ends immediately.
 )
 
-<!-- ## 2nd level -->
+## 2nd rank
 
-## 4th level
+item (
+# Vitality Surge :a:
+## Focus 2
+-
+;Essence: Life,Focus,Lifeblade,Occult,Manipulate,Vitality
+
+**Range** 30 feet; **Targets** 1 creature
+-
+The target creature receives temporary hit points equal to the spell level times 2, which last until the end of your next turn.
+)
+
+## 4th rank
 
 item (
 # Overflowing Life :a:
@@ -657,32 +668,17 @@ item (
 ;Concentrate,Essence: Life,Focus,Lifeblade,Occult,Vitality
 -
 Life essence pours from the enemy as freely as a rapid river. Double the amount of healing done by your *life trance healing* until the start of your next turn.
--
-**Hightened (+1)** Increase the bleed damage by 1.
 )
 
-item (
-# Vitality Surge :a:
-## Focus 4
--
-;Essence: Life,Focus,Lifeblade,Occult,Manipulate,Vitality
-
-**Range** 30 feet; **Targets** 1 creature
--
-The target creature receives temporary hit points equal to the spell level times 2, which last until the end of your next turn.
--
-**Hightened (+1)** Increase the bleed damage by 1.
-)
-
-## 6th level
+## 6th rank
 
 item (
 # Purge Undeath :aa:
-## Focus Cantrip 1
+## Cantrip 6
 -
 ;Cantrip,Essence: Life,Lifeblade,Occult,Manipulate,Vitality
 -
-You wield the power of life as a weapon and point it toward an undead creature. Deal 1d8 vitality damage to 1 undead creature within 30 feet.
+You wield the power of life as a weapon and point it toward an undead creature. Deal 6d8 vitality damage to 1 undead creature within 30 feet.
 -
 **Hightening (+1)** Increase the damage done by 1d8.
 )
