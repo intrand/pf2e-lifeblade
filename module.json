@@ -4,8 +4,8 @@
   "version": "versionNumberToBeInsertedByAutomation",
   "compatibility": {
     "minimum": "11",
-    "verified": "11.315",
-    "maximum": "11"
+    "verified": "12.327",
+    "maximum": "12"
   },
   "authors": [
     {
@@ -122,7 +122,7 @@
         "manifest": "https://github.com/foundryvtt/pf2e/releases/download/latest/system.json",
         "compatibility": {
           "minimum": "5.9.2",
-          "verified": "5.16.1"
+          "verified": "6.0.1"
         }
       }
     ]
