@@ -55,12 +55,12 @@
     ],
     "slug": "matter-trance-aura",
     "_migration": {
-      "version": 0.926,
+      "version": 0.931,
       "lastMigration": null,
       "previous": {
-        "schema": 0.925,
-        "foundry": "11.315",
-        "system": "5.15.1"
+        "schema": 0.926,
+        "foundry": "12.327",
+        "system": "6.0.4"
       }
     },
     "traits": {
@@ -101,11 +101,13 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.1",
-    "coreVersion": "11.315",
+    "systemVersion": "6.0.4",
+    "coreVersion": "12.327",
     "createdTime": 1686500672045,
-    "modifiedTime": 1713574157589,
-    "lastModifiedBy": "DE5o5nknA2S91z79"
+    "modifiedTime": 1719348978745,
+    "lastModifiedBy": "DE5o5nknA2S91z79",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "ownership": {
     "default": 0,

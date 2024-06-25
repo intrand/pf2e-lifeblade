@@ -53,7 +53,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "lockRotation": false,
     "rotation": 0,
@@ -86,9 +90,27 @@
         "min": 0,
         "max": 1
       },
-      "color": null
+      "color": null,
+      "negative": false,
+      "priority": 0
     },
-    "randomImg": false
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
   "name": "Anja",
   "type": "character",
@@ -185,61 +207,61 @@
       }
     },
     "_migration": {
-      "version": 0.926,
+      "version": 0.931,
       "previous": {
-        "schema": 0.925,
-        "foundry": "11.315",
-        "system": "5.15.1"
+        "schema": 0.926,
+        "foundry": "12.327",
+        "system": "6.0.4"
       }
     },
     "abilities": null,
     "skills": {
-      "acr": {
+      "acrobatics": {
         "rank": 0
       },
-      "arc": {
+      "arcana": {
         "rank": 0
       },
-      "ath": {
+      "athletics": {
         "rank": 1
       },
-      "cra": {
+      "crafting": {
         "rank": 0
       },
-      "dec": {
+      "deception": {
         "rank": 0
       },
-      "dip": {
+      "diplomacy": {
         "rank": 0
       },
-      "itm": {
+      "intimidation": {
         "rank": 0
       },
-      "med": {
+      "medicine": {
         "rank": 1
       },
-      "nat": {
+      "nature": {
         "rank": 0
       },
-      "occ": {
+      "occultism": {
         "rank": 1
       },
-      "prf": {
+      "performance": {
         "rank": 0
       },
-      "rel": {
+      "religion": {
         "rank": 0
       },
-      "soc": {
+      "society": {
         "rank": 0
       },
-      "ste": {
+      "stealth": {
         "rank": 1
       },
-      "sur": {
+      "survival": {
         "rank": 0
       },
-      "thi": {
+      "thievery": {
         "rank": 1
       }
     },
@@ -291,12 +313,12 @@
         "rules": [],
         "slug": "elf",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
           "previous": {
-            "schema": 0.925,
-            "foundry": "11.315",
-            "system": "5.15.1"
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
           }
         },
         "traits": {
@@ -390,10 +412,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1693691960508,
         "modifiedTime": 1716917967546,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e.ancestries.Item.PgKmsA2aKdbLU6O0",
+        "duplicateSource": null
       },
       "_id": "wdSzp4bhrHBQIqVN",
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.wdSzp4bhrHBQIqVN"
@@ -414,12 +438,12 @@
         ],
         "slug": "cavern-elf",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
           "previous": {
-            "schema": 0.925,
-            "foundry": "11.315",
-            "system": "5.15.1"
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
           }
         },
         "traits": {
@@ -455,10 +479,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.9.5",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1693691967775,
         "modifiedTime": 1701290828488,
-        "lastModifiedBy": "dbfOgRiKb0sZpkpo"
+        "lastModifiedBy": "dbfOgRiKb0sZpkpo",
+        "compendiumSource": "Compendium.pf2e.heritages.Item.NfIAGatB1KIzt8G7",
+        "duplicateSource": null
       },
       "_id": "3XXSQpX4IRKj2Y1a",
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.3XXSQpX4IRKj2Y1a"
@@ -474,12 +500,12 @@
         "rules": [],
         "slug": "secular-medic",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
           "previous": {
-            "schema": 0.925,
-            "foundry": "11.315",
-            "system": "5.15.1"
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
           }
         },
         "traits": {
@@ -521,10 +547,12 @@
             "uuid": "Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt"
           }
         },
-        "trainedLore": "Anatomy Lore",
         "trainedSkills": {
           "value": [
-            "med"
+            "medicine"
+          ],
+          "lore": [
+            "Anatomy Lore"
           ]
         }
       },
@@ -544,10 +572,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.9.5",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1693692079287,
         "modifiedTime": 1701290857334,
-        "lastModifiedBy": "dbfOgRiKb0sZpkpo"
+        "lastModifiedBy": "dbfOgRiKb0sZpkpo",
+        "compendiumSource": "Compendium.pf2e.backgrounds.Item.y0WZS51fSi6dILHq",
+        "duplicateSource": null
       },
       "_id": "RffZa1hO2WqxPlmp",
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.RffZa1hO2WqxPlmp"
@@ -563,12 +593,12 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
           "previous": {
-            "schema": 0.925,
-            "foundry": "11.315",
-            "system": "5.15.1"
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
           }
         },
         "traits": {
@@ -683,10 +713,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.7.2",
-        "coreVersion": "11.313",
+        "coreVersion": "12.327",
         "createdTime": 1693692591299,
         "modifiedTime": 1697822747042,
-        "lastModifiedBy": "19TCICZKIRTDInGK"
+        "lastModifiedBy": "19TCICZKIRTDInGK",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.32hKrELPKeSS6SUo"
     },
@@ -703,12 +735,12 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
           "previous": {
-            "schema": 0.925,
-            "foundry": "11.315",
-            "system": "5.15.1"
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
           }
         },
         "traits": {
@@ -738,10 +770,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.4.2",
-        "coreVersion": "11.308",
+        "coreVersion": "12.327",
         "createdTime": 1693693796769,
         "modifiedTime": 1693693801145,
-        "lastModifiedBy": "gKzqYuEUjuMh0EH9"
+        "lastModifiedBy": "gKzqYuEUjuMh0EH9",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.TH5CG2LRJkjcmoKw"
     },
@@ -756,9 +790,13 @@
         "rules": [],
         "slug": "gold-pieces",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -832,10 +870,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1696104766532,
         "modifiedTime": 1716917555485,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.B6B7tBWJSqOBz5zz",
+        "duplicateSource": null
       },
       "_id": "Nl5HPaonC1OsYBoC",
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.Nl5HPaonC1OsYBoC"
@@ -852,9 +892,13 @@
         "rules": [],
         "slug": "healers-toolkit",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -931,10 +975,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1696104816893,
         "modifiedTime": 1716917546971,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.s1vB3HdXjMigYAnY",
+        "duplicateSource": null
       },
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.18VsUf9mYnAehgu1"
     },
@@ -950,9 +996,13 @@
         "rules": [],
         "slug": "thieves-toolkit",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1029,10 +1079,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1696104823719,
         "modifiedTime": 1716917549955,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.zvLyCVD8g2PdHJAc",
+        "duplicateSource": null
       },
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.dqdReeTYo3heUDAA"
     },
@@ -1047,9 +1099,13 @@
         "rules": [],
         "slug": "copper-pieces",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1123,10 +1179,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1696104844413,
         "modifiedTime": 1716917558223,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.lzJ8AVhRcbFul5fh",
+        "duplicateSource": null
       },
       "_id": "7u7gibLeb3g5ajsb",
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.7u7gibLeb3g5ajsb"
@@ -1143,12 +1201,12 @@
         "rules": [],
         "slug": "anjas-dukat-necklace",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
           "previous": {
-            "schema": 0.925,
-            "foundry": "11.315",
-            "system": "5.15.1"
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
           }
         },
         "traits": {
@@ -1229,10 +1287,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.8.2",
-        "coreVersion": "11.314",
+        "coreVersion": "12.327",
         "createdTime": 1682306482880,
         "modifiedTime": 1699374531689,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Item.YERX39x4lHOXo50x",
+        "duplicateSource": null
       },
       "_id": "VYYm9nA324loPh7T",
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.VYYm9nA324loPh7T"
@@ -1249,12 +1309,12 @@
         "rules": [],
         "slug": "anjas-jelek",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
           "previous": {
-            "schema": 0.925,
-            "foundry": "11.315",
-            "system": "5.15.1"
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
           }
         },
         "traits": {
@@ -1326,10 +1386,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.9.5",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1696713963965,
         "modifiedTime": 1701290684657,
-        "lastModifiedBy": "dbfOgRiKb0sZpkpo"
+        "lastModifiedBy": "dbfOgRiKb0sZpkpo",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.cNiyfIMYzH1smoju"
     },
@@ -1345,12 +1407,12 @@
         "rules": [],
         "slug": "small-coin-purse",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
           "previous": {
-            "schema": 0.925,
-            "foundry": "11.315",
-            "system": "5.15.1"
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
           }
         },
         "traits": {
@@ -1425,10 +1487,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1696717034342,
-        "modifiedTime": 1716917904167,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "modifiedTime": 1716944161580,
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.S2ft6saDfGq00q1t"
     },
@@ -1444,12 +1508,12 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
           "previous": {
-            "schema": 0.925,
-            "foundry": "11.315",
-            "system": "5.15.1"
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
           }
         },
         "traits": {
@@ -1523,10 +1587,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1696717293374,
         "modifiedTime": 1716917872846,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Item.xRtYsMe31AtwPTpW",
+        "duplicateSource": null
       },
       "_id": "VJ4mc0qYpc1qiaf8",
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.VJ4mc0qYpc1qiaf8"
@@ -1543,12 +1609,12 @@
         "rules": [],
         "slug": "cutura",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
           "previous": {
-            "schema": 0.925,
-            "foundry": "11.315",
-            "system": "5.15.1"
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
           }
         },
         "traits": {
@@ -1626,10 +1692,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1696718932152,
-        "modifiedTime": 1716917885294,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "modifiedTime": 1716944153763,
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Item.Fp0tVvHzdLWnLSJv",
+        "duplicateSource": null
       },
       "_id": "K1qVcfwoSGJtQoZw",
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.K1qVcfwoSGJtQoZw"
@@ -1646,12 +1714,12 @@
         "rules": [],
         "slug": "rakija",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
           "previous": {
-            "schema": 0.925,
-            "foundry": "11.315",
-            "system": "5.15.1"
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
           }
         },
         "traits": {
@@ -1732,10 +1800,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.8.2",
-        "coreVersion": "11.314",
+        "coreVersion": "12.327",
         "createdTime": 1696718919651,
         "modifiedTime": 1699376026928,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Item.5BZJhjcNJZLqQwld",
+        "duplicateSource": null
       },
       "_id": "522FCCJDb7FNiUjg",
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.522FCCJDb7FNiUjg"
@@ -1752,12 +1822,12 @@
         "rules": [],
         "slug": "anjas-red-braided-thread",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
           "previous": {
-            "schema": 0.925,
-            "foundry": "11.315",
-            "system": "5.15.1"
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
           }
         },
         "traits": {
@@ -1829,10 +1899,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.8.2",
-        "coreVersion": "11.314",
+        "coreVersion": "12.327",
         "createdTime": 1696729466818,
         "modifiedTime": 1699374545806,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.4A3PBjreQypM5cxH"
     },
@@ -1847,9 +1919,13 @@
         "rules": [],
         "slug": "leather-lamellar",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1938,10 +2014,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1699374322304,
         "modifiedTime": 1716917542290,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.wx7WY6YGvgMphDL1",
+        "duplicateSource": null
       },
       "_id": "mKKCP38CCIC72Nj3",
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.mKKCP38CCIC72Nj3"
@@ -1957,9 +2035,13 @@
         "rules": [],
         "slug": "rapier",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -2081,10 +2163,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1699376328022,
         "modifiedTime": 1716917537933,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.tH5GirEy7YB3ZgCk",
+        "duplicateSource": null
       },
       "_id": "wSbpDuqkHac5KkPI",
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.wSbpDuqkHac5KkPI"
@@ -2107,9 +2191,13 @@
         ],
         "slug": "nimble-elf",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -2157,10 +2245,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1699378108904,
         "modifiedTime": 1716917522934,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.kCO4r8NOm8E2T3eH",
+        "duplicateSource": null
       },
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.FZUzVamJvvdKyR22"
     },
@@ -2176,9 +2266,13 @@
         "rules": [],
         "slug": "battle-medicine",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -2233,10 +2327,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1699378126471,
         "modifiedTime": 1716917518448,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt",
+        "duplicateSource": null
       },
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.agnfr3tW4cSDFkHy"
     },
@@ -2252,9 +2348,13 @@
         "rules": [],
         "slug": "backpack",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -2336,10 +2436,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1699378967003,
-        "modifiedTime": 1716917595917,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "modifiedTime": 1716944165024,
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.3lgwjrFEsQVKzhh7",
+        "duplicateSource": null
       },
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.71BBMHVMcrSwYGL9"
     },
@@ -2355,9 +2457,13 @@
         "rules": [],
         "slug": "rope",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -2434,10 +2540,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1699378967003,
         "modifiedTime": 1716917582872,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.fyYnQf1NAx9fWFaS",
+        "duplicateSource": null
       },
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.00ZMoaTjhS7Wwwm6"
     },
@@ -2453,9 +2561,13 @@
         "rules": [],
         "slug": "waterskin",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -2532,10 +2644,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1699378967003,
         "modifiedTime": 1716917593394,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.VnPh324pKwd2ZB66",
+        "duplicateSource": null
       },
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.zhqO1GoKOq2o71Cr"
     },
@@ -2551,9 +2665,13 @@
         "rules": [],
         "slug": "chalk",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -2639,10 +2757,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1699378967003,
         "modifiedTime": 1716917570444,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.xShIDyydOMkGvGNb",
+        "duplicateSource": null
       },
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.ZcgXZcTikV3qL9q7"
     },
@@ -2658,9 +2778,13 @@
         "rules": [],
         "slug": "flint-and-steel",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -2737,10 +2861,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1699378967003,
         "modifiedTime": 1716917574053,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.UlIxxLm71UdRgCFE",
+        "duplicateSource": null
       },
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.bhcBdL8zxJlyCkn8"
     },
@@ -2756,9 +2882,13 @@
         "rules": [],
         "slug": "rations",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -2843,10 +2973,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1699378967003,
         "modifiedTime": 1716917578060,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.L9ZV076913otGtiB",
+        "duplicateSource": null
       },
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.CjV5jhCNw4R485vQ"
     },
@@ -2942,9 +3074,13 @@
         ],
         "slug": "torch",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -3021,10 +3157,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1699378967003,
         "modifiedTime": 1716917590501,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.8Jdw4yAzWYylGePS",
+        "duplicateSource": null
       },
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.L7XEIr5Q6o4QoIoH"
     },
@@ -3040,9 +3178,13 @@
         "rules": [],
         "slug": "bedroll",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -3119,10 +3261,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1699378967003,
         "modifiedTime": 1716917567668,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.fagzYdmfYyMQ6J77",
+        "duplicateSource": null
       },
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.63YYRXiqAcvdo14r"
     },
@@ -3138,9 +3282,13 @@
         "rules": [],
         "slug": "soap",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -3217,10 +3365,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1699378967003,
         "modifiedTime": 1716917586575,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.81aHsD27HFGnq1Nt",
+        "duplicateSource": null
       },
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.bI3sRQtrLSgq481x"
     },
@@ -3236,12 +3386,12 @@
         "rules": [],
         "slug": "pour-life",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
           "previous": {
-            "schema": 0.925,
-            "foundry": "11.315",
-            "system": "5.15.1"
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
           }
         },
         "traits": {
@@ -3292,10 +3442,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1686405326183,
         "modifiedTime": 1716928295158,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e-lifeblade.lifeblade.Item.mlfK3oU7kKTSEcY9",
+        "duplicateSource": null
       },
       "ownership": {
         "default": 0,
@@ -3346,12 +3498,12 @@
         ],
         "slug": "lifeblade",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
           "previous": {
-            "schema": 0.925,
-            "foundry": "11.315",
-            "system": "5.15.1"
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
           }
         },
         "traits": {
@@ -3471,8 +3623,8 @@
         "hp": 10,
         "trainedSkills": {
           "value": [
-            "acr",
-            "occ"
+            "acrobatics",
+            "occultism"
           ],
           "additional": 3,
           "custom": ""
@@ -3582,10 +3734,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1686402868528,
         "modifiedTime": 1716928274342,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e-lifeblade.lifeblade.Item.MG3rdpjAjiMzbsfj",
+        "duplicateSource": null
       },
       "ownership": {
         "default": 0,
@@ -3607,12 +3761,12 @@
         "rules": [],
         "slug": "gambit-spells",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
           "previous": {
-            "schema": 0.925,
-            "foundry": "11.315",
-            "system": "5.15.1"
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
           }
         },
         "traits": {
@@ -3659,10 +3813,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1686403235066,
         "modifiedTime": 1716928274342,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "ownership": {
         "default": 0,
@@ -3692,12 +3848,12 @@
         ],
         "slug": "lifeblade-of-life",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
           "previous": {
-            "schema": 0.925,
-            "foundry": "11.315",
-            "system": "5.15.1"
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
           }
         },
         "traits": {
@@ -3757,10 +3913,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1696015730426,
         "modifiedTime": 1716928274342,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e-lifeblade.lifeblade.Item.xhdYgrqVPWD5ryEj",
+        "duplicateSource": null
       },
       "_id": "j0ybcEwy2jOnntBq",
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.j0ybcEwy2jOnntBq"
@@ -3778,12 +3936,12 @@
         "rules": [],
         "slug": "life-trance",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
           "previous": {
-            "schema": 0.925,
-            "foundry": "11.315",
-            "system": "5.15.1"
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
           }
         },
         "traits": {
@@ -3843,10 +4001,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1696014505073,
         "modifiedTime": 1716928274342,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e-lifeblade.lifeblade.Item.Oryif7MNs0NWZClX",
+        "duplicateSource": null
       },
       "_id": "vsEN6pJE3ryRRdBz",
       "_key": "!actors.items!6xqUNWnsLVsHu8yT.vsEN6pJE3ryRRdBz"
@@ -3863,12 +4023,12 @@
         "rules": [],
         "slug": "pour-life-spell",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
           "previous": {
-            "schema": 0.925,
-            "foundry": "11.315",
-            "system": "5.15.1"
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
           }
         },
         "traits": {
@@ -3950,10 +4110,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1686404478666,
         "modifiedTime": 1716928285796,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e-lifeblade.lifeblade.Item.JWies5HHDoiigwZx",
+        "duplicateSource": null
       },
       "ownership": {
         "default": 0,
@@ -3976,12 +4138,12 @@
         "rules": [],
         "slug": "tap-self-spell",
         "_migration": {
-          "version": 0.926,
+          "version": 0.931,
           "lastMigration": null,
           "previous": {
-            "schema": 0.925,
-            "foundry": "11.315",
-            "system": "5.15.1"
+            "schema": 0.926,
+            "foundry": "12.327",
+            "system": "6.0.4"
           }
         },
         "traits": {
@@ -4048,10 +4210,12 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
+        "coreVersion": "12.327",
         "createdTime": 1687189778847,
         "modifiedTime": 1716928287987,
-        "lastModifiedBy": "DE5o5nknA2S91z79"
+        "lastModifiedBy": "DE5o5nknA2S91z79",
+        "compendiumSource": "Compendium.pf2e-lifeblade.lifeblade.Item.c1ZnisEFFdVrG56s",
+        "duplicateSource": null
       },
       "sort": 0,
       "_id": "uOxQxLqTu45X1vzL",
@@ -4077,11 +4241,13 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.16.1",
-    "coreVersion": "11.315",
+    "systemVersion": "6.0.4",
+    "coreVersion": "12.327",
     "createdTime": 1693691944180,
-    "modifiedTime": 1716928295158,
-    "lastModifiedBy": "DE5o5nknA2S91z79"
+    "modifiedTime": 1719348986756,
+    "lastModifiedBy": "DE5o5nknA2S91z79",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "6xqUNWnsLVsHu8yT",
   "sort": 0,

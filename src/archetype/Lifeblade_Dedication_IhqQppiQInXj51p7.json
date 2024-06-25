@@ -12,7 +12,7 @@
       {
         "key": "ActiveEffectLike",
         "mode": "upgrade",
-        "path": "system.skills.occ.rank",
+        "path": "system.skills.occultism.rank",
         "value": 1
       },
       {
@@ -55,12 +55,12 @@
     ],
     "slug": "lifeblade-dedication",
     "_migration": {
-      "version": 0.926,
+      "version": 0.931,
       "lastMigration": null,
       "previous": {
-        "schema": 0.925,
-        "foundry": "11.315",
-        "system": "5.15.1"
+        "schema": 0.926,
+        "foundry": "12.327",
+        "system": "6.0.4"
       }
     },
     "traits": {
@@ -110,11 +110,13 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.1",
-    "coreVersion": "11.315",
+    "systemVersion": "6.0.4",
+    "coreVersion": "12.327",
     "createdTime": 1694691009862,
-    "modifiedTime": 1713574154717,
-    "lastModifiedBy": "DE5o5nknA2S91z79"
+    "modifiedTime": 1719348983468,
+    "lastModifiedBy": "DE5o5nknA2S91z79",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!IhqQppiQInXj51p7"
 }

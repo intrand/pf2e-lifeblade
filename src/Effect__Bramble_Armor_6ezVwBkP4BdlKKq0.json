@@ -19,12 +19,12 @@
     ],
     "slug": "effect-bramble-armor",
     "_migration": {
-      "version": 0.926,
+      "version": 0.931,
       "lastMigration": null,
       "previous": {
-        "schema": 0.925,
-        "foundry": "11.315",
-        "system": "5.15.1"
+        "schema": 0.926,
+        "foundry": "12.327",
+        "system": "6.0.4"
       }
     },
     "traits": {
@@ -67,11 +67,13 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.15.1",
-    "coreVersion": "11.315",
+    "systemVersion": "6.0.4",
+    "coreVersion": "12.327",
     "createdTime": 1699326029576,
-    "modifiedTime": 1713574157589,
-    "lastModifiedBy": "DE5o5nknA2S91z79"
+    "modifiedTime": 1719348978745,
+    "lastModifiedBy": "DE5o5nknA2S91z79",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!6ezVwBkP4BdlKKq0"
 }
