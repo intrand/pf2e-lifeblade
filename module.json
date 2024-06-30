@@ -4,7 +4,7 @@
   "version": "versionNumberToBeInsertedByAutomation",
   "compatibility": {
     "minimum": "11",
-    "verified": "12.327",
+    "verified": "12.328",
     "maximum": "12"
   },
   "authors": [
